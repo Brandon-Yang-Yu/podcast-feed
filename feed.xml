@@ -1,11 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Follow Builders 每日播报</title>
     <link>https://brandon-yang-yu.github.io/podcast-feed</link>
     <description>每天早上，两位主持人聊聊 AI 圈里真正在造东西的人在说什么。内容来自 Follow Builders 精选的 26 位 AI builder、6 档播客和官方博客。中英双语。</description>
     <language>zh</language>
-    <ns0:link href="https://brandon-yang-yu.github.io/podcast-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://brandon-yang-yu.github.io/podcast-feed/feed.xml" rel="self" type="application/rss+xml"/>
     
     <itunes:owner>
       <itunes:name>Follow Builders 每日播报</itunes:name>
@@ -13,21 +15,101 @@
     </itunes:owner>
     
 
-    
+    <!-- Show artwork -->
     <image>
       <url>https://brandon-yang-yu.github.io/podcast-feed/cover-art.png</url>
       <title>Follow Builders 每日播报</title>
       <link>https://brandon-yang-yu.github.io/podcast-feed</link>
     </image>
-    <itunes:image href="https://brandon-yang-yu.github.io/podcast-feed/cover-art.png" />
+    <itunes:image href="https://brandon-yang-yu.github.io/podcast-feed/cover-art.png"/>
 
-    
+    <!-- Podcast player metadata -->
     <itunes:author>Follow Builders 每日播报</itunes:author>
     <itunes:summary>每天早上，两位主持人聊聊 AI 圈里真正在造东西的人在说什么。内容来自 Follow Builders 精选的 26 位 AI builder、6 档播客和官方博客。中英双语。</itunes:summary>
-    <itunes:category text="Technology" />
+    <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
     
-    </channel>
+    <item>
+      <title>Anthropic 两次数据外泄都走了被允许的通道</title>
+      <description>结论来自 Anthropic 讲怎么关住 Claude 那篇。另外聊了 Karpathy 用 Opus 5 渲《魔戒》、Levie 说深领域要起飞、Nan Yu 的 issue 押金、Netic 用 agent 接电话。
+
+本期内容
+
+1. Karpathy 让 Opus 5 把《魔戒》开头渲成三维场景（Andrej Karpathy · X）
+   两小时不跑飞才是新的，行数和成本说明不了什么；模型验不了自己写的东西
+   https://x.com/karpathy/status/2083749667410727319
+
+2. 深领域能力要垂直起飞，日常场景感觉不到（Aaron Levie · X）
+   能验证的领域才滚得起来，接进工作流的时间会比大家想的长
+   https://x.com/levie/status/2083589132660711452
+
+3. 给 GitHub issue 押 token，维护者点头才让 agent 干活（Nan Yu · X）
+   动的是激励那一头，但最后审 PR 的时间还是维护者出
+   https://x.com/thenanyu/status/2083722999430050281
+
+4. Opus 5 的文风比 4.6 差，套话多还爱评判（Peter Yang · X）
+   eval 里没有像不像朋友这一项，这种退化掉了也不报警
+   https://x.com/petergyang/status/2083755374994415904
+
+5. 语言能容忍 slop 比反 slop 有价值一百倍（Swyx · X）
+   在语言层让错误写不出来，比在模型后面挂 lint 擦屁股走得远
+   https://x.com/swyx/status/2083753582160191988
+
+6. Anthropic 怎么在三个产品里关住 Claude（Anthropic Engineering · 博客）
+   用户批准了 93% 的弹窗，人在回路不管用；先画环境边界再调模型
+   https://www.anthropic.com/engineering/how-we-contain-claude
+
+7. Netic 用 agent 接实体服务公司的电话（Melisa Tokmak · 播客）
+   七成客户 AI 优先这个数比六亿美元收入更硬，因为不用归因
+   https://www.youtube.com/watch?v=wWbX3NL6_Uo
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Mon, 03 Aug 2026 09:48:41 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-194837.mp3"
+                 length="11747622"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-194837.mp3</guid>
+      <itunes:duration>12:14</itunes:duration>
+      <itunes:summary>结论来自 Anthropic 讲怎么关住 Claude 那篇。另外聊了 Karpathy 用 Opus 5 渲《魔戒》、Levie 说深领域要起飞、Nan Yu 的 issue 押金、Netic 用 agent 接电话。
+
+本期内容
+
+1. Karpathy 让 Opus 5 把《魔戒》开头渲成三维场景（Andrej Karpathy · X）
+   两小时不跑飞才是新的，行数和成本说明不了什么；模型验不了自己写的东西
+   https://x.com/karpathy/status/2083749667410727319
+
+2. 深领域能力要垂直起飞，日常场景感觉不到（Aaron Levie · X）
+   能验证的领域才滚得起来，接进工作流的时间会比大家想的长
+   https://x.com/levie/status/2083589132660711452
+
+3. 给 GitHub issue 押 token，维护者点头才让 agent 干活（Nan Yu · X）
+   动的是激励那一头，但最后审 PR 的时间还是维护者出
+   https://x.com/thenanyu/status/2083722999430050281
+
+4. Opus 5 的文风比 4.6 差，套话多还爱评判（Peter Yang · X）
+   eval 里没有像不像朋友这一项，这种退化掉了也不报警
+   https://x.com/petergyang/status/2083755374994415904
+
+5. 语言能容忍 slop 比反 slop 有价值一百倍（Swyx · X）
+   在语言层让错误写不出来，比在模型后面挂 lint 擦屁股走得远
+   https://x.com/swyx/status/2083753582160191988
+
+6. Anthropic 怎么在三个产品里关住 Claude（Anthropic Engineering · 博客）
+   用户批准了 93% 的弹窗，人在回路不管用；先画环境边界再调模型
+   https://www.anthropic.com/engineering/how-we-contain-claude
+
+7. Netic 用 agent 接实体服务公司的电话（Melisa Tokmak · 播客）
+   七成客户 AI 优先这个数比六亿美元收入更硬，因为不用归因
+   https://www.youtube.com/watch?v=wWbX3NL6_Uo
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+  </channel>
 </rss>
