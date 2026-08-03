@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Follow Builders 每日播报</title>
+    <link>https://brandon-yang-yu.github.io/podcast-feed</link>
+    <description>每天早上，两位主持人聊聊 AI 圈里真正在造东西的人在说什么。中英双语。</description>
+    <language>zh-cn</language>
+    <itunes:author>Brandon Yang</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+  </channel>
+</rss>
