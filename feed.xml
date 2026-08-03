@@ -1,11 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Follow Builders 每日播报</title>
     <link>https://brandon-yang-yu.github.io/podcast-feed</link>
     <description>每天早上，两位主持人聊聊 AI 圈里真正在造东西的人在说什么。内容来自 Follow Builders 精选的 26 位 AI builder、6 档播客和官方博客。中英双语。</description>
     <language>zh</language>
-    <atom:link href="https://brandon-yang-yu.github.io/podcast-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://brandon-yang-yu.github.io/podcast-feed/feed.xml" rel="self" type="application/rss+xml"/>
     
     <itunes:owner>
       <itunes:name>Follow Builders 每日播报</itunes:name>
@@ -13,21 +15,101 @@
     </itunes:owner>
     
 
-    
+    <!-- Show artwork -->
     <image>
       <url>https://brandon-yang-yu.github.io/podcast-feed/cover-art.png</url>
       <title>Follow Builders 每日播报</title>
       <link>https://brandon-yang-yu.github.io/podcast-feed</link>
     </image>
-    <itunes:image href="https://brandon-yang-yu.github.io/podcast-feed/cover-art.png" />
+    <itunes:image href="https://brandon-yang-yu.github.io/podcast-feed/cover-art.png"/>
 
-    
+    <!-- Podcast player metadata -->
     <itunes:author>Follow Builders 每日播报</itunes:author>
     <itunes:summary>每天早上，两位主持人聊聊 AI 圈里真正在造东西的人在说什么。内容来自 Follow Builders 精选的 26 位 AI builder、6 档播客和官方博客。中英双语。</itunes:summary>
-    <itunes:category text="Technology" />
+    <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
+    
+    <item>
+      <title>十万美元 agent 才做出的 kernel，模型自己写不出</title>
+      <description>这个数来自 Training Data 那期。另外聊了 Vercel 用一个 agent 跑公司、Levie 说可验证的活先被自动化、Masad 的 LLM 象棋引擎、Shipper 的 agency rupture。
+
+本期内容
+
+1. Vercel 内部 agent 接管日常运营，还当 router 分派活儿（Guillermo Rauch · X）
+   值钱的是他们自己攒的 skills 和记忆，几十个 agent 最后要收成一个入口
+   https://x.com/rauchg/status/2084042561690456157
+
+2. 可客观验证的工作会最先被自动化（Aaron Levie · X）
+   延迟反馈的活儿卡住跟模型聪明不聪明无关，写不出 eval 模型就进不去
+   https://x.com/levie/status/2083965372747882741
+
+3. LLM 象棋引擎挂上 LiChess 自主对局，Elo 1253（Amjad Masad · X）
+   棋力没新闻，三盘并行无人值守跑完整局说明外层状态管理做对了
+   https://x.com/amasad/status/2083926395403821427
+
+4. codex 的 computer use 替他跟客服对话催工单（swyx · X）
+   客服对话是 computer use 少有能落地的场景，但对面不知道在跟 bot 说话
+   https://x.com/swyx/status/2084156733027701164
+
+5. agency rupture 的三个阶段（Dan Shipper · X）
+   判据好用：团队不再说这是 AI 做的就说明进入重建期，但心态那句站不住
+   https://x.com/danshipper/status/2084038453831020916
+
+6. Jerry Tworek 说 RL 规模化没兑现，瓶颈回到架构（Jerry Tworek · 播客）
+   in-context learning 二十分钟就得 compact，模型学不到部署之后的东西
+   https://www.youtube.com/watch?v=2RJiaf0SY8s
+
+7. QR kernel 竞赛：cuSolver 基线到 60 倍的差距（Rohan Anil · 播客）
+   六十倍要三个人里的一个花四周加十万美元 agent，前沿模型解不出来
+   https://www.youtube.com/watch?v=2RJiaf0SY8s
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Mon, 03 Aug 2026 22:56:55 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-04-085652.mp3"
+                 length="11059244"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-04-085652.mp3</guid>
+      <itunes:duration>11:31</itunes:duration>
+      <itunes:summary>这个数来自 Training Data 那期。另外聊了 Vercel 用一个 agent 跑公司、Levie 说可验证的活先被自动化、Masad 的 LLM 象棋引擎、Shipper 的 agency rupture。
+
+本期内容
+
+1. Vercel 内部 agent 接管日常运营，还当 router 分派活儿（Guillermo Rauch · X）
+   值钱的是他们自己攒的 skills 和记忆，几十个 agent 最后要收成一个入口
+   https://x.com/rauchg/status/2084042561690456157
+
+2. 可客观验证的工作会最先被自动化（Aaron Levie · X）
+   延迟反馈的活儿卡住跟模型聪明不聪明无关，写不出 eval 模型就进不去
+   https://x.com/levie/status/2083965372747882741
+
+3. LLM 象棋引擎挂上 LiChess 自主对局，Elo 1253（Amjad Masad · X）
+   棋力没新闻，三盘并行无人值守跑完整局说明外层状态管理做对了
+   https://x.com/amasad/status/2083926395403821427
+
+4. codex 的 computer use 替他跟客服对话催工单（swyx · X）
+   客服对话是 computer use 少有能落地的场景，但对面不知道在跟 bot 说话
+   https://x.com/swyx/status/2084156733027701164
+
+5. agency rupture 的三个阶段（Dan Shipper · X）
+   判据好用：团队不再说这是 AI 做的就说明进入重建期，但心态那句站不住
+   https://x.com/danshipper/status/2084038453831020916
+
+6. Jerry Tworek 说 RL 规模化没兑现，瓶颈回到架构（Jerry Tworek · 播客）
+   in-context learning 二十分钟就得 compact，模型学不到部署之后的东西
+   https://www.youtube.com/watch?v=2RJiaf0SY8s
+
+7. QR kernel 竞赛：cuSolver 基线到 60 倍的差距（Rohan Anil · 播客）
+   六十倍要三个人里的一个花四周加十万美元 agent，前沿模型解不出来
+   https://www.youtube.com/watch?v=2RJiaf0SY8s
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
     
     <item>
       <title>Anthropic 两次数据外泄都走了被允许的通道</title>
@@ -67,7 +149,9 @@
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
 脚本由 AI 生成，音频为语音合成。</description>
       <pubDate>Sun, 02 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-194837.mp3" length="11747622" type="audio/mpeg" />
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-194837.mp3"
+                 length="11747622"
+                 type="audio/mpeg"/>
       <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-194837.mp3</guid>
       <itunes:duration>12:14</itunes:duration>
       <itunes:summary>结论来自 Anthropic 讲怎么关住 Claude 那篇。另外聊了 Karpathy 用 Opus 5 渲《魔戒》、Levie 说深领域要起飞、Nan Yu 的 issue 押金、Netic 用 agent 接电话。
@@ -107,7 +191,7 @@
 脚本由 AI 生成，音频为语音合成。</itunes:summary>
     </item>
     
-  <item>
+    <item>
       <title>长任务 agent 卡在二十四小时一轮的 rollout</title>
       <description>结论来自 Igor Babushkin 那期访谈。另外聊了 Linear 三成 bug 靠 agent 修完、Anthropic 六成五的 PR 来自 Claude Tag，还有 Levie 谈 harness。
 
@@ -157,7 +241,9 @@
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
 脚本由 AI 生成，音频为语音合成。</description>
       <pubDate>Sat, 01 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-205442.mp3" length="11330081" type="audio/mpeg" />
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-205442.mp3"
+                 length="11330081"
+                 type="audio/mpeg"/>
       <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-205442.mp3</guid>
       <itunes:duration>11:48</itunes:duration>
       <itunes:summary>结论来自 Igor Babushkin 那期访谈。另外聊了 Linear 三成 bug 靠 agent 修完、Anthropic 六成五的 PR 来自 Claude Tag，还有 Levie 谈 harness。
@@ -209,5 +295,5 @@
 脚本由 AI 生成，音频为语音合成。</itunes:summary>
     </item>
     
-    </channel>
+  </channel>
 </rss>
