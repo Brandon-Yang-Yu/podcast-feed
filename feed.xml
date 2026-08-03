@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Follow Builders 每日播报</title>
     <link>https://brandon-yang-yu.github.io/podcast-feed</link>
-    <description>每天早上，两位主持人聊聊 AI 圈里真正在造东西的人在说什么。中英双语。</description>
-    <language>zh-cn</language>
-    <itunes:author>Brandon Yang</itunes:author>
+    <description>每天早上，两位主持人聊聊 AI 圈里真正在造东西的人在说什么。内容来自 Follow Builders 精选的 26 位 AI builder、6 档播客和官方博客。中英双语。</description>
+    <language>zh</language>
+    <atom:link href="https://brandon-yang-yu.github.io/podcast-feed/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <itunes:owner>
+      <itunes:name>Follow Builders 每日播报</itunes:name>
+      <itunes:email>yangyu1498@gmail.com</itunes:email>
+    </itunes:owner>
+    
+
+    <!-- Show artwork -->
+    <image>
+      <url>https://brandon-yang-yu.github.io/podcast-feed/cover-art.png</url>
+      <title>Follow Builders 每日播报</title>
+      <link>https://brandon-yang-yu.github.io/podcast-feed</link>
+    </image>
+    <itunes:image href="https://brandon-yang-yu.github.io/podcast-feed/cover-art.png"/>
+
+    <!-- Podcast player metadata -->
+    <itunes:author>Follow Builders 每日播报</itunes:author>
+    <itunes:summary>每天早上，两位主持人聊聊 AI 圈里真正在造东西的人在说什么。内容来自 Follow Builders 精选的 26 位 AI builder、6 档播客和官方博客。中英双语。</itunes:summary>
+    <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    
+    <item>
+      <title>Follow Builders 每日播报 — 2026年8月3日</title>
+      <description>今天 AI builders 在聊什么。内容来自 Follow Builders 精选源，中英双语。</description>
+      <pubDate>Mon, 03 Aug 2026 00:54:03 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-105357.mp3"
+                 length="17612844"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-105357.mp3</guid>
+      <itunes:duration>18:20</itunes:duration>
+      <itunes:summary>今天 AI builders 在聊什么。内容来自 Follow Builders 精选源，中英双语。</itunes:summary>
+    </item>
+    
   </channel>
 </rss>
