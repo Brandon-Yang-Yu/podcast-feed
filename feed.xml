@@ -32,6 +32,110 @@
 
     
     <item>
+      <title>长任务 agent 卡在二十四小时一轮的 rollout</title>
+      <description>结论来自 Igor Babushkin 那期访谈。另外聊了 Linear 三成 bug 靠 agent 修完、Anthropic 六成五的 PR 来自 Claude Tag，还有 Levie 谈 harness。
+
+本期内容
+
+1. Linear 里 Issue 到 Agent 到 PR 的 loop，三成 bug 走完全程（Nan Yu · X）
+   三成是端到端通过率，比「agent 写了多少行代码」有用得多
+   https://x.com/thenanyu/status/2083230295206121807
+
+2. 软件项目会变成 agentic software factory（Guillermo Rauch · X）
+   方向没错，但只有名字没有数据，是句标语
+   https://x.com/rauchg/status/2083208578526314513
+
+3. Anthropic 六成五的 PR 由 Claude Tag 提，agent 界面半年三换（Zara Zhang · X）
+   这个数说明入口变了；界面从终端挪进协作工具比百分比更值钱
+   https://x.com/zarazhangrui/status/2083161173563003268
+
+4. harness 会和模型能力并列成为最重要的变量（Aaron Levie · X）
+   任务上亿 token 时 harness 决定错误会不会滚雪球，但自动路由还没人做出来
+   https://x.com/levie/status/2083389460679373135
+
+5. YC 团队自用的 harness 开源（Garry Tan · X）
+   没给数据，就是个发布
+   https://x.com/garrytan/status/2083353760701833546
+
+6. 他还在用 loop 和 goal，认为别人放弃太早（Swyx · X）
+   显式写 goal 把判断标准留在模型外面，跑偏了能复盘
+   https://x.com/swyx/status/2083439562437673053
+
+7. vibe coding 的贬义完全消失了（Swyx · X）
+   跟他自己那条对着看：人人都在 vibe，结构化那层却丢得太快
+   https://x.com/swyx/status/2083294839186260385
+
+8. 8B 下棋模型 Elo 一千五，压过 GPT 5.6（Amjad Masad · X）
+   规则明确的窄任务里，专训小模型仍然划算
+   https://x.com/amasad/status/2083424608993300824
+
+9. Igor 说闭源模型公司被夹在监管和开源中间（Igor Babushkin · 播客）
+   夹击成立，但他把企业选择讲成二选一，漏了他自己在卖的第三条路
+   https://www.youtube.com/@RedpointAI
+
+10. 训练卡在 rollout 时长和不可验证的 reward（Igor Babushkin · 播客）
+   一轮 rollout 二十四小时，长任务的瓶颈在训练循环和判分器
+   https://www.youtube.com/@RedpointAI
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Mon, 03 Aug 2026 10:54:46 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-205442.mp3"
+                 length="11330081"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-205442.mp3</guid>
+      <itunes:duration>11:48</itunes:duration>
+      <itunes:summary>结论来自 Igor Babushkin 那期访谈。另外聊了 Linear 三成 bug 靠 agent 修完、Anthropic 六成五的 PR 来自 Claude Tag，还有 Levie 谈 harness。
+
+本期内容
+
+1. Linear 里 Issue 到 Agent 到 PR 的 loop，三成 bug 走完全程（Nan Yu · X）
+   三成是端到端通过率，比「agent 写了多少行代码」有用得多
+   https://x.com/thenanyu/status/2083230295206121807
+
+2. 软件项目会变成 agentic software factory（Guillermo Rauch · X）
+   方向没错，但只有名字没有数据，是句标语
+   https://x.com/rauchg/status/2083208578526314513
+
+3. Anthropic 六成五的 PR 由 Claude Tag 提，agent 界面半年三换（Zara Zhang · X）
+   这个数说明入口变了；界面从终端挪进协作工具比百分比更值钱
+   https://x.com/zarazhangrui/status/2083161173563003268
+
+4. harness 会和模型能力并列成为最重要的变量（Aaron Levie · X）
+   任务上亿 token 时 harness 决定错误会不会滚雪球，但自动路由还没人做出来
+   https://x.com/levie/status/2083389460679373135
+
+5. YC 团队自用的 harness 开源（Garry Tan · X）
+   没给数据，就是个发布
+   https://x.com/garrytan/status/2083353760701833546
+
+6. 他还在用 loop 和 goal，认为别人放弃太早（Swyx · X）
+   显式写 goal 把判断标准留在模型外面，跑偏了能复盘
+   https://x.com/swyx/status/2083439562437673053
+
+7. vibe coding 的贬义完全消失了（Swyx · X）
+   跟他自己那条对着看：人人都在 vibe，结构化那层却丢得太快
+   https://x.com/swyx/status/2083294839186260385
+
+8. 8B 下棋模型 Elo 一千五，压过 GPT 5.6（Amjad Masad · X）
+   规则明确的窄任务里，专训小模型仍然划算
+   https://x.com/amasad/status/2083424608993300824
+
+9. Igor 说闭源模型公司被夹在监管和开源中间（Igor Babushkin · 播客）
+   夹击成立，但他把企业选择讲成二选一，漏了他自己在卖的第三条路
+   https://www.youtube.com/@RedpointAI
+
+10. 训练卡在 rollout 时长和不可验证的 reward（Igor Babushkin · 播客）
+   一轮 rollout 二十四小时，长任务的瓶颈在训练循环和判分器
+   https://www.youtube.com/@RedpointAI
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Anthropic 两次数据外泄都走了被允许的通道</title>
       <description>结论来自 Anthropic 讲怎么关住 Claude 那篇。另外聊了 Karpathy 用 Opus 5 渲《魔戒》、Levie 说深领域要起飞、Nan Yu 的 issue 押金、Netic 用 agent 接电话。
 
