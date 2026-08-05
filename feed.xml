@@ -32,6 +32,78 @@
 
     
     <item>
+      <title>Chai 命中率从千分之一到 15%，难点在 eval 噪声</title>
+      <description>这个判断来自 Training Data 那期 Chai Discovery。还聊了 Madhu Guru 的模型选型顺序、Levie 说企业 AI 有多分散、Peter Yang 说 micro SaaS 难赚钱。
+
+本期内容
+
+1. 先用最强模型做原型，六到八周后再迁到开源模型（Madhu Guru · X）
+   顺序是对的，六到八周这个统一时间常数靠不住
+   https://x.com/realmadhuguru/status/2084667443046502631
+
+2. 企业里 AI 落地方式高度分散，十个 IT 负责人五种答案（Aaron Levie · X）
+   企业要开源模型图的是数据不出门，agent 身份问题迟早被合规逼着重做
+   https://x.com/levie/status/2084828773808239080
+
+3. 知识图谱现在才火，因为够用的智能变便宜了（Swyx · X）
+   便宜的是实体抽取，schema 和纠错还得人做，图谱错一条边下游看不出来
+   https://x.com/swyx/status/2084832553895444570
+
+4. vibe code 出的 SaaS 只能当服务业务的入口（Peter Yang · X）
+   小工具收不到钱了，绕回服务等于退掉软件不跟人头挂钩这条优势
+   https://x.com/petergyang/status/2084855632029774167
+
+5. 技术扩散是社会过程，靠身边人带动而不是效率数字（Zara Zhang · X）
+   社会证明只解决冷启动，把 agent 拉进团队群聊比培训课有用
+   https://x.com/zarazhangrui/status/2084828855404294266
+
+6. Chai Discovery 把抗体设计命中率做到 15%（Josh 和 Matt, Chai Discovery · 播客）
+   湿实验室正负五个点都是噪声，eval 有多准决定你能优化到多细
+   https://www.youtube.com/watch?v=wv53mDmY-k0
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Wed, 05 Aug 2026 12:55:41 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-05-225537.mp3"
+                 length="13273173"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-05-225537.mp3</guid>
+      <itunes:duration>13:49</itunes:duration>
+      <itunes:summary>这个判断来自 Training Data 那期 Chai Discovery。还聊了 Madhu Guru 的模型选型顺序、Levie 说企业 AI 有多分散、Peter Yang 说 micro SaaS 难赚钱。
+
+本期内容
+
+1. 先用最强模型做原型，六到八周后再迁到开源模型（Madhu Guru · X）
+   顺序是对的，六到八周这个统一时间常数靠不住
+   https://x.com/realmadhuguru/status/2084667443046502631
+
+2. 企业里 AI 落地方式高度分散，十个 IT 负责人五种答案（Aaron Levie · X）
+   企业要开源模型图的是数据不出门，agent 身份问题迟早被合规逼着重做
+   https://x.com/levie/status/2084828773808239080
+
+3. 知识图谱现在才火，因为够用的智能变便宜了（Swyx · X）
+   便宜的是实体抽取，schema 和纠错还得人做，图谱错一条边下游看不出来
+   https://x.com/swyx/status/2084832553895444570
+
+4. vibe code 出的 SaaS 只能当服务业务的入口（Peter Yang · X）
+   小工具收不到钱了，绕回服务等于退掉软件不跟人头挂钩这条优势
+   https://x.com/petergyang/status/2084855632029774167
+
+5. 技术扩散是社会过程，靠身边人带动而不是效率数字（Zara Zhang · X）
+   社会证明只解决冷启动，把 agent 拉进团队群聊比培训课有用
+   https://x.com/zarazhangrui/status/2084828855404294266
+
+6. Chai Discovery 把抗体设计命中率做到 15%（Josh 和 Matt, Chai Discovery · 播客）
+   湿实验室正负五个点都是噪声，eval 有多准决定你能优化到多细
+   https://www.youtube.com/watch?v=wv53mDmY-k0
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Anthropic 一行系统提示掉三个点，变量已经不在模型里</title>
       <description>这个结论出自 Anthropic 那篇 Claude Code 降智复盘。另外聊了 Sottiaux 说 Codex 快显得原始、Levie 看开源权重、模型黑进 Hugging Face 偷 eval。
 
