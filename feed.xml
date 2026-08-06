@@ -32,6 +32,86 @@
 
     
     <item>
+      <title>Levie 和 Madhu Guru 都在说：AI 得藏起来才卖得动</title>
+      <description>这个判断来自 Levie 和 Madhu Guru 的两条推文。还聊了 Codex 每六分钟一封求额度私信、swyx 的多 agent 接法、Peter Yang 的 human-review，和 Benchmark 的 Sarah 讲社交型 AI。
+
+本期内容
+
+1. Levie 说 99% 的 token 会消耗在企业场景（Aaron Levie · X）
+   agent 最后会被包进服务里藏起来，而流程重接比模型接入难得多
+   https://x.com/levie/status/2085200776159490111
+
+2. Madhu Guru 说 AI 扩散慢是因为在逼用户学黑话（Madhu Guru · X）
+   诊断对，十二个月出突破产品这个日期是随口一说
+   https://x.com/realmadhuguru/status/2085036386781221257
+
+3. Codex 负责人平均每六分钟收到一封求重置额度的信（Thibault Sottiaux · X）
+   额度靠找关系解决是很糟的产品状态，定价还没接住 agent 的用量
+   https://x.com/thsottiaux/status/2085221386713198988
+
+4. swyx 用线程互相 ping 手工拼出多 agent 编排（Swyx · X）
+   长任务能撒手不管了，并行才谈得上，缺的是看见谁在等谁的界面
+   https://x.com/swyx/status/2085253030417461661
+
+5. Peter Yang 的 human-review 让人直接改 agent 的产出（Peter Yang · X）
+   最后那 10% 用自然语言描述比动手还贵，人的位置在往检查那端挪
+   https://x.com/petergyang/status/2085055745410945126
+
+6. Benchmark 的 Sarah 讲技术创始人到产品天才的滑块（Sarah · 播客）
+   AI 产品差异八成来自模型，但等基础设施稳了再动手就没位置了
+   https://www.youtube.com/watch?v=dlI-5W7d7uU
+
+7. custom GPTs 看不见 prompt，所以建不起信任（Sarah · 播客）
+   去 Reddit 抄 prompt 这个动作证明需求真实，但 prompt 的供给撑不起社交
+   https://www.youtube.com/watch?v=dlI-5W7d7uU
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Thu, 06 Aug 2026 08:07:21 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-06-180717.mp3"
+                 length="11024553"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-06-180717.mp3</guid>
+      <itunes:duration>11:28</itunes:duration>
+      <itunes:summary>这个判断来自 Levie 和 Madhu Guru 的两条推文。还聊了 Codex 每六分钟一封求额度私信、swyx 的多 agent 接法、Peter Yang 的 human-review，和 Benchmark 的 Sarah 讲社交型 AI。
+
+本期内容
+
+1. Levie 说 99% 的 token 会消耗在企业场景（Aaron Levie · X）
+   agent 最后会被包进服务里藏起来，而流程重接比模型接入难得多
+   https://x.com/levie/status/2085200776159490111
+
+2. Madhu Guru 说 AI 扩散慢是因为在逼用户学黑话（Madhu Guru · X）
+   诊断对，十二个月出突破产品这个日期是随口一说
+   https://x.com/realmadhuguru/status/2085036386781221257
+
+3. Codex 负责人平均每六分钟收到一封求重置额度的信（Thibault Sottiaux · X）
+   额度靠找关系解决是很糟的产品状态，定价还没接住 agent 的用量
+   https://x.com/thsottiaux/status/2085221386713198988
+
+4. swyx 用线程互相 ping 手工拼出多 agent 编排（Swyx · X）
+   长任务能撒手不管了，并行才谈得上，缺的是看见谁在等谁的界面
+   https://x.com/swyx/status/2085253030417461661
+
+5. Peter Yang 的 human-review 让人直接改 agent 的产出（Peter Yang · X）
+   最后那 10% 用自然语言描述比动手还贵，人的位置在往检查那端挪
+   https://x.com/petergyang/status/2085055745410945126
+
+6. Benchmark 的 Sarah 讲技术创始人到产品天才的滑块（Sarah · 播客）
+   AI 产品差异八成来自模型，但等基础设施稳了再动手就没位置了
+   https://www.youtube.com/watch?v=dlI-5W7d7uU
+
+7. custom GPTs 看不见 prompt，所以建不起信任（Sarah · 播客）
+   去 Reddit 抄 prompt 这个动作证明需求真实，但 prompt 的供给撑不起社交
+   https://www.youtube.com/watch?v=dlI-5W7d7uU
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Chai 命中率从千分之一到 15%，难点在 eval 噪声</title>
       <description>这个判断来自 Training Data 那期 Chai Discovery。还聊了 Madhu Guru 的模型选型顺序、Levie 说企业 AI 有多分散、Peter Yang 说 micro SaaS 难赚钱。
 
