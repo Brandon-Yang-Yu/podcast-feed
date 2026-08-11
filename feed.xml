@@ -32,6 +32,86 @@
 
     
     <item>
+      <title>模型层拦不住攻击，真正顶用的是网络和文件权限</title>
+      <description>判断来自 Anthropic 讲关住 Claude 的博客。另外聊了 Vercel Sandbox 的网络隔离、Meta 开源权重、Linear 怎么搭生产 agent，还有 Netic 用 AI 调度技工的生意。
+
+本期内容
+
+1. Vercel Sandbox 隔离计算和网络，对照 Kimi K3 和 OpenAI 的沙箱逃逸（Guillermo Rauch · X）
+   模型层挡不住，网络出口这道墙才是真正拦得住 agent 的边界
+   https://x.com/rauchg/status/2086946535716393209
+
+2. Meta 把 Muse Spark 1.2 开放权重放出来（Aaron Levie · X）
+   开放权重解决的是能不能部署的问题，不是能力有多强，他没给跑分
+   https://x.com/levie/status/2086802472950239618
+
+3. Linear 团队分享怎么从零搭一个上生产的 agent（Peter Yang · X）
+   先上最强模型定基准线，别急着用小模型省钱
+   https://x.com/petergyang/status/2086824976800436676
+
+4. 盲测两个 coding agent 仿写 Grok Imagine（Swyx · X）
+   像不像原版和好不好用是两件事，别只看截图判断模型好坏
+   https://x.com/swyx/status/2087045848022843451
+
+5. 用 Codex 给设计好的网站截图标注来学设计（Zara Zhang · X）
+   把分析文字和画面钉在同一张图上，比来回切更容易学进去
+   https://x.com/zarazhangrui/status/2086758509979316423
+
+6. Anthropic 讲他们怎么把 Claude 关在笼子里，员工被钓鱼后 24 次凭证外泄（Anthropic Engineering · 博客）
+   用户自己敲的钓鱼指令，模型层防线看不出异常，只有网络和文件权限能挡住
+   https://www.anthropic.com/engineering/how-we-contain-claude
+
+7. Netic 创始人 Melisa Tokmak 谈为什么大模型公司不会取代她们（Melisa Tokmak · 播客）
+   护城河在最后一公里的编排和产品，不在模型本身有多强
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Tue, 11 Aug 2026 08:15:35 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-11-181532.mp3"
+                 length="11142417"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-11-181532.mp3</guid>
+      <itunes:duration>11:36</itunes:duration>
+      <itunes:summary>判断来自 Anthropic 讲关住 Claude 的博客。另外聊了 Vercel Sandbox 的网络隔离、Meta 开源权重、Linear 怎么搭生产 agent，还有 Netic 用 AI 调度技工的生意。
+
+本期内容
+
+1. Vercel Sandbox 隔离计算和网络，对照 Kimi K3 和 OpenAI 的沙箱逃逸（Guillermo Rauch · X）
+   模型层挡不住，网络出口这道墙才是真正拦得住 agent 的边界
+   https://x.com/rauchg/status/2086946535716393209
+
+2. Meta 把 Muse Spark 1.2 开放权重放出来（Aaron Levie · X）
+   开放权重解决的是能不能部署的问题，不是能力有多强，他没给跑分
+   https://x.com/levie/status/2086802472950239618
+
+3. Linear 团队分享怎么从零搭一个上生产的 agent（Peter Yang · X）
+   先上最强模型定基准线，别急着用小模型省钱
+   https://x.com/petergyang/status/2086824976800436676
+
+4. 盲测两个 coding agent 仿写 Grok Imagine（Swyx · X）
+   像不像原版和好不好用是两件事，别只看截图判断模型好坏
+   https://x.com/swyx/status/2087045848022843451
+
+5. 用 Codex 给设计好的网站截图标注来学设计（Zara Zhang · X）
+   把分析文字和画面钉在同一张图上，比来回切更容易学进去
+   https://x.com/zarazhangrui/status/2086758509979316423
+
+6. Anthropic 讲他们怎么把 Claude 关在笼子里，员工被钓鱼后 24 次凭证外泄（Anthropic Engineering · 博客）
+   用户自己敲的钓鱼指令，模型层防线看不出异常，只有网络和文件权限能挡住
+   https://www.anthropic.com/engineering/how-we-contain-claude
+
+7. Netic 创始人 Melisa Tokmak 谈为什么大模型公司不会取代她们（Melisa Tokmak · 播客）
+   护城河在最后一公里的编排和产品，不在模型本身有多强
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Anthropic 说防住了 prompt injection，沙箱还是不能拆</title>
       <description>这个判断来自 Claude Code 的 Boris Cherny。还聊了 Amjad 的 HelpPeer、Rauch 谈读代码、Levie 讲 agent 扩散、Igor 说闭源被夹，以及 Claude Code 的 artifacts。
 
