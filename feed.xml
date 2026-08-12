@@ -32,6 +32,86 @@
 
     
     <item>
+      <title>从 Boris 到 Samsara：值钱的活儿在验证和落地</title>
+      <description>Boris 说 bug 挪了地方，Levie 说 FDE 不会消失，Samsara 用 agent 捡回没人申请的保修钱。另外聊了 Claude 文本水印、AISI 操纵人类事件、垂直 open-weight 模型。
+
+本期内容
+
+1. Anthropic 给 Claude 全部输出加文本水印（Thariq · X）
+   合规压出来的功能，挡懒人挡不住认真造假的；查 PR 的用法会引出误判争议
+   https://x.com/trq212/status/2087258091821949074
+
+2. AISI 事件：模型自主操纵开源维护者（Matt Turck · X）
+   unprompted 和 in the wild 是关键词，但没有报告链接，严重程度没法判断
+   https://x.com/mattturck/status/2087311436779298897
+
+3. LLM 的 bug 从小错变成系统设计问题（Boris Cherny · X）
+   对抗式 code review 几乎白捡，因为两次采样犯的错不重叠
+   https://x.com/bcherny/status/2087284684103537011
+
+4. 2023 年的 prompt 日志预言了今天（Madhu Guru · X）
+   prompt 日志是最诚实的需求调研，别拿当前模型能力去过滤需求
+   https://x.com/realmadhuguru/status/2087355597851390220
+
+5. FDE 是真需求，模型再强也不会消失（Aaron Levie · X）
+   模型越强客户扔来的流程越复杂，落地复杂度守恒
+   https://x.com/levie/status/2087385493684335064
+
+6. 垂直领域的 open-weight 模型有大钱赚（Madhu Guru · X）
+   大厂不干垂直脏活；open-weight 是为了私有化部署和蒸馏
+   https://x.com/realmadhuguru/status/2087198985685750013
+
+7. Samsara 的物理世界 AI 和保修 agent（Sanjit Biswas · 播客）
+   下一批值钱的数据在线下；agent 先干有价值、没人干、错了不死人的活
+   https://www.youtube.com/@DataDrivenNYC/videos
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Wed, 12 Aug 2026 08:12:56 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-12-181252.mp3"
+                 length="10452367"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-12-181252.mp3</guid>
+      <itunes:duration>10:53</itunes:duration>
+      <itunes:summary>Boris 说 bug 挪了地方，Levie 说 FDE 不会消失，Samsara 用 agent 捡回没人申请的保修钱。另外聊了 Claude 文本水印、AISI 操纵人类事件、垂直 open-weight 模型。
+
+本期内容
+
+1. Anthropic 给 Claude 全部输出加文本水印（Thariq · X）
+   合规压出来的功能，挡懒人挡不住认真造假的；查 PR 的用法会引出误判争议
+   https://x.com/trq212/status/2087258091821949074
+
+2. AISI 事件：模型自主操纵开源维护者（Matt Turck · X）
+   unprompted 和 in the wild 是关键词，但没有报告链接，严重程度没法判断
+   https://x.com/mattturck/status/2087311436779298897
+
+3. LLM 的 bug 从小错变成系统设计问题（Boris Cherny · X）
+   对抗式 code review 几乎白捡，因为两次采样犯的错不重叠
+   https://x.com/bcherny/status/2087284684103537011
+
+4. 2023 年的 prompt 日志预言了今天（Madhu Guru · X）
+   prompt 日志是最诚实的需求调研，别拿当前模型能力去过滤需求
+   https://x.com/realmadhuguru/status/2087355597851390220
+
+5. FDE 是真需求，模型再强也不会消失（Aaron Levie · X）
+   模型越强客户扔来的流程越复杂，落地复杂度守恒
+   https://x.com/levie/status/2087385493684335064
+
+6. 垂直领域的 open-weight 模型有大钱赚（Madhu Guru · X）
+   大厂不干垂直脏活；open-weight 是为了私有化部署和蒸馏
+   https://x.com/realmadhuguru/status/2087198985685750013
+
+7. Samsara 的物理世界 AI 和保修 agent（Sanjit Biswas · 播客）
+   下一批值钱的数据在线下；agent 先干有价值、没人干、错了不死人的活
+   https://www.youtube.com/@DataDrivenNYC/videos
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>模型层拦不住攻击，真正顶用的是网络和文件权限</title>
       <description>判断来自 Anthropic 讲关住 Claude 的博客。另外聊了 Vercel Sandbox 的网络隔离、Meta 开源权重、Linear 怎么搭生产 agent，还有 Netic 用 AI 调度技工的生意。
 
