@@ -32,6 +32,94 @@
 
     
     <item>
+      <title>超人类引擎没杀死国际象棋，好玩才是留人的原因</title>
+      <description>这个判断来自 No Priors 那期聊 chess.com 的节目。另外聊了 Boris Cherny 让 Claude 自动维护 App、Amjad Masad 说 ARC-AGI-3 快被攻破、swyx 的批量提问技巧，还有 Aaron Levie 和 Madhu Guru 的两条推文。
+
+本期内容
+
+1. Claude 自动维护 Anthropic 自家 App 三周（Boris Cherny · X）
+   能不能自己迭代规则，比单次 PR 对不对更值得看
+   https://x.com/bcherny/status/2088014489438621990
+
+2. ARC-AGI-3 被指靠加一层 coding harness 快解决了（Amjad Masad · X）
+   刷分和推理能力真的变强不是一回事
+   https://x.com/amasad/status/2088124774824521786
+
+3. 用批量提问替代一问一答，省掉人回应的延迟（swyx · X）
+   人回答得慢正在变成新的瓶颈
+   https://x.com/swyx/status/2088073777779515615
+
+4. 工程师没被 AI 淘汰，价值反而更高（Aaron Levie · X）
+   工具变强放大的是会不会用的人之间的差距
+   https://x.com/levie/status/2088105350201270529
+
+5. 招聘市场上带 engineer 的岗位反而更抢手（Zara Zhang · X）
+   这件事已经能在招聘数据里看到了
+   https://x.com/zarazhangrui/status/2088087765267386564
+
+6. prompt debt：提示词只加不减的通病（Madhu Guru · X）
+   规则越堆越多，是在替模型做判断、压掉它的判断空间
+   https://x.com/realmadhuguru/status/2087916590964851172
+
+7. chess.com CEO 讲超人类引擎没杀死国际象棋（Erik Allebest · 播客）
+   机器强弱决定不了人还愿不愿意留下来玩
+   https://www.youtube.com/@NoPriorsPodcast
+
+8. AI 能造出超越人类的东西还能冒充人做的，chess.com 怎么防（Erik Allebest · 播客）
+   他们能做的是抓得住封得掉，没法保证完全防住
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Fri, 14 Aug 2026 08:15:17 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-14-181512.mp3"
+                 length="13741288"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-14-181512.mp3</guid>
+      <itunes:duration>14:18</itunes:duration>
+      <itunes:summary>这个判断来自 No Priors 那期聊 chess.com 的节目。另外聊了 Boris Cherny 让 Claude 自动维护 App、Amjad Masad 说 ARC-AGI-3 快被攻破、swyx 的批量提问技巧，还有 Aaron Levie 和 Madhu Guru 的两条推文。
+
+本期内容
+
+1. Claude 自动维护 Anthropic 自家 App 三周（Boris Cherny · X）
+   能不能自己迭代规则，比单次 PR 对不对更值得看
+   https://x.com/bcherny/status/2088014489438621990
+
+2. ARC-AGI-3 被指靠加一层 coding harness 快解决了（Amjad Masad · X）
+   刷分和推理能力真的变强不是一回事
+   https://x.com/amasad/status/2088124774824521786
+
+3. 用批量提问替代一问一答，省掉人回应的延迟（swyx · X）
+   人回答得慢正在变成新的瓶颈
+   https://x.com/swyx/status/2088073777779515615
+
+4. 工程师没被 AI 淘汰，价值反而更高（Aaron Levie · X）
+   工具变强放大的是会不会用的人之间的差距
+   https://x.com/levie/status/2088105350201270529
+
+5. 招聘市场上带 engineer 的岗位反而更抢手（Zara Zhang · X）
+   这件事已经能在招聘数据里看到了
+   https://x.com/zarazhangrui/status/2088087765267386564
+
+6. prompt debt：提示词只加不减的通病（Madhu Guru · X）
+   规则越堆越多，是在替模型做判断、压掉它的判断空间
+   https://x.com/realmadhuguru/status/2087916590964851172
+
+7. chess.com CEO 讲超人类引擎没杀死国际象棋（Erik Allebest · 播客）
+   机器强弱决定不了人还愿不愿意留下来玩
+   https://www.youtube.com/@NoPriorsPodcast
+
+8. AI 能造出超越人类的东西还能冒充人做的，chess.com 怎么防（Erik Allebest · 播客）
+   他们能做的是抓得住封得掉，没法保证完全防住
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>MCP 是新的 HTTP，安全模型还没补上</title>
       <description>这个判断来自 Kevin Scott 那期播客。另外聊了 Aaron Levie 的 Jevons 悖论、Garry Tan 的个人 AGI，还有 Claude Code 变笨的三个 bug。
 
