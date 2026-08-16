@@ -32,6 +32,78 @@
 
     
     <item>
+      <title>好用的库，现在得摊开代码给AI读</title>
+      <description>这个判断来自 Vercel CEO Guillermo Rauch 聊 shadcn 那条。另外聊了 Sottiaux 讲 token 定价的坑、Amjad Masad 反驳 AI 天然集中权力、swyx 谈顶尖圈子的信息差，还有 Sarah Tavel 讲消费 AI 产品和真假网络效应。
+
+本期内容
+
+1. Sottiaux讲token定价该怎么算才对（Thibault Sottiaux · X）
+   比总账单不比单价，省下的token如果换来返工，便宜也没用
+   https://x.com/thsottiaux/status/2088866513008873560
+
+2. Masad反驳AI天然会让权力集中（Amjad Masad · X）
+   算力变便宜是历史事实，但AGI不需要数据中心只是预测
+   https://x.com/amasad/status/2088867492907327573
+
+3. Rauch说shadcn才是React真正的成功（Guillermo Rauch · X）
+   好库现在得把源码摊开给AI读，不是打包藏起来
+   https://x.com/rauchg/status/2088757738037989755
+
+4. swyx讲顶尖圈子没那么多秘密群（swyx · X）
+   统一秘密群不存在，但小圈子信息差是真的，只是没那么戏剧化
+   https://x.com/swyx/status/2088755688361378082
+
+5. Tavel讲AI消费产品还在单人技术阶段（Sarah Tavel · 播客）
+   ChatGPT还停留在单人模式，离她说的产品天才阶段还早
+   https://www.youtube.com/watch?v=dlI-5W7d7uU
+
+6. Tavel讲怎么分辨真假网络效应（Sarah Tavel · 播客）
+   多数创业公司的飞轮图只是画在PPT上，没有真的在转
+   https://www.youtube.com/watch?v=dlI-5W7d7uU
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Sun, 16 Aug 2026 08:23:41 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-16-182337.mp3"
+                 length="11383998"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-16-182337.mp3</guid>
+      <itunes:duration>11:51</itunes:duration>
+      <itunes:summary>这个判断来自 Vercel CEO Guillermo Rauch 聊 shadcn 那条。另外聊了 Sottiaux 讲 token 定价的坑、Amjad Masad 反驳 AI 天然集中权力、swyx 谈顶尖圈子的信息差，还有 Sarah Tavel 讲消费 AI 产品和真假网络效应。
+
+本期内容
+
+1. Sottiaux讲token定价该怎么算才对（Thibault Sottiaux · X）
+   比总账单不比单价，省下的token如果换来返工，便宜也没用
+   https://x.com/thsottiaux/status/2088866513008873560
+
+2. Masad反驳AI天然会让权力集中（Amjad Masad · X）
+   算力变便宜是历史事实，但AGI不需要数据中心只是预测
+   https://x.com/amasad/status/2088867492907327573
+
+3. Rauch说shadcn才是React真正的成功（Guillermo Rauch · X）
+   好库现在得把源码摊开给AI读，不是打包藏起来
+   https://x.com/rauchg/status/2088757738037989755
+
+4. swyx讲顶尖圈子没那么多秘密群（swyx · X）
+   统一秘密群不存在，但小圈子信息差是真的，只是没那么戏剧化
+   https://x.com/swyx/status/2088755688361378082
+
+5. Tavel讲AI消费产品还在单人技术阶段（Sarah Tavel · 播客）
+   ChatGPT还停留在单人模式，离她说的产品天才阶段还早
+   https://www.youtube.com/watch?v=dlI-5W7d7uU
+
+6. Tavel讲怎么分辨真假网络效应（Sarah Tavel · 播客）
+   多数创业公司的飞轮图只是画在PPT上，没有真的在转
+   https://www.youtube.com/watch?v=dlI-5W7d7uU
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>可预测的过程比一次惊艳的产出更值钱</title>
       <description>这句话来自 Basis 那期播客对报税 agent 的复盘。另外聊了 Levie 谈 Cursor、Peter Yang 拆 X 反 slop 算法、Steinberger 的 agent 协作技巧，还有 Apple 用 Claude 做端云混合调用。
 
