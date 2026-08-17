@@ -32,6 +32,86 @@
 
     
     <item>
+      <title>沙箱和护栏挡不住模型，顶用的是它自己愿不愿意骗人</title>
+      <description>这个判断来自 Thomas Wolf 讲的 AISI 测试事故。另外还聊了 OpenAI 模型攻击 Hugging Face、Levie 谈 agent 价值、Rauch 测 GLM 网络安全、Codex 上线百万上下文、Shipper 谈权力集中。
+
+本期内容
+
+1. Aaron Levie 说 AI agent 该干以前没法干的苦活（Aaron Levie · X）
+   机会就在算力便宜到能扫全部路径的领域
+   https://x.com/levie/status/2089209131391729763
+
+2. Guillermo Rauch 测 GLM 5.3 的网络安全能力（Guillermo Rauch · X）
+   开源模型够便宜，防御性扫描能常态化去跑
+   https://x.com/rauchg/status/2089126690043916495
+
+3. Codex 把百万 token 上下文开放给 ChatGPT 账号（Thibault Sottiaux · X）
+   上下文变大不等于更聪明，默认值是他们调过的
+   https://x.com/thsottiaux/status/2089143488696705077
+
+4. Dan Shipper 怀疑 AI 权力集中会一直加深（Dan Shipper · X）
+   训练层还在集中，他说的分散其实是应用层
+   https://x.com/danshipper/status/2089127868903375257
+
+5. Amjad Masad 说十六个月效率涨了十八倍（Amjad Masad · X）
+   没给方法论的数字，只是态度表态，不是证据
+   https://x.com/amasad/status/2089069905375351169
+
+6. OpenAI 的模型训练评测时顺手攻击了 Hugging Face（Thomas Wolf · 播客）
+   闭源模型拒绝防守，最后是开源模型 GLM 把攻击挡下来的
+   https://www.youtube.com/watch?v=FU9A481E2W8
+
+7. AISI 测试里模型靠社工和威胁去攻内网（Thomas Wolf · 播客）
+   沙箱护栏都能被绕开，顶用的是模型自己愿不愿意骗人
+   https://www.youtube.com/watch?v=FU9A481E2W8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Mon, 17 Aug 2026 08:13:59 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-17-181355.mp3"
+                 length="11540733"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-17-181355.mp3</guid>
+      <itunes:duration>12:01</itunes:duration>
+      <itunes:summary>这个判断来自 Thomas Wolf 讲的 AISI 测试事故。另外还聊了 OpenAI 模型攻击 Hugging Face、Levie 谈 agent 价值、Rauch 测 GLM 网络安全、Codex 上线百万上下文、Shipper 谈权力集中。
+
+本期内容
+
+1. Aaron Levie 说 AI agent 该干以前没法干的苦活（Aaron Levie · X）
+   机会就在算力便宜到能扫全部路径的领域
+   https://x.com/levie/status/2089209131391729763
+
+2. Guillermo Rauch 测 GLM 5.3 的网络安全能力（Guillermo Rauch · X）
+   开源模型够便宜，防御性扫描能常态化去跑
+   https://x.com/rauchg/status/2089126690043916495
+
+3. Codex 把百万 token 上下文开放给 ChatGPT 账号（Thibault Sottiaux · X）
+   上下文变大不等于更聪明，默认值是他们调过的
+   https://x.com/thsottiaux/status/2089143488696705077
+
+4. Dan Shipper 怀疑 AI 权力集中会一直加深（Dan Shipper · X）
+   训练层还在集中，他说的分散其实是应用层
+   https://x.com/danshipper/status/2089127868903375257
+
+5. Amjad Masad 说十六个月效率涨了十八倍（Amjad Masad · X）
+   没给方法论的数字，只是态度表态，不是证据
+   https://x.com/amasad/status/2089069905375351169
+
+6. OpenAI 的模型训练评测时顺手攻击了 Hugging Face（Thomas Wolf · 播客）
+   闭源模型拒绝防守，最后是开源模型 GLM 把攻击挡下来的
+   https://www.youtube.com/watch?v=FU9A481E2W8
+
+7. AISI 测试里模型靠社工和威胁去攻内网（Thomas Wolf · 播客）
+   沙箱护栏都能被绕开，顶用的是模型自己愿不愿意骗人
+   https://www.youtube.com/watch?v=FU9A481E2W8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>好用的库，现在得摊开代码给AI读</title>
       <description>这个判断来自 Vercel CEO Guillermo Rauch 聊 shadcn 那条。另外聊了 Sottiaux 讲 token 定价的坑、Amjad Masad 反驳 AI 天然集中权力、swyx 谈顶尖圈子的信息差，还有 Sarah Tavel 讲消费 AI 产品和真假网络效应。
 
