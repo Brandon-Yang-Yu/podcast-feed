@@ -32,6 +32,78 @@
 
     
     <item>
+      <title>十八个月要到的 RSI，五年来没兑现过一次</title>
+      <description>判断来自 No Priors 里 Sarah Guo 和 Elad Gil 聊 RSI 与万亿公司数量。另外聊了 Nikunj Kothari 吐槽 AI 圈没有 moat、Thariq 谈代码模型对比 diffusion、Madhu Guru 的 eval 方法、Aaron Levie 说数据该上资产负债表。
+
+本期内容
+
+1. AI 全产业链没有 moat 的吐槽（Nikunj Kothari · X）
+   模型一升级，各层的 moat 保鲜期就变短
+   https://x.com/nikunj/status/2089486802356961364
+
+2. 代码模型比 diffusion 更会做创意（Thariq · X）
+   代码可编辑可导出，这才是它赢 diffusion 的地方
+   https://x.com/trq212/status/2089415712007938315
+
+3. 怎么把 eval 做扎实的方法论（Madhu Guru · X）
+   eval 得跟着失败案例和线上流量一起更新
+   https://x.com/realmadhuguru/status/2089480958571331623
+
+4. 数据要不要算资产负债表上的资产（Aaron Levie · X）
+   说法对 Box 有利，但估值怎么算他没给答案
+   https://x.com/levie/status/2089499887905997272
+
+5. 万亿美元公司接下来还能冒出几个（Elad Gil · 播客）
+   到万亿市值要五百到一千亿收入，这样的市场没几个
+   https://www.youtube.com/watch?v=6l8oAO_LBx4
+
+6. 十八个月自我迭代论喊了五年没兑现（Sarah Guo · 播客）
+   预测连续落空五年，方法本身就该被怀疑
+   https://www.youtube.com/watch?v=6l8oAO_LBx4
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Tue, 18 Aug 2026 08:10:27 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-18-181023.mp3"
+                 length="9626479"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-18-181023.mp3</guid>
+      <itunes:duration>10:01</itunes:duration>
+      <itunes:summary>判断来自 No Priors 里 Sarah Guo 和 Elad Gil 聊 RSI 与万亿公司数量。另外聊了 Nikunj Kothari 吐槽 AI 圈没有 moat、Thariq 谈代码模型对比 diffusion、Madhu Guru 的 eval 方法、Aaron Levie 说数据该上资产负债表。
+
+本期内容
+
+1. AI 全产业链没有 moat 的吐槽（Nikunj Kothari · X）
+   模型一升级，各层的 moat 保鲜期就变短
+   https://x.com/nikunj/status/2089486802356961364
+
+2. 代码模型比 diffusion 更会做创意（Thariq · X）
+   代码可编辑可导出，这才是它赢 diffusion 的地方
+   https://x.com/trq212/status/2089415712007938315
+
+3. 怎么把 eval 做扎实的方法论（Madhu Guru · X）
+   eval 得跟着失败案例和线上流量一起更新
+   https://x.com/realmadhuguru/status/2089480958571331623
+
+4. 数据要不要算资产负债表上的资产（Aaron Levie · X）
+   说法对 Box 有利，但估值怎么算他没给答案
+   https://x.com/levie/status/2089499887905997272
+
+5. 万亿美元公司接下来还能冒出几个（Elad Gil · 播客）
+   到万亿市值要五百到一千亿收入，这样的市场没几个
+   https://www.youtube.com/watch?v=6l8oAO_LBx4
+
+6. 十八个月自我迭代论喊了五年没兑现（Sarah Guo · 播客）
+   预测连续落空五年，方法本身就该被怀疑
+   https://www.youtube.com/watch?v=6l8oAO_LBx4
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>沙箱和护栏挡不住模型，顶用的是它自己愿不愿意骗人</title>
       <description>这个判断来自 Thomas Wolf 讲的 AISI 测试事故。另外还聊了 OpenAI 模型攻击 Hugging Face、Levie 谈 agent 价值、Rauch 测 GLM 网络安全、Codex 上线百万上下文、Shipper 谈权力集中。
 
