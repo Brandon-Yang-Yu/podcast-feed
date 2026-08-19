@@ -32,6 +32,86 @@
 
     
     <item>
+      <title>模型层防不住的漏洞，最后都靠环境层硬边界兜底</title>
+      <description>这个判断来自Anthropic讲怎么关住Claude的工程博客。另外聊了OpenAI暂停RL训练、Codex误删用户文件、Vercel百万美元安全悬赏、Levie谈企业AI价值，还有Sutton讲continual learning。
+
+本期内容
+
+1. OpenAI暂停部分前沿RL训练（Sam Altman · X）
+   说了暂停但没给具体细节，先打个问号
+   https://x.com/sama/status/2089787807611195475
+
+2. Codex误删用户文件的复盘（Thibault Sottiaux · X）
+   模型层补丁再强化训练也防不住，真正管用的是执行层拦截
+   https://x.com/thsottiaux/status/2089891927659585918
+
+3. Vercel拿一百万美元悬赏找sandbox漏洞（Guillermo Rauch · X）
+   把sandbox安不安全从公司自己的说法变成外部能验证的事
+   https://x.com/rauchg/status/2089747453004468339
+
+4. 企业AI的价值大头在应用层不只是模型（Aaron Levie · X）
+   模型再强，该接哪套系统、怎么定价，这活儿还得有人干
+   https://x.com/levie/status/2089921630650925170
+
+5. SaaS做成headless按次收费给agent用（Thariq · X）
+   想法好想，给agent调用定价没那么简单
+   https://x.com/trq212/status/2089844723691479333
+
+6. Anthropic怎么把Claude这样的agent关住（Anthropic Engineering · 博客）
+   模型层挡不住的，最后都得靠环境层的硬边界
+   https://www.anthropic.com/engineering/how-we-contain-claude
+
+7. Rich Sutton讲为什么大模型部署后就不再学习（Rich Sutton · 播客）
+   权重冻结不算学习，他们要解决的是灾难性遗忘
+   https://www.youtube.com/watch?v=xH7U7w9Qzlo
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Wed, 19 Aug 2026 08:13:07 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-19-181303.mp3"
+                 length="11888057"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-19-181303.mp3</guid>
+      <itunes:duration>12:22</itunes:duration>
+      <itunes:summary>这个判断来自Anthropic讲怎么关住Claude的工程博客。另外聊了OpenAI暂停RL训练、Codex误删用户文件、Vercel百万美元安全悬赏、Levie谈企业AI价值，还有Sutton讲continual learning。
+
+本期内容
+
+1. OpenAI暂停部分前沿RL训练（Sam Altman · X）
+   说了暂停但没给具体细节，先打个问号
+   https://x.com/sama/status/2089787807611195475
+
+2. Codex误删用户文件的复盘（Thibault Sottiaux · X）
+   模型层补丁再强化训练也防不住，真正管用的是执行层拦截
+   https://x.com/thsottiaux/status/2089891927659585918
+
+3. Vercel拿一百万美元悬赏找sandbox漏洞（Guillermo Rauch · X）
+   把sandbox安不安全从公司自己的说法变成外部能验证的事
+   https://x.com/rauchg/status/2089747453004468339
+
+4. 企业AI的价值大头在应用层不只是模型（Aaron Levie · X）
+   模型再强，该接哪套系统、怎么定价，这活儿还得有人干
+   https://x.com/levie/status/2089921630650925170
+
+5. SaaS做成headless按次收费给agent用（Thariq · X）
+   想法好想，给agent调用定价没那么简单
+   https://x.com/trq212/status/2089844723691479333
+
+6. Anthropic怎么把Claude这样的agent关住（Anthropic Engineering · 博客）
+   模型层挡不住的，最后都得靠环境层的硬边界
+   https://www.anthropic.com/engineering/how-we-contain-claude
+
+7. Rich Sutton讲为什么大模型部署后就不再学习（Rich Sutton · 播客）
+   权重冻结不算学习，他们要解决的是灾难性遗忘
+   https://www.youtube.com/watch?v=xH7U7w9Qzlo
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>十八个月要到的 RSI，五年来没兑现过一次</title>
       <description>判断来自 No Priors 里 Sarah Guo 和 Elad Gil 聊 RSI 与万亿公司数量。另外聊了 Nikunj Kothari 吐槽 AI 圈没有 moat、Thariq 谈代码模型对比 diffusion、Madhu Guru 的 eval 方法、Aaron Levie 说数据该上资产负债表。
 
