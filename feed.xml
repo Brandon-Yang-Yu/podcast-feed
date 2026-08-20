@@ -32,6 +32,94 @@
 
     
     <item>
+      <title>给模型 hook，别给它大纲：Portola 的三幕剧撞了墙</title>
+      <description>这句来自 Every 聊 Tolan 那期播客。另外有 Thariq 讲软件工厂、Madhu Guru 的 eval 失败分类、Levie 说专家占上风、OpenAI 的 ZDR 新做法。
+
+本期内容
+
+1. Thariq 说软件从来就是不可靠的生意（Thariq · X）
+   定制系统会变成流水线，全新产品不会，agent 帮不上那一半
+   https://x.com/trq212/status/2090134945490678071
+
+2. Amjad Masad 说 agent 让软件变便宜、写代码变贵（Amjad Masad · X）
+   成本从人力换成 token 是真的，但没条款就没法判断怎么改
+   https://x.com/amasad/status/2090079496124674377
+
+3. Madhu Guru 讲 eval 的失败模式分类表（Madhu Guru · X）
+   翻五百到一千条生产 trace 起名字，今天就能照做
+   https://x.com/realmadhuguru/status/2090242427944833047
+
+4. Aaron Levie 说 AI 时代专家占上风（Aaron Levie · X）
+   知道什么样算好写不进 prompt；但放大差距那句他没给数据
+   https://x.com/levie/status/2090278256306229675
+
+5. OpenAI 预告 Private Safety Processing（Thibault Sottiaux · X）
+   有限的安全信号具体是什么没说，九月上线时能验
+   https://x.com/thsottiaux/status/2090173536010957128
+
+6. Guillermo Rauch 讲 fx 的启动速度和 wasm 体积（Guillermo Rauch · X）
+   agent 一轮循环多等半秒，跑一百轮就是五十秒，冷启动成了硬指标
+   https://x.com/rauchg/status/2090255740384751664
+
+7. Tolan 加五百毫秒二次校验，全线指标崩掉（Quentin · 播客）
+   语音产品里延迟就是体验，准确度换不回来
+   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+8. Elliot 把叙事从三幕剧换成 hook 加即兴（Elliot · 播客）
+   模型强在局部连贯、弱在长程规划，别给它十步计划
+   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Thu, 20 Aug 2026 08:10:19 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-20-181015.mp3"
+                 length="11906029"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-20-181015.mp3</guid>
+      <itunes:duration>12:24</itunes:duration>
+      <itunes:summary>这句来自 Every 聊 Tolan 那期播客。另外有 Thariq 讲软件工厂、Madhu Guru 的 eval 失败分类、Levie 说专家占上风、OpenAI 的 ZDR 新做法。
+
+本期内容
+
+1. Thariq 说软件从来就是不可靠的生意（Thariq · X）
+   定制系统会变成流水线，全新产品不会，agent 帮不上那一半
+   https://x.com/trq212/status/2090134945490678071
+
+2. Amjad Masad 说 agent 让软件变便宜、写代码变贵（Amjad Masad · X）
+   成本从人力换成 token 是真的，但没条款就没法判断怎么改
+   https://x.com/amasad/status/2090079496124674377
+
+3. Madhu Guru 讲 eval 的失败模式分类表（Madhu Guru · X）
+   翻五百到一千条生产 trace 起名字，今天就能照做
+   https://x.com/realmadhuguru/status/2090242427944833047
+
+4. Aaron Levie 说 AI 时代专家占上风（Aaron Levie · X）
+   知道什么样算好写不进 prompt；但放大差距那句他没给数据
+   https://x.com/levie/status/2090278256306229675
+
+5. OpenAI 预告 Private Safety Processing（Thibault Sottiaux · X）
+   有限的安全信号具体是什么没说，九月上线时能验
+   https://x.com/thsottiaux/status/2090173536010957128
+
+6. Guillermo Rauch 讲 fx 的启动速度和 wasm 体积（Guillermo Rauch · X）
+   agent 一轮循环多等半秒，跑一百轮就是五十秒，冷启动成了硬指标
+   https://x.com/rauchg/status/2090255740384751664
+
+7. Tolan 加五百毫秒二次校验，全线指标崩掉（Quentin · 播客）
+   语音产品里延迟就是体验，准确度换不回来
+   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+8. Elliot 把叙事从三幕剧换成 hook 加即兴（Elliot · 播客）
+   模型强在局部连贯、弱在长程规划，别给它十步计划
+   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>模型层防不住的漏洞，最后都靠环境层硬边界兜底</title>
       <description>这个判断来自Anthropic讲怎么关住Claude的工程博客。另外聊了OpenAI暂停RL训练、Codex误删用户文件、Vercel百万美元安全悬赏、Levie谈企业AI价值，还有Sutton讲continual learning。
 
