@@ -32,6 +32,86 @@
 
     
     <item>
+      <title>Claude Code 变笨查出三个原因，最狠的是一行 prompt</title>
+      <description>结论来自 Anthropic 的 Claude Code 复盘。另外聊了 Codex 额度风波、分层 eval、Levie 说垂直领域值得自己训模型、Max Hodak 的视网膜假体。
+
+本期内容
+
+1. Codex 额度没改，是 sub2api 用户被风控标记（Thibault Sottiaux · X）
+   被限速和被标记在用户那头长得一样，这个提示该做进客户端
+   https://x.com/thsottiaux/status/2090675027670978569
+
+2. 分层 eval 策略：hill-climb、regression、smoke、launch（Madhu Guru · X）
+   hill-climb 那套题不换新，分数会涨而产品不动
+   https://x.com/realmadhuguru/status/2090595384905113939
+
+3. 让 manager agent 去激 worker agent 提升输出（Peter Yang · X）
+   变好的功劳是多采了一次样，不是模型被激到了
+   https://x.com/petergyang/status/2090564541499498919
+
+4. 垂直领域什么时候值得自己做 post-training（Aaron Levie · X）
+   成本高会被下一代降价抹掉，任务独特才是能立住的理由
+   https://x.com/levie/status/2090664811185205722
+
+5. Claude Code 企业版 safeguards 跑在客户自己的基础设施上（Boris Cherny · X）
+   Mythos 那一档需要额外安全措施，这句比产品公告本身重要
+   https://x.com/bcherny/status/2090537902912815536
+
+6. Claude Code 变笨的三个独立原因和复盘（Anthropic Engineering · 博客）
+   一行限字数的 system prompt 掉三个点，逐行消融这个做法直接抄
+   https://www.anthropic.com/engineering/april-23-postmortem
+
+7. Prima 视网膜假体拿到欧洲上市许可，以及模型与大脑的表示对齐（Max Hodak · 播客）
+   能对齐是硬结果，从这推到 AI 没撞墙中间缺的东西太多
+   https://www.youtube.com/watch?v=7HXqMepjvy8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Fri, 21 Aug 2026 08:11:21 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-21-181116.mp3"
+                 length="13969075"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-21-181116.mp3</guid>
+      <itunes:duration>14:33</itunes:duration>
+      <itunes:summary>结论来自 Anthropic 的 Claude Code 复盘。另外聊了 Codex 额度风波、分层 eval、Levie 说垂直领域值得自己训模型、Max Hodak 的视网膜假体。
+
+本期内容
+
+1. Codex 额度没改，是 sub2api 用户被风控标记（Thibault Sottiaux · X）
+   被限速和被标记在用户那头长得一样，这个提示该做进客户端
+   https://x.com/thsottiaux/status/2090675027670978569
+
+2. 分层 eval 策略：hill-climb、regression、smoke、launch（Madhu Guru · X）
+   hill-climb 那套题不换新，分数会涨而产品不动
+   https://x.com/realmadhuguru/status/2090595384905113939
+
+3. 让 manager agent 去激 worker agent 提升输出（Peter Yang · X）
+   变好的功劳是多采了一次样，不是模型被激到了
+   https://x.com/petergyang/status/2090564541499498919
+
+4. 垂直领域什么时候值得自己做 post-training（Aaron Levie · X）
+   成本高会被下一代降价抹掉，任务独特才是能立住的理由
+   https://x.com/levie/status/2090664811185205722
+
+5. Claude Code 企业版 safeguards 跑在客户自己的基础设施上（Boris Cherny · X）
+   Mythos 那一档需要额外安全措施，这句比产品公告本身重要
+   https://x.com/bcherny/status/2090537902912815536
+
+6. Claude Code 变笨的三个独立原因和复盘（Anthropic Engineering · 博客）
+   一行限字数的 system prompt 掉三个点，逐行消融这个做法直接抄
+   https://www.anthropic.com/engineering/april-23-postmortem
+
+7. Prima 视网膜假体拿到欧洲上市许可，以及模型与大脑的表示对齐（Max Hodak · 播客）
+   能对齐是硬结果，从这推到 AI 没撞墙中间缺的东西太多
+   https://www.youtube.com/watch?v=7HXqMepjvy8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>给模型 hook，别给它大纲：Portola 的三幕剧撞了墙</title>
       <description>这句来自 Every 聊 Tolan 那期播客。另外有 Thariq 讲软件工厂、Madhu Guru 的 eval 失败分类、Levie 说专家占上风、OpenAI 的 ZDR 新做法。
 
