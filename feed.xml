@@ -32,6 +32,78 @@
 
     
     <item>
+      <title>机器碾压象棋三十年，chess.com 日活创新高</title>
+      <description>这条出自 No Priors 的 chess.com 访谈。另外聊了 Codex 额度掉得快、eval 别压成一个总分、ELI5 skill、Claude Security 扫漏洞、swyx 改口信模拟。
+
+本期内容
+
+1. Codex 额度消耗变快，官方说是缓存没命中（Thibault Sottiaux · X）
+   解释站得住，但没说什么导致缓存失效，前缀改一个字后面全作废
+   https://x.com/thsottiaux/status/2091033630147854385
+
+2. 别把一整套 eval 压成一个总分（Madhu Guru · X）
+   加权分是给判断题套一层假精确，最难的用例总被权重稀释掉
+   https://x.com/realmadhuguru/status/2090930137885774324
+
+3. Anthropic 内部常用的 ELI5 skill（Thariq · X）
+   大图少字是硬约束，逼模型先把结构想清楚；问事故成因比问代码更值
+   https://x.com/trq212/status/2090884854590382515
+
+4. Claude Security 用 Mythos 扫 GitHub 仓库漏洞（Claude · X）
+   跨文件追数据流是跟老工具的差别，但你拿到的是结论，碰不到模型
+   https://x.com/claudeai/status/2090852316328902930
+
+5. swyx 改口，认为模拟人类是新的 scaling law（Swyx · X）
+   人类反馈这层最卡，模拟它回路才转得起来；PMF 和分布差距都没给数据
+   https://x.com/swyx/status/2090948945753076141
+
+6. chess.com 在机器超人三十年后做到日活一千万（Erik Allebest · 播客）
+   人下棋图的是对面坐着人；作弊防不住但抓得住，靠的是二十年行为数据
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Sat, 22 Aug 2026 08:09:10 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-22-180906.mp3"
+                 length="10374626"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-22-180906.mp3</guid>
+      <itunes:duration>10:48</itunes:duration>
+      <itunes:summary>这条出自 No Priors 的 chess.com 访谈。另外聊了 Codex 额度掉得快、eval 别压成一个总分、ELI5 skill、Claude Security 扫漏洞、swyx 改口信模拟。
+
+本期内容
+
+1. Codex 额度消耗变快，官方说是缓存没命中（Thibault Sottiaux · X）
+   解释站得住，但没说什么导致缓存失效，前缀改一个字后面全作废
+   https://x.com/thsottiaux/status/2091033630147854385
+
+2. 别把一整套 eval 压成一个总分（Madhu Guru · X）
+   加权分是给判断题套一层假精确，最难的用例总被权重稀释掉
+   https://x.com/realmadhuguru/status/2090930137885774324
+
+3. Anthropic 内部常用的 ELI5 skill（Thariq · X）
+   大图少字是硬约束，逼模型先把结构想清楚；问事故成因比问代码更值
+   https://x.com/trq212/status/2090884854590382515
+
+4. Claude Security 用 Mythos 扫 GitHub 仓库漏洞（Claude · X）
+   跨文件追数据流是跟老工具的差别，但你拿到的是结论，碰不到模型
+   https://x.com/claudeai/status/2090852316328902930
+
+5. swyx 改口，认为模拟人类是新的 scaling law（Swyx · X）
+   人类反馈这层最卡，模拟它回路才转得起来；PMF 和分布差距都没给数据
+   https://x.com/swyx/status/2090948945753076141
+
+6. chess.com 在机器超人三十年后做到日活一千万（Erik Allebest · 播客）
+   人下棋图的是对面坐着人；作弊防不住但抓得住，靠的是二十年行为数据
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Claude Code 变笨查出三个原因，最狠的是一行 prompt</title>
       <description>结论来自 Anthropic 的 Claude Code 复盘。另外聊了 Codex 额度风波、分层 eval、Levie 说垂直领域值得自己训模型、Max Hodak 的视网膜假体。
 
