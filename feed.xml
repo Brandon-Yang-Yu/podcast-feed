@@ -32,6 +32,86 @@
 
     
     <item>
+      <title>只测最终答案的 eval，救不了 agent</title>
+      <description>这个判断出自 Meta 的 Madhu Guru。还聊了 Shreya 的两类 eval、Rauch 说 Sol 降价拉动用量、Garry Tan 的记录系统预测，以及 Claude 接进苹果的框架。
+
+本期内容
+
+1. eval 要按 agent 的每个阶段分开测（Madhu Guru · X）
+   拆到每步都有中间产物才测得出问题，细到能诊断就够，别给每个 tool call 建 eval
+   https://x.com/realmadhuguru/status/2091684812012875981
+
+2. top-down 和 bottom-up 两类 eval（Peter Yang 引 Shreya · X）
+   模型能帮你搭骨架，但它没见过你的用户，猜不出你忍不了什么
+   https://x.com/petergyang/status/2091586298779955512
+
+3. Sol 降价后成为 Vercel 上增长最快的前沿模型（Guillermo Rauch · X）
+   gateway 上切换成本几乎为零，这里看到的弹性推不到真实业务上
+   https://x.com/rauchg/status/2091671326897713424
+
+4. 扩展 fx 走开放协议，最好的那个是 Unix（Guillermo Rauch · X）
+   Unix 的前提是输出稳定，模型不稳，管道一长就散
+   https://x.com/rauchg/status/2091583525661384813
+
+5. systems of record 要变成 AI harness，否则被 agent 取代（Garry Tan · X）
+   被取代那半句太重，权限审计和历史数据短期动不了；改成 agent 能用的接口现在就能做
+   https://x.com/garrytan/status/2091742825042030681
+
+6. 2026 是企业开始认真看模型效率和可靠性的一年（Thibault Sottiaux · X）
+   这句是从一次用量事故里长出来的，进了生产流程，延迟和成本的抖动比聪明要命
+   https://x.com/thsottiaux/status/2091581575108653374
+
+7. Claude 接进 Apple 的 Foundation Models framework（Claude Blog · 博客）
+   本地模型先把用户输入变成结构化字段再交给 Claude，省掉最容易出错的那段解析代码
+   https://claude.com/blog/claude-for-foundation-models
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Mon, 24 Aug 2026 08:08:36 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-24-180832.mp3"
+                 length="10305663"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-24-180832.mp3</guid>
+      <itunes:duration>10:44</itunes:duration>
+      <itunes:summary>这个判断出自 Meta 的 Madhu Guru。还聊了 Shreya 的两类 eval、Rauch 说 Sol 降价拉动用量、Garry Tan 的记录系统预测，以及 Claude 接进苹果的框架。
+
+本期内容
+
+1. eval 要按 agent 的每个阶段分开测（Madhu Guru · X）
+   拆到每步都有中间产物才测得出问题，细到能诊断就够，别给每个 tool call 建 eval
+   https://x.com/realmadhuguru/status/2091684812012875981
+
+2. top-down 和 bottom-up 两类 eval（Peter Yang 引 Shreya · X）
+   模型能帮你搭骨架，但它没见过你的用户，猜不出你忍不了什么
+   https://x.com/petergyang/status/2091586298779955512
+
+3. Sol 降价后成为 Vercel 上增长最快的前沿模型（Guillermo Rauch · X）
+   gateway 上切换成本几乎为零，这里看到的弹性推不到真实业务上
+   https://x.com/rauchg/status/2091671326897713424
+
+4. 扩展 fx 走开放协议，最好的那个是 Unix（Guillermo Rauch · X）
+   Unix 的前提是输出稳定，模型不稳，管道一长就散
+   https://x.com/rauchg/status/2091583525661384813
+
+5. systems of record 要变成 AI harness，否则被 agent 取代（Garry Tan · X）
+   被取代那半句太重，权限审计和历史数据短期动不了；改成 agent 能用的接口现在就能做
+   https://x.com/garrytan/status/2091742825042030681
+
+6. 2026 是企业开始认真看模型效率和可靠性的一年（Thibault Sottiaux · X）
+   这句是从一次用量事故里长出来的，进了生产流程，延迟和成本的抖动比聪明要命
+   https://x.com/thsottiaux/status/2091581575108653374
+
+7. Claude 接进 Apple 的 Foundation Models framework（Claude Blog · 博客）
+   本地模型先把用户输入变成结构化字段再交给 Claude，省掉最容易出错的那段解析代码
+   https://claude.com/blog/claude-for-foundation-models
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Codex 的额度烧在 harness 上，模型没变贵</title>
       <description>这个结论来自 Thibault Sottiaux 讲 Codex 限额那条。还聊了 Levie 和 Madhu Guru 都说 eval 是瓶颈、Zara Zhang 说大公司吃掉个人产能、Kevin Scott 的 capability overhang。
 
