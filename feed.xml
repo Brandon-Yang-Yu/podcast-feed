@@ -32,6 +32,110 @@
 
     
     <item>
+      <title>企业挑不出 context 里的敏感数据，只能要求 ZDR</title>
+      <description>这个判断来自 Box 的 Aaron Levie。另外聊了 OpenAI 恢复 Plus 五小时限制、Madhu Guru 讲 eval 的区分度、Rauch 用 Zig 重写 reset。
+
+本期内容
+
+1. OpenAI 给 Plus 账号恢复五小时用量窗口（Thibault Sottiaux · X）
+   摊平算力峰值的理由成立，为用户好那句是包装；贵的档买的是不被打断
+   https://x.com/thsottiaux/status/2092058556707344708
+
+2. agent 时代 system of record 的权限和商业模式（Aaron Levie · X）
+   一百倍是随口说的，但按席位收费遇上没有席位的 agent 是真问题
+   https://x.com/levie/status/2092087679240569126
+
+3. ZDR 撑起了企业 AI 的采用速度（Aaron Levie · X）
+   敏感数据从 context window 里挑不出来，所以只能整体要求不留
+   https://x.com/levie/status/2091909170308296950
+
+4. 好的 eval 得能把两个系统分开（Madhu Guru · X）
+   分数挤在两三分以内时噪声比信号大，榜单领先说明不了事
+   https://x.com/realmadhuguru/status/2092058332735693264
+
+5. reset 慢一秒的原因来自 1979 年的 3BSD（Guillermo Rauch · X）
+   一秒变一毫秒，这种以前不值得干的修复现在算得过账了
+   https://x.com/rauchg/status/2091957823945216474
+
+6. 改不了的软件让人烦躁（Peter Steinberger · X）
+   这句只对本地工具成立，SaaS 改不了是因为它在别人的服务器上
+   https://x.com/steipete/status/2091923535513928015
+
+7. 遇到登录墙就放弃这个产品（Peter Yang · X）
+   登录墙是 agent 现在最硬的一堵墙，拿不到账号就只能停在门口
+   https://x.com/petergyang/status/2092080901094248474
+
+8. 想用 AI 打客服电话闯语音菜单（Peter Yang · X）
+   菜单是给人的耳朵设计的，agent 也得听完，省的是注意力不是时间
+   https://x.com/petergyang/status/2092031413319266382
+
+9. Replit Agent 取代了 Claude CoWork（Amjad Masad · X）
+   没细节没任务，当观察记下来；会写脚本干活这半句有东西
+   https://x.com/amasad/status/2091962601907638352
+
+10. 形成看法、做出东西、跟现实碰、读结果（Garry Tan · X）
+   做东西那一步几乎免费了，瓶颈压到不自欺地读结果这一步
+   https://x.com/garrytan/status/2092059517446156640
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Tue, 25 Aug 2026 08:08:08 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-25-180805.mp3"
+                 length="9770257"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-25-180805.mp3</guid>
+      <itunes:duration>10:10</itunes:duration>
+      <itunes:summary>这个判断来自 Box 的 Aaron Levie。另外聊了 OpenAI 恢复 Plus 五小时限制、Madhu Guru 讲 eval 的区分度、Rauch 用 Zig 重写 reset。
+
+本期内容
+
+1. OpenAI 给 Plus 账号恢复五小时用量窗口（Thibault Sottiaux · X）
+   摊平算力峰值的理由成立，为用户好那句是包装；贵的档买的是不被打断
+   https://x.com/thsottiaux/status/2092058556707344708
+
+2. agent 时代 system of record 的权限和商业模式（Aaron Levie · X）
+   一百倍是随口说的，但按席位收费遇上没有席位的 agent 是真问题
+   https://x.com/levie/status/2092087679240569126
+
+3. ZDR 撑起了企业 AI 的采用速度（Aaron Levie · X）
+   敏感数据从 context window 里挑不出来，所以只能整体要求不留
+   https://x.com/levie/status/2091909170308296950
+
+4. 好的 eval 得能把两个系统分开（Madhu Guru · X）
+   分数挤在两三分以内时噪声比信号大，榜单领先说明不了事
+   https://x.com/realmadhuguru/status/2092058332735693264
+
+5. reset 慢一秒的原因来自 1979 年的 3BSD（Guillermo Rauch · X）
+   一秒变一毫秒，这种以前不值得干的修复现在算得过账了
+   https://x.com/rauchg/status/2091957823945216474
+
+6. 改不了的软件让人烦躁（Peter Steinberger · X）
+   这句只对本地工具成立，SaaS 改不了是因为它在别人的服务器上
+   https://x.com/steipete/status/2091923535513928015
+
+7. 遇到登录墙就放弃这个产品（Peter Yang · X）
+   登录墙是 agent 现在最硬的一堵墙，拿不到账号就只能停在门口
+   https://x.com/petergyang/status/2092080901094248474
+
+8. 想用 AI 打客服电话闯语音菜单（Peter Yang · X）
+   菜单是给人的耳朵设计的，agent 也得听完，省的是注意力不是时间
+   https://x.com/petergyang/status/2092031413319266382
+
+9. Replit Agent 取代了 Claude CoWork（Amjad Masad · X）
+   没细节没任务，当观察记下来；会写脚本干活这半句有东西
+   https://x.com/amasad/status/2091962601907638352
+
+10. 形成看法、做出东西、跟现实碰、读结果（Garry Tan · X）
+   做东西那一步几乎免费了，瓶颈压到不自欺地读结果这一步
+   https://x.com/garrytan/status/2092059517446156640
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>只测最终答案的 eval，救不了 agent</title>
       <description>这个判断出自 Meta 的 Madhu Guru。还聊了 Shreya 的两类 eval、Rauch 说 Sol 降价拉动用量、Garry Tan 的记录系统预测，以及 Claude 接进苹果的框架。
 
