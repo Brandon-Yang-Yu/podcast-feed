@@ -32,6 +32,78 @@
 
     
     <item>
+      <title>人的点击数据是个 bug，agent 搜索得换排序信号</title>
+      <description>这句出自 Parallel 的 Parag Agrawal。还聊了 Madhu Guru 的 eval 路线图、Claude 打通记忆、Levie 讲应用层机会、swyx 踩 codex 的坑。
+
+本期内容
+
+1. eval 不该是静态产物，得跟着用法一起变（Madhu Guru · X）
+   从被动问答到主动 agent 是一次跳变，前后的 eval 根本不是一回事
+   https://x.com/realmadhuguru/status/2092426017118028266
+
+2. Claude 打通 chat 和 Cowork 的记忆（Claude / Cat Wu / Boris Cherny · X）
+   记忆改成它自己攒的，可读可删这一步做对了，跨家 harness 还是通不了
+   https://x.com/claudeai/status/2092299704864284888
+
+3. Aaron Levie 说模型和企业工作流之间隔着一道口子（Aaron Levie · X）
+   口子是真的，但他列的那串活里只有模型路由会随模型变强而更值钱
+   https://x.com/levie/status/2092466424694649066
+
+4. swyx 被 codex 的 locked use 锁出 macOS 钥匙串（swyx · X）
+   苹果已承认是已知 bug，收紧权限的功能出事就是系统级的
+   https://x.com/swyx/status/2092492963435946494
+
+5. Vercel 发 Run SDK，用 QuickJS 代替完整 sandbox（Guillermo Rauch · X）
+   只做计算时这笔账划算，要文件和网络就退回 sandbox，而且隔离更弱
+   https://x.com/rauchg/status/2092382653161107534
+
+6. Parag Agrawal 讲给 agent 做的搜索和内容分钱（Parag Agrawal · 播客）
+   三秒压到两百毫秒是真变化；Shapley 分钱思路干净但算一次比要付的钱还贵
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Wed, 26 Aug 2026 08:07:49 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-26-180747.mp3"
+                 length="3801800"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-26-180747.mp3</guid>
+      <itunes:duration>3:57</itunes:duration>
+      <itunes:summary>这句出自 Parallel 的 Parag Agrawal。还聊了 Madhu Guru 的 eval 路线图、Claude 打通记忆、Levie 讲应用层机会、swyx 踩 codex 的坑。
+
+本期内容
+
+1. eval 不该是静态产物，得跟着用法一起变（Madhu Guru · X）
+   从被动问答到主动 agent 是一次跳变，前后的 eval 根本不是一回事
+   https://x.com/realmadhuguru/status/2092426017118028266
+
+2. Claude 打通 chat 和 Cowork 的记忆（Claude / Cat Wu / Boris Cherny · X）
+   记忆改成它自己攒的，可读可删这一步做对了，跨家 harness 还是通不了
+   https://x.com/claudeai/status/2092299704864284888
+
+3. Aaron Levie 说模型和企业工作流之间隔着一道口子（Aaron Levie · X）
+   口子是真的，但他列的那串活里只有模型路由会随模型变强而更值钱
+   https://x.com/levie/status/2092466424694649066
+
+4. swyx 被 codex 的 locked use 锁出 macOS 钥匙串（swyx · X）
+   苹果已承认是已知 bug，收紧权限的功能出事就是系统级的
+   https://x.com/swyx/status/2092492963435946494
+
+5. Vercel 发 Run SDK，用 QuickJS 代替完整 sandbox（Guillermo Rauch · X）
+   只做计算时这笔账划算，要文件和网络就退回 sandbox，而且隔离更弱
+   https://x.com/rauchg/status/2092382653161107534
+
+6. Parag Agrawal 讲给 agent 做的搜索和内容分钱（Parag Agrawal · 播客）
+   三秒压到两百毫秒是真变化；Shapley 分钱思路干净但算一次比要付的钱还贵
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>企业挑不出 context 里的敏感数据，只能要求 ZDR</title>
       <description>这个判断来自 Box 的 Aaron Levie。另外聊了 OpenAI 恢复 Plus 五小时限制、Madhu Guru 讲 eval 的区分度、Rauch 用 Zig 重写 reset。
 
