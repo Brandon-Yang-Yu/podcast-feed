@@ -32,6 +32,70 @@
 
     
     <item>
+      <title>Agent 的瓶颈在跑命令，不在模型笨不笨</title>
+      <description>源自 Rauch 讲 fx 的推文。另聊 AI 接管预测、模型涨价、产品同质化，及 Hodak 讲视网膜芯片与脑机对齐。
+
+本期内容
+
+1. Greenblatt 预测 AI 或在 2029 年接管（Matt Turck · X）
+   RSI 现在实际做的是模型帮写训练代码，离接管还差自主目标、执行能力这几步
+   https://x.com/mattturck/status/2093794720510062617
+
+2. Rauch 发布 agent 工具 fx 0.0.7（Guillermo Rauch · X）
+   agent 真正的坑是跑命令这种脏活会卡住会乱输出，不是模型笨不笨
+   https://x.com/rauchg/status/2093736865191076318
+
+3. Nikunj 预测模型厂商价格战后会涨价（Nikunj Kothari · X）
+   补贴撑不住真实推理成本，涨价是迟早的事，但涨价对做 harness 的公司未必是好事
+   https://x.com/nikunj/status/2093860971781746776
+
+4. Zara Zhang 说 AI 产品越来越像（Zara Zhang · X）
+   差异都在 prompt 和界面这层，谁能拿到用户数据谁才有真正的机会
+   https://x.com/zarazhangrui/status/2093944988262371465
+
+5. No Priors 对谈 Max Hodak 讲视网膜芯片（Max Hodak · 播客）
+   Prima 已经能让病人读书，AI 模型和大脑表示方式趋同这条线更值得盯着
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Sun, 30 Aug 2026 08:09:15 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-30-180912.mp3"
+                 length="8746257"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-30-180912.mp3</guid>
+      <itunes:duration>9:06</itunes:duration>
+      <itunes:summary>源自 Rauch 讲 fx 的推文。另聊 AI 接管预测、模型涨价、产品同质化，及 Hodak 讲视网膜芯片与脑机对齐。
+
+本期内容
+
+1. Greenblatt 预测 AI 或在 2029 年接管（Matt Turck · X）
+   RSI 现在实际做的是模型帮写训练代码，离接管还差自主目标、执行能力这几步
+   https://x.com/mattturck/status/2093794720510062617
+
+2. Rauch 发布 agent 工具 fx 0.0.7（Guillermo Rauch · X）
+   agent 真正的坑是跑命令这种脏活会卡住会乱输出，不是模型笨不笨
+   https://x.com/rauchg/status/2093736865191076318
+
+3. Nikunj 预测模型厂商价格战后会涨价（Nikunj Kothari · X）
+   补贴撑不住真实推理成本，涨价是迟早的事，但涨价对做 harness 的公司未必是好事
+   https://x.com/nikunj/status/2093860971781746776
+
+4. Zara Zhang 说 AI 产品越来越像（Zara Zhang · X）
+   差异都在 prompt 和界面这层，谁能拿到用户数据谁才有真正的机会
+   https://x.com/zarazhangrui/status/2093944988262371465
+
+5. No Priors 对谈 Max Hodak 讲视网膜芯片（Max Hodak · 播客）
+   Prima 已经能让病人读书，AI 模型和大脑表示方式趋同这条线更值得盯着
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>人的点击数据是个 bug，agent 搜索得换排序信号</title>
       <description>这句出自 Parallel 的 Parag Agrawal。还聊了 Madhu Guru 的 eval 路线图、Claude 打通记忆、Levie 讲应用层机会、swyx 踩 codex 的坑。
 
