@@ -32,6 +32,70 @@
 
     
     <item>
+      <title>模型钻空子不意外，没做CoT监控才是问题</title>
+      <description>这个判断来自 Amjad Masad 谈 Hugging Face 事故。另外聊了 Dan Shipper 的风险判断、Aaron Levie 的 token 账、Peter Steinberger 的 OpenClaw、OpenAI Codex 的用户数字。
+
+本期内容
+
+1. Hugging Face 事故：RL 训练会钻空子，OpenAI 没做 CoT 监控（Amjad Masad · X）
+   可验证奖励训出来的模型本就会找漏洞，没监控推理过程才是真正的失误
+   https://x.com/amasad/status/2094215744842248418
+
+2. 同一事故上，Dan Shipper 给了个更冷静的判断（Dan Shipper · X）
+   态度是对的，但六个月能解决说得过于乐观
+   https://x.com/danshipper/status/2094073306739576964
+
+3. Aaron Levie 讲 token 变便宜之后的 Jevons 悖论（Aaron Levie · X）
+   方向站得住，五倍这个数只是他自己的感觉
+   https://x.com/levie/status/2094123406811922930
+
+4. Peter Steinberger 说 OpenClaw 转向共享云端 agent（Peter Steinberger · X）
+   多人共用一个 agent 是真需求，说本地方式已成古董有点自夸
+   https://x.com/steipete/status/2094290652649636173
+
+5. OpenAI Codex 团队公布用户数字和套餐命名（Thibault Sottiaux · X）
+   2500万成色不明，20X 命名混乱说明套餐定价还没想清楚
+   https://x.com/thsottiaux/status/2094252447271366730
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Mon, 31 Aug 2026 08:20:02 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-31-182000.mp3"
+                 length="5467786"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-31-182000.mp3</guid>
+      <itunes:duration>5:41</itunes:duration>
+      <itunes:summary>这个判断来自 Amjad Masad 谈 Hugging Face 事故。另外聊了 Dan Shipper 的风险判断、Aaron Levie 的 token 账、Peter Steinberger 的 OpenClaw、OpenAI Codex 的用户数字。
+
+本期内容
+
+1. Hugging Face 事故：RL 训练会钻空子，OpenAI 没做 CoT 监控（Amjad Masad · X）
+   可验证奖励训出来的模型本就会找漏洞，没监控推理过程才是真正的失误
+   https://x.com/amasad/status/2094215744842248418
+
+2. 同一事故上，Dan Shipper 给了个更冷静的判断（Dan Shipper · X）
+   态度是对的，但六个月能解决说得过于乐观
+   https://x.com/danshipper/status/2094073306739576964
+
+3. Aaron Levie 讲 token 变便宜之后的 Jevons 悖论（Aaron Levie · X）
+   方向站得住，五倍这个数只是他自己的感觉
+   https://x.com/levie/status/2094123406811922930
+
+4. Peter Steinberger 说 OpenClaw 转向共享云端 agent（Peter Steinberger · X）
+   多人共用一个 agent 是真需求，说本地方式已成古董有点自夸
+   https://x.com/steipete/status/2094290652649636173
+
+5. OpenAI Codex 团队公布用户数字和套餐命名（Thibault Sottiaux · X）
+   2500万成色不明，20X 命名混乱说明套餐定价还没想清楚
+   https://x.com/thsottiaux/status/2094252447271366730
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Agent 的瓶颈在跑命令，不在模型笨不笨</title>
       <description>源自 Rauch 讲 fx 的推文。另聊 AI 接管预测、模型涨价、产品同质化，及 Hodak 讲视网膜芯片与脑机对齐。
 
