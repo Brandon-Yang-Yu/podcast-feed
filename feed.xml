@@ -32,6 +32,102 @@
 
     
     <item>
+      <title>Sutton：合成数据的上限卡在人身上</title>
+      <description>这个判断出自 Training Data 那期 Sutton 访谈。另外聊了 Levie 说有数据的公司该自己训模型、Rauch 的 DESIGN.md 和 token 预算、给 PM 的四个问题、Garry Tan 的 GBrain。
+
+本期内容
+
+1. 有大量数据的公司现在能自己训模型，不用只授权数据（Aaron Levie · X）
+   预训练是不用碰了，但 eval、清洗、防退化的成本他一个字没提
+   https://x.com/levie/status/2094650992818274514
+
+2. DESIGN.md 把设计规范写成 Markdown 喂给模型（Guillermo Rauch · X）
+   它管得住间距和配色，管不住这个页面该不该有这个按钮
+   https://x.com/rauchg/status/2094541309579235680
+
+3. coding token 是基础设施，AI Gateway 加了按人设预算（Guillermo Rauch · X）
+   设上限最容易，难的是知道这笔钱花在谁身上、换回了什么
+   https://x.com/rauchg/status/2094523399280435630
+
+4. PM 该比 lab 的研究员更清楚模型在自己场景上的边界（Madhu Guru · X）
+   前三个问题靠自己攒 eval 能答，第四个是纯赌，他没给方法
+   https://x.com/realmadhuguru/status/2094591503981281503
+
+5. Nan Yu 离开 Linear 加入 OpenAI 做 Codex 和 ChatGPT（Nan Yu · X）
+   Codex 缺的是产品那层壳，不是模型分数
+   https://x.com/thenanyu/status/2094427243565269107
+
+6. OpenAI 公开问：还没试 Codex 的人是被什么拦住的（Thibault Sottiaux · X）
+   一千八百条回复，问题本身承认了一批人连试都没试
+   https://x.com/thsottiaux/status/2094588317245509959
+
+7. GBrain 新增 eval，不带 LLM 读记忆、从对话记录存记忆（Garry Tan · X）
+   memory 没有公认 benchmark，SOTA 不值钱，eval 开源才值钱
+   https://x.com/garrytan/status/2094462971598754010
+
+8. Rich Sutton 说合成数据是个大错误，big world hypothesis（Rich Sutton、Khurram Javed · 播客）
+   上限是决定生成什么的那个人，不是算力；仿真器不会自己更新
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+9. continual learning 缺的是算法：步长优化和 continual backprop（Rich Sutton、Khurram Javed · 播客）
+   Cursor 的 tab 模型用大 batch 绕开了遗忘，也学不会你一个人的东西
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Tue, 01 Sep 2026 08:10:50 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-01-181046.mp3"
+                 length="13176625"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-01-181046.mp3</guid>
+      <itunes:duration>13:43</itunes:duration>
+      <itunes:summary>这个判断出自 Training Data 那期 Sutton 访谈。另外聊了 Levie 说有数据的公司该自己训模型、Rauch 的 DESIGN.md 和 token 预算、给 PM 的四个问题、Garry Tan 的 GBrain。
+
+本期内容
+
+1. 有大量数据的公司现在能自己训模型，不用只授权数据（Aaron Levie · X）
+   预训练是不用碰了，但 eval、清洗、防退化的成本他一个字没提
+   https://x.com/levie/status/2094650992818274514
+
+2. DESIGN.md 把设计规范写成 Markdown 喂给模型（Guillermo Rauch · X）
+   它管得住间距和配色，管不住这个页面该不该有这个按钮
+   https://x.com/rauchg/status/2094541309579235680
+
+3. coding token 是基础设施，AI Gateway 加了按人设预算（Guillermo Rauch · X）
+   设上限最容易，难的是知道这笔钱花在谁身上、换回了什么
+   https://x.com/rauchg/status/2094523399280435630
+
+4. PM 该比 lab 的研究员更清楚模型在自己场景上的边界（Madhu Guru · X）
+   前三个问题靠自己攒 eval 能答，第四个是纯赌，他没给方法
+   https://x.com/realmadhuguru/status/2094591503981281503
+
+5. Nan Yu 离开 Linear 加入 OpenAI 做 Codex 和 ChatGPT（Nan Yu · X）
+   Codex 缺的是产品那层壳，不是模型分数
+   https://x.com/thenanyu/status/2094427243565269107
+
+6. OpenAI 公开问：还没试 Codex 的人是被什么拦住的（Thibault Sottiaux · X）
+   一千八百条回复，问题本身承认了一批人连试都没试
+   https://x.com/thsottiaux/status/2094588317245509959
+
+7. GBrain 新增 eval，不带 LLM 读记忆、从对话记录存记忆（Garry Tan · X）
+   memory 没有公认 benchmark，SOTA 不值钱，eval 开源才值钱
+   https://x.com/garrytan/status/2094462971598754010
+
+8. Rich Sutton 说合成数据是个大错误，big world hypothesis（Rich Sutton、Khurram Javed · 播客）
+   上限是决定生成什么的那个人，不是算力；仿真器不会自己更新
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+9. continual learning 缺的是算法：步长优化和 continual backprop（Rich Sutton、Khurram Javed · 播客）
+   Cursor 的 tab 模型用大 batch 绕开了遗忘，也学不会你一个人的东西
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>模型钻空子不意外，没做CoT监控才是问题</title>
       <description>这个判断来自 Amjad Masad 谈 Hugging Face 事故。另外聊了 Dan Shipper 的风险判断、Aaron Levie 的 token 账、Peter Steinberger 的 OpenClaw、OpenAI Codex 的用户数字。
 
