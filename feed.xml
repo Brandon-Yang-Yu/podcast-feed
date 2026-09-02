@@ -32,6 +32,78 @@
 
     
     <item>
+      <title>Peregrine 敢把九成集成交给 agent，因为有 eval</title>
+      <description>这个判断来自 Training Data 那期 Peregrine。另外聊了 Box 拿 Fable 5.1 跑 eval、Claude Code 降价和拦截数、Peter Yang 的 skill 漂移、Anthropic 的 EFS。
+
+本期内容
+
+1. Box 用自家企业 eval 测 Fable 5.1，涨七个百分点（Aaron Levie · X）
+   总分说明不了什么，三个例子都是中间一步判断错、后面无声地烂掉
+   https://x.com/levie/status/2094851976769257770
+
+2. Claude Code 降 cache read 价格，安全拦截误触发大降（Boris Cherny · X）
+   cache read 降四倍改的是长会话成本结构；误拦少了 85%，漏拦数没给
+   https://x.com/bcherny/status/2094864062186426373
+
+3. 清理 AI skills，以及 skill 被单次对话改漂的问题（Peter Yang · X）
+   照一次失败改规则必然过拟合，攒几次再改并回跑旧例子
+   https://x.com/petergyang/status/2094995775952740795
+
+4. 让 agent 少烦人是没被挖的空间（Nan Yu · X）
+   agent 掉用户常常跟能力无关；但「对话设计师」这个新工种我半信半疑
+   https://x.com/thenanyu/status/2094928205753040999
+
+5. Enterprise Frontier Safeguards：给 agent 加一层监控（Alex Albert · X）
+   会变成标配，因为合规部门要的是出事后能拿出记录；隐私细则还没看到
+   https://x.com/alexalbert__/status/2094889286990446769
+
+6. Peregrine 用 agent 做数据集成和 cold case 调查（Nick Noone、Ben Rudolph · 播客）
+   能自动判对错的任务才敢交给 agent；重现已知结论的 demo 别当成办案能力
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Wed, 02 Sep 2026 08:07:18 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-02-180715.mp3"
+                 length="9977147"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-02-180715.mp3</guid>
+      <itunes:duration>10:23</itunes:duration>
+      <itunes:summary>这个判断来自 Training Data 那期 Peregrine。另外聊了 Box 拿 Fable 5.1 跑 eval、Claude Code 降价和拦截数、Peter Yang 的 skill 漂移、Anthropic 的 EFS。
+
+本期内容
+
+1. Box 用自家企业 eval 测 Fable 5.1，涨七个百分点（Aaron Levie · X）
+   总分说明不了什么，三个例子都是中间一步判断错、后面无声地烂掉
+   https://x.com/levie/status/2094851976769257770
+
+2. Claude Code 降 cache read 价格，安全拦截误触发大降（Boris Cherny · X）
+   cache read 降四倍改的是长会话成本结构；误拦少了 85%，漏拦数没给
+   https://x.com/bcherny/status/2094864062186426373
+
+3. 清理 AI skills，以及 skill 被单次对话改漂的问题（Peter Yang · X）
+   照一次失败改规则必然过拟合，攒几次再改并回跑旧例子
+   https://x.com/petergyang/status/2094995775952740795
+
+4. 让 agent 少烦人是没被挖的空间（Nan Yu · X）
+   agent 掉用户常常跟能力无关；但「对话设计师」这个新工种我半信半疑
+   https://x.com/thenanyu/status/2094928205753040999
+
+5. Enterprise Frontier Safeguards：给 agent 加一层监控（Alex Albert · X）
+   会变成标配，因为合规部门要的是出事后能拿出记录；隐私细则还没看到
+   https://x.com/alexalbert__/status/2094889286990446769
+
+6. Peregrine 用 agent 做数据集成和 cold case 调查（Nick Noone、Ben Rudolph · 播客）
+   能自动判对错的任务才敢交给 agent；重现已知结论的 demo 别当成办案能力
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Sutton：合成数据的上限卡在人身上</title>
       <description>这个判断出自 Training Data 那期 Sutton 访谈。另外聊了 Levie 说有数据的公司该自己训模型、Rauch 的 DESIGN.md 和 token 预算、给 PM 的四个问题、Garry Tan 的 GBrain。
 
