@@ -32,6 +32,78 @@
 
     
     <item>
+      <title>Claude 的 computer use 挪到后台，才算能派活</title>
+      <description>判断来自 Claude 官方那条。另外聊了 Claude Tag 自己发现数字对不上、Madhu Guru 说别让用户挑模型、Zara Zhang 说会议记录是给 agent 录的，还有 Katie Parrott 的写作流程。
+
+本期内容
+
+1. Claude 能在后台用你的电脑，点鼠标开应用（Claude 官方 / Boris Cherny · X）
+   会点鼠标不新鲜，不用你盯着才让它从演示变成工具
+   https://x.com/claudeai/status/2095226833293685100
+
+2. Claude Tag 做 deck 时发现供应商报告和表格对不上（Boris Cherny · X）
+   自己发现矛盾是难的，但它没停下来问人，你还得重校一遍
+   https://x.com/bcherny/status/2095276133214491086
+
+3. Madhu Guru 说 AI 产品该把选模型从用户面前拿走（Madhu Guru · X）
+   门槛在自己跑 eval，公开榜单替你答不了；这条也是给 Lovable 站台
+   https://x.com/realmadhuguru/status/2095174463696589223
+
+4. 会议记录不再是给人看的，是录给 agent 的（Zara Zhang · X）
+   几百小时 transcript 检索不出来，跟没录一样
+   https://x.com/zarazhangrui/status/2095375073381318656
+
+5. 不信实验室的数据承诺，所以要用开源模型（Aditya Agarwal · X）
+   他没举违约例子，但权重跑在自己机器上确实不需要信任谁
+   https://x.com/adityaag/status/2095227334534041714
+
+6. Katie Parrott 怎么用 AI 写稿，以及 Compound Writing 插件（Katie Parrott / Natalia Quintero · 播客）
+   模型知道的都是公开平均值，稿子独不独特全看你带进去的输入
+   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Thu, 03 Sep 2026 08:08:32 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-03-180829.mp3"
+                 length="9413738"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-03-180829.mp3</guid>
+      <itunes:duration>9:48</itunes:duration>
+      <itunes:summary>判断来自 Claude 官方那条。另外聊了 Claude Tag 自己发现数字对不上、Madhu Guru 说别让用户挑模型、Zara Zhang 说会议记录是给 agent 录的，还有 Katie Parrott 的写作流程。
+
+本期内容
+
+1. Claude 能在后台用你的电脑，点鼠标开应用（Claude 官方 / Boris Cherny · X）
+   会点鼠标不新鲜，不用你盯着才让它从演示变成工具
+   https://x.com/claudeai/status/2095226833293685100
+
+2. Claude Tag 做 deck 时发现供应商报告和表格对不上（Boris Cherny · X）
+   自己发现矛盾是难的，但它没停下来问人，你还得重校一遍
+   https://x.com/bcherny/status/2095276133214491086
+
+3. Madhu Guru 说 AI 产品该把选模型从用户面前拿走（Madhu Guru · X）
+   门槛在自己跑 eval，公开榜单替你答不了；这条也是给 Lovable 站台
+   https://x.com/realmadhuguru/status/2095174463696589223
+
+4. 会议记录不再是给人看的，是录给 agent 的（Zara Zhang · X）
+   几百小时 transcript 检索不出来，跟没录一样
+   https://x.com/zarazhangrui/status/2095375073381318656
+
+5. 不信实验室的数据承诺，所以要用开源模型（Aditya Agarwal · X）
+   他没举违约例子，但权重跑在自己机器上确实不需要信任谁
+   https://x.com/adityaag/status/2095227334534041714
+
+6. Katie Parrott 怎么用 AI 写稿，以及 Compound Writing 插件（Katie Parrott / Natalia Quintero · 播客）
+   模型知道的都是公开平均值，稿子独不独特全看你带进去的输入
+   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Peregrine 敢把九成集成交给 agent，因为有 eval</title>
       <description>这个判断来自 Training Data 那期 Peregrine。另外聊了 Box 拿 Fable 5.1 跑 eval、Claude Code 降价和拦截数、Peter Yang 的 skill 漂移、Anthropic 的 EFS。
 
@@ -2385,110 +2457,6 @@
 7. Netic 用 agent 接实体服务公司的电话（Melisa Tokmak · 播客）
    七成客户 AI 优先这个数比六亿美元收入更硬，因为不用归因
    https://www.youtube.com/watch?v=wWbX3NL6_Uo
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>长任务 agent 卡在二十四小时一轮的 rollout</title>
-      <description>结论来自 Igor Babushkin 那期访谈。另外聊了 Linear 三成 bug 靠 agent 修完、Anthropic 六成五的 PR 来自 Claude Tag，还有 Levie 谈 harness。
-
-本期内容
-
-1. Linear 里 Issue 到 Agent 到 PR 的 loop，三成 bug 走完全程（Nan Yu · X）
-   三成是端到端通过率，比「agent 写了多少行代码」有用得多
-   https://x.com/thenanyu/status/2083230295206121807
-
-2. 软件项目会变成 agentic software factory（Guillermo Rauch · X）
-   方向没错，但只有名字没有数据，是句标语
-   https://x.com/rauchg/status/2083208578526314513
-
-3. Anthropic 六成五的 PR 由 Claude Tag 提，agent 界面半年三换（Zara Zhang · X）
-   这个数说明入口变了；界面从终端挪进协作工具比百分比更值钱
-   https://x.com/zarazhangrui/status/2083161173563003268
-
-4. harness 会和模型能力并列成为最重要的变量（Aaron Levie · X）
-   任务上亿 token 时 harness 决定错误会不会滚雪球，但自动路由还没人做出来
-   https://x.com/levie/status/2083389460679373135
-
-5. YC 团队自用的 harness 开源（Garry Tan · X）
-   没给数据，就是个发布
-   https://x.com/garrytan/status/2083353760701833546
-
-6. 他还在用 loop 和 goal，认为别人放弃太早（Swyx · X）
-   显式写 goal 把判断标准留在模型外面，跑偏了能复盘
-   https://x.com/swyx/status/2083439562437673053
-
-7. vibe coding 的贬义完全消失了（Swyx · X）
-   跟他自己那条对着看：人人都在 vibe，结构化那层却丢得太快
-   https://x.com/swyx/status/2083294839186260385
-
-8. 8B 下棋模型 Elo 一千五，压过 GPT 5.6（Amjad Masad · X）
-   规则明确的窄任务里，专训小模型仍然划算
-   https://x.com/amasad/status/2083424608993300824
-
-9. Igor 说闭源模型公司被夹在监管和开源中间（Igor Babushkin · 播客）
-   夹击成立，但他把企业选择讲成二选一，漏了他自己在卖的第三条路
-   https://www.youtube.com/@RedpointAI
-
-10. 训练卡在 rollout 时长和不可验证的 reward（Igor Babushkin · 播客）
-   一轮 rollout 二十四小时，长任务的瓶颈在训练循环和判分器
-   https://www.youtube.com/@RedpointAI
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Sat, 01 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-205442.mp3"
-                 length="11330081"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-03-205442.mp3</guid>
-      <itunes:duration>11:48</itunes:duration>
-      <itunes:summary>结论来自 Igor Babushkin 那期访谈。另外聊了 Linear 三成 bug 靠 agent 修完、Anthropic 六成五的 PR 来自 Claude Tag，还有 Levie 谈 harness。
-
-本期内容
-
-1. Linear 里 Issue 到 Agent 到 PR 的 loop，三成 bug 走完全程（Nan Yu · X）
-   三成是端到端通过率，比「agent 写了多少行代码」有用得多
-   https://x.com/thenanyu/status/2083230295206121807
-
-2. 软件项目会变成 agentic software factory（Guillermo Rauch · X）
-   方向没错，但只有名字没有数据，是句标语
-   https://x.com/rauchg/status/2083208578526314513
-
-3. Anthropic 六成五的 PR 由 Claude Tag 提，agent 界面半年三换（Zara Zhang · X）
-   这个数说明入口变了；界面从终端挪进协作工具比百分比更值钱
-   https://x.com/zarazhangrui/status/2083161173563003268
-
-4. harness 会和模型能力并列成为最重要的变量（Aaron Levie · X）
-   任务上亿 token 时 harness 决定错误会不会滚雪球，但自动路由还没人做出来
-   https://x.com/levie/status/2083389460679373135
-
-5. YC 团队自用的 harness 开源（Garry Tan · X）
-   没给数据，就是个发布
-   https://x.com/garrytan/status/2083353760701833546
-
-6. 他还在用 loop 和 goal，认为别人放弃太早（Swyx · X）
-   显式写 goal 把判断标准留在模型外面，跑偏了能复盘
-   https://x.com/swyx/status/2083439562437673053
-
-7. vibe coding 的贬义完全消失了（Swyx · X）
-   跟他自己那条对着看：人人都在 vibe，结构化那层却丢得太快
-   https://x.com/swyx/status/2083294839186260385
-
-8. 8B 下棋模型 Elo 一千五，压过 GPT 5.6（Amjad Masad · X）
-   规则明确的窄任务里，专训小模型仍然划算
-   https://x.com/amasad/status/2083424608993300824
-
-9. Igor 说闭源模型公司被夹在监管和开源中间（Igor Babushkin · 播客）
-   夹击成立，但他把企业选择讲成二选一，漏了他自己在卖的第三条路
-   https://www.youtube.com/@RedpointAI
-
-10. 训练卡在 rollout 时长和不可验证的 reward（Igor Babushkin · 播客）
-   一轮 rollout 二十四小时，长任务的瓶颈在训练循环和判分器
-   https://www.youtube.com/@RedpointAI
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
