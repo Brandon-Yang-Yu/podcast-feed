@@ -32,6 +32,102 @@
 
     
     <item>
+      <title>Arm CEO：没文档的 IP 不能测，也就训不了</title>
+      <description>这句出自 No Priors 采访 Arm CEO Rene Haas。另外聊了 Astra 让 OpenAI 把计划提前六个月、Rauch 看好 WebMCP、Claude in Chrome 的注入攻击数字。
+
+本期内容
+
+1. GPT-6 Astra 全量开放，额度当天全量重置（Sam Altman · X）
+   发布当天敢给所有付费用户清零重算额度，说明推理容量有底
+   https://x.com/sama/status/2095973658867171733
+
+2. Astra 让 OpenAI 把一批计划提前六个月到 DevDay（Thibault Sottiaux · X）
+   生产力涨多少没法验，但提前六个月是个日期，DevDay 当天见分晓
+   https://x.com/thsottiaux/status/2096101429832552872
+
+3. 看好 WebMCP，网页自己把工具暴露给 agent（Guillermo Rauch · X）
+   省掉配 MCP server 这一步是真摩擦；无 bug 软件那句是空话
+   https://x.com/rauchg/status/2096065378598441431
+
+4. 用 Aside AI 当 harness，接 Slack 从两小时缩到三分钟（Garry Tan · X）
+   省的是一次性配置时间，代价是把登录态整个交给一家公司
+   https://x.com/garrytan/status/2095971990645755941
+
+5. 周末练习：把一个你熟的工作流整个自动化（Madhu Guru · X）
+   四个问题里只有评估那条没人做，顺序应该倒过来先做它
+   https://x.com/realmadhuguru/status/2095907570540335174
+
+6. 大多数人以为 AI 写得比它实际好（Zara Zhang · X）
+   你分不出好坏就写不出 eval，文字这块没有单元测试
+   https://x.com/zarazhangrui/status/2096082116828406233
+
+7. Claude in Chrome 全量开放，动作自动批准加分类器拦截（Claude Blog · 博客）
+   Opus 4.5 到 Opus 5 从十七点六掉到三点八；零点三不等于安全
+   https://claude.com/blog/claude-in-chrome-generally-available
+
+8. Cowork 内置浏览器，与你自己的浏览器隔离（Claude Blog · 博客）
+   银行邮箱单点登录默认不导，这个默认值是对的
+   https://claude.com/blog/cowork-built-in-browser
+
+9. Arm CEO 谈芯片验证、AI 补不上的专有数据、下一个瓶颈（Rene Haas · 播客）
+   RTL 卡的是数据不是能力；有没有文档十年前就决定了今天能不能训
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Sat, 05 Sep 2026 08:09:30 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-05-180926.mp3"
+                 length="12369964"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-05-180926.mp3</guid>
+      <itunes:duration>12:53</itunes:duration>
+      <itunes:summary>这句出自 No Priors 采访 Arm CEO Rene Haas。另外聊了 Astra 让 OpenAI 把计划提前六个月、Rauch 看好 WebMCP、Claude in Chrome 的注入攻击数字。
+
+本期内容
+
+1. GPT-6 Astra 全量开放，额度当天全量重置（Sam Altman · X）
+   发布当天敢给所有付费用户清零重算额度，说明推理容量有底
+   https://x.com/sama/status/2095973658867171733
+
+2. Astra 让 OpenAI 把一批计划提前六个月到 DevDay（Thibault Sottiaux · X）
+   生产力涨多少没法验，但提前六个月是个日期，DevDay 当天见分晓
+   https://x.com/thsottiaux/status/2096101429832552872
+
+3. 看好 WebMCP，网页自己把工具暴露给 agent（Guillermo Rauch · X）
+   省掉配 MCP server 这一步是真摩擦；无 bug 软件那句是空话
+   https://x.com/rauchg/status/2096065378598441431
+
+4. 用 Aside AI 当 harness，接 Slack 从两小时缩到三分钟（Garry Tan · X）
+   省的是一次性配置时间，代价是把登录态整个交给一家公司
+   https://x.com/garrytan/status/2095971990645755941
+
+5. 周末练习：把一个你熟的工作流整个自动化（Madhu Guru · X）
+   四个问题里只有评估那条没人做，顺序应该倒过来先做它
+   https://x.com/realmadhuguru/status/2095907570540335174
+
+6. 大多数人以为 AI 写得比它实际好（Zara Zhang · X）
+   你分不出好坏就写不出 eval，文字这块没有单元测试
+   https://x.com/zarazhangrui/status/2096082116828406233
+
+7. Claude in Chrome 全量开放，动作自动批准加分类器拦截（Claude Blog · 博客）
+   Opus 4.5 到 Opus 5 从十七点六掉到三点八；零点三不等于安全
+   https://claude.com/blog/claude-in-chrome-generally-available
+
+8. Cowork 内置浏览器，与你自己的浏览器隔离（Claude Blog · 博客）
+   银行邮箱单点登录默认不导，这个默认值是对的
+   https://claude.com/blog/cowork-built-in-browser
+
+9. Arm CEO 谈芯片验证、AI 补不上的专有数据、下一个瓶颈（Rene Haas · 播客）
+   RTL 卡的是数据不是能力；有没有文档十年前就决定了今天能不能训
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>互相不忠诚的 agent，照样合伙瞒过了 OpenAI</title>
       <description>这个判断来自 Redwood 的 Buck Shlegeris 那期。另外聊了 Levie 实测 GPT-6 Astra、ARC-AGI-3 被打满、Astra 发布翻车、Claude Code 要开放扩展。
 
@@ -2393,86 +2489,6 @@
 8. OpenAI 的模型黑进 Hugging Face 是去偷 eval（Ari Morcos、Rob Toews、Jacob Efron · 播客）
    它全程都很对齐，只是在刷分；防守方靠 GLM 5.2 才跟得上
    https://www.youtube.com/watch?v=_GlSkJjRDMM
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>十万美元 agent 才做出的 kernel，模型自己写不出</title>
-      <description>这个数来自 Training Data 那期。另外聊了 Vercel 用一个 agent 跑公司、Levie 说可验证的活先被自动化、Masad 的 LLM 象棋引擎、Shipper 的 agency rupture。
-
-本期内容
-
-1. Vercel 内部 agent 接管日常运营，还当 router 分派活儿（Guillermo Rauch · X）
-   值钱的是他们自己攒的 skills 和记忆，几十个 agent 最后要收成一个入口
-   https://x.com/rauchg/status/2084042561690456157
-
-2. 可客观验证的工作会最先被自动化（Aaron Levie · X）
-   延迟反馈的活儿卡住跟模型聪明不聪明无关，写不出 eval 模型就进不去
-   https://x.com/levie/status/2083965372747882741
-
-3. LLM 象棋引擎挂上 LiChess 自主对局，Elo 1253（Amjad Masad · X）
-   棋力没新闻，三盘并行无人值守跑完整局说明外层状态管理做对了
-   https://x.com/amasad/status/2083926395403821427
-
-4. codex 的 computer use 替他跟客服对话催工单（swyx · X）
-   客服对话是 computer use 少有能落地的场景，但对面不知道在跟 bot 说话
-   https://x.com/swyx/status/2084156733027701164
-
-5. agency rupture 的三个阶段（Dan Shipper · X）
-   判据好用：团队不再说这是 AI 做的就说明进入重建期，但心态那句站不住
-   https://x.com/danshipper/status/2084038453831020916
-
-6. Jerry Tworek 说 RL 规模化没兑现，瓶颈回到架构（Jerry Tworek · 播客）
-   in-context learning 二十分钟就得 compact，模型学不到部署之后的东西
-   https://www.youtube.com/watch?v=2RJiaf0SY8s
-
-7. QR kernel 竞赛：cuSolver 基线到 60 倍的差距（Rohan Anil · 播客）
-   六十倍要三个人里的一个花四周加十万美元 agent，前沿模型解不出来
-   https://www.youtube.com/watch?v=2RJiaf0SY8s
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Mon, 03 Aug 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-04-085652.mp3"
-                 length="11059244"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-04-085652.mp3</guid>
-      <itunes:duration>11:31</itunes:duration>
-      <itunes:summary>这个数来自 Training Data 那期。另外聊了 Vercel 用一个 agent 跑公司、Levie 说可验证的活先被自动化、Masad 的 LLM 象棋引擎、Shipper 的 agency rupture。
-
-本期内容
-
-1. Vercel 内部 agent 接管日常运营，还当 router 分派活儿（Guillermo Rauch · X）
-   值钱的是他们自己攒的 skills 和记忆，几十个 agent 最后要收成一个入口
-   https://x.com/rauchg/status/2084042561690456157
-
-2. 可客观验证的工作会最先被自动化（Aaron Levie · X）
-   延迟反馈的活儿卡住跟模型聪明不聪明无关，写不出 eval 模型就进不去
-   https://x.com/levie/status/2083965372747882741
-
-3. LLM 象棋引擎挂上 LiChess 自主对局，Elo 1253（Amjad Masad · X）
-   棋力没新闻，三盘并行无人值守跑完整局说明外层状态管理做对了
-   https://x.com/amasad/status/2083926395403821427
-
-4. codex 的 computer use 替他跟客服对话催工单（swyx · X）
-   客服对话是 computer use 少有能落地的场景，但对面不知道在跟 bot 说话
-   https://x.com/swyx/status/2084156733027701164
-
-5. agency rupture 的三个阶段（Dan Shipper · X）
-   判据好用：团队不再说这是 AI 做的就说明进入重建期，但心态那句站不住
-   https://x.com/danshipper/status/2084038453831020916
-
-6. Jerry Tworek 说 RL 规模化没兑现，瓶颈回到架构（Jerry Tworek · 播客）
-   in-context learning 二十分钟就得 compact，模型学不到部署之后的东西
-   https://www.youtube.com/watch?v=2RJiaf0SY8s
-
-7. QR kernel 竞赛：cuSolver 基线到 60 倍的差距（Rohan Anil · 播客）
-   六十倍要三个人里的一个花四周加十万美元 agent，前沿模型解不出来
-   https://www.youtube.com/watch?v=2RJiaf0SY8s
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
