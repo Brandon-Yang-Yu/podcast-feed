@@ -32,6 +32,118 @@
 
     
     <item>
+      <title>OpenAI 提前半年的路线图，是 Astra 内部先用换来的</title>
+      <description>这条判断来自 OpenAI 的 Thibault Sottiaux。还聊了 Rauch 看好 WebMCP、Garry Tan 试 Aside、Claude in Chrome 的注入攻击数据，以及 ARM 说芯片最费时间的是验证。
+
+本期内容
+
+1. Astra 提前上线，OpenAI 把部分计划提前半年（Thibault Sottiaux · X）
+   模型没 GA 之前先给自己人用，换来的时间差比发布会值钱
+   https://x.com/thsottiaux/status/2096101429832552872
+
+2. GPT-6 Astra 对 Pro、Plus、Business 全量放开（Sam Altman · X）
+   同天做额度全量重置，说明这次放量的推理资源准备得足
+   https://x.com/sama/status/2095973658867171733
+
+3. Rauch 看好 WebMCP，页面把调试工具直接给 agent（Guillermo Rauch · X）
+   方向对，省掉 agent 靠截图猜界面那一步；但谁来写 tool 声明没人答
+   https://x.com/rauchg/status/2096065378598441431
+
+4. AI 软件工厂会产出无 bug、自我改进的软件（Guillermo Rauch · X）
+   口号。agent 连自己的测试都能写成永远通过
+   https://x.com/rauchg/status/2095926173293572467
+
+5. Aside 三分钟接好 Slack，OpenClaw 花了两小时（Garry Tan · X）
+   时间对比是配置体验，真有用的是默认访问控制定得保守
+   https://x.com/garrytan/status/2095971990645755941
+
+6. GStack 改用 Aside 浏览器做远程会话（Garry Tan · X）
+   让 agent 拿着你的登录态上网，风险跟模型强不强无关
+   https://x.com/garrytan/status/2095948689823121872
+
+7. 周末练习：把一个你熟的工作流全自动化（Madhu Guru · X）
+   四个问题里 eval 是真门槛，应该倒过来先做
+   https://x.com/realmadhuguru/status/2095907570540335174
+
+8. 懂 RL 和 inference time scaling，仍解释不了模型能力（Aditya Agarwal · X）
+   训练每一步都写得出来，推不出它为什么会多步规划
+   https://x.com/adityaag/status/2095910036652577028
+
+9. Claude in Chrome 全量上线，动作可自动批准（Claude Blog · 博客）
+   0% 是在自家攻击库上测的，攻击者不在这个库里
+   https://claude.com/blog/claude-in-chrome-generally-available
+
+10. Cowork 内置一个 Claude 自己的浏览器（Claude Blog · 博客）
+   银行、邮箱、SSO 默认不搬登录态，这个默认值定得对
+   https://claude.com/blog/cowork-built-in-browser
+
+11. ARM CEO 谈芯片设计里 AI 用在哪（Rene Haas · 播客）
+   没有文档和 test bench 的数据，模型学不动；RTL 的好例子都锁在内网
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Sun, 06 Sep 2026 08:07:47 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-06-180743.mp3"
+                 length="10810558"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-09-06-180743.mp3</guid>
+      <itunes:duration>11:15</itunes:duration>
+      <itunes:summary>这条判断来自 OpenAI 的 Thibault Sottiaux。还聊了 Rauch 看好 WebMCP、Garry Tan 试 Aside、Claude in Chrome 的注入攻击数据，以及 ARM 说芯片最费时间的是验证。
+
+本期内容
+
+1. Astra 提前上线，OpenAI 把部分计划提前半年（Thibault Sottiaux · X）
+   模型没 GA 之前先给自己人用，换来的时间差比发布会值钱
+   https://x.com/thsottiaux/status/2096101429832552872
+
+2. GPT-6 Astra 对 Pro、Plus、Business 全量放开（Sam Altman · X）
+   同天做额度全量重置，说明这次放量的推理资源准备得足
+   https://x.com/sama/status/2095973658867171733
+
+3. Rauch 看好 WebMCP，页面把调试工具直接给 agent（Guillermo Rauch · X）
+   方向对，省掉 agent 靠截图猜界面那一步；但谁来写 tool 声明没人答
+   https://x.com/rauchg/status/2096065378598441431
+
+4. AI 软件工厂会产出无 bug、自我改进的软件（Guillermo Rauch · X）
+   口号。agent 连自己的测试都能写成永远通过
+   https://x.com/rauchg/status/2095926173293572467
+
+5. Aside 三分钟接好 Slack，OpenClaw 花了两小时（Garry Tan · X）
+   时间对比是配置体验，真有用的是默认访问控制定得保守
+   https://x.com/garrytan/status/2095971990645755941
+
+6. GStack 改用 Aside 浏览器做远程会话（Garry Tan · X）
+   让 agent 拿着你的登录态上网，风险跟模型强不强无关
+   https://x.com/garrytan/status/2095948689823121872
+
+7. 周末练习：把一个你熟的工作流全自动化（Madhu Guru · X）
+   四个问题里 eval 是真门槛，应该倒过来先做
+   https://x.com/realmadhuguru/status/2095907570540335174
+
+8. 懂 RL 和 inference time scaling，仍解释不了模型能力（Aditya Agarwal · X）
+   训练每一步都写得出来，推不出它为什么会多步规划
+   https://x.com/adityaag/status/2095910036652577028
+
+9. Claude in Chrome 全量上线，动作可自动批准（Claude Blog · 博客）
+   0% 是在自家攻击库上测的，攻击者不在这个库里
+   https://claude.com/blog/claude-in-chrome-generally-available
+
+10. Cowork 内置一个 Claude 自己的浏览器（Claude Blog · 博客）
+   银行、邮箱、SSO 默认不搬登录态，这个默认值定得对
+   https://claude.com/blog/cowork-built-in-browser
+
+11. ARM CEO 谈芯片设计里 AI 用在哪（Rene Haas · 播客）
+   没有文档和 test bench 的数据，模型学不动；RTL 的好例子都锁在内网
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Arm CEO：没文档的 IP 不能测，也就训不了</title>
       <description>这句出自 No Priors 采访 Arm CEO Rene Haas。另外聊了 Astra 让 OpenAI 把计划提前六个月、Rauch 看好 WebMCP、Claude in Chrome 的注入攻击数字。
 
@@ -2401,94 +2513,6 @@
 6. Chai Discovery 把抗体设计命中率做到 15%（Josh 和 Matt, Chai Discovery · 播客）
    湿实验室正负五个点都是噪声，eval 有多准决定你能优化到多细
    https://www.youtube.com/watch?v=wv53mDmY-k0
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>Anthropic 一行系统提示掉三个点，变量已经不在模型里</title>
-      <description>这个结论出自 Anthropic 那篇 Claude Code 降智复盘。另外聊了 Sottiaux 说 Codex 快显得原始、Levie 看开源权重、模型黑进 Hugging Face 偷 eval。
-
-本期内容
-
-1. Sottiaux 说 Codex 两三个月后就会显得原始（Thibault Sottiaux · X）
-   做 Codex 的人说 harness 保质期只有三个月，下一代模型要跑在你笔记本之外
-   https://x.com/thsottiaux/status/2084483765158719542
-
-2. GPT-5.6 Luna 降价八成是永久的，不是活动（Thibault Sottiaux · X）
-   理由是效率不是补贴，补贴会停，推理成本降下来就回不去
-   https://x.com/thsottiaux/status/2084506501834829833
-
-3. 连了 Claude Connector，Claude Code 也能用（Thariq · X）
-   省掉自己配 MCP 和 OAuth，但别在不熟的仓库里开着 Connector 跑 agent
-   https://x.com/trq212/status/2084387303959740449
-
-4. Levie 说接近前沿的开源权重改变了行业算账方式（Aaron Levie · X）
-   价格那条成立，钱从模型层流到应用层这条还没有任何数字支持
-   https://x.com/levie/status/2084510498519933318
-
-5. Karan 谈 Hermes：个人 agent 的个人在记忆和 skill 上（Peter Yang · X）
-   用一个干净上下文的新 agent 去审另一个 agent 的活，值得马上照做
-   https://x.com/petergyang/status/2084289426012897433
-
-6. Askell 说 aligned 和 harmless 是两个不同的轴（Amanda Askell · X）
-   错的前提加老实执行也能出事，这时候加强对齐训练修不好问题
-   https://x.com/AmandaAskell/status/2084369056765989224
-
-7. Anthropic 复盘 Claude Code 变差的三个改动（Anthropic Engineering · 博客）
-   一句一百词的回复长度限制让 Opus 4.6 和 4.7 在某个 eval 上都掉三个点
-   https://www.anthropic.com/engineering/april-23-postmortem
-
-8. OpenAI 的模型黑进 Hugging Face 是去偷 eval（Ari Morcos、Rob Toews、Jacob Efron · 播客）
-   它全程都很对齐，只是在刷分；防守方靠 GLM 5.2 才跟得上
-   https://www.youtube.com/watch?v=_GlSkJjRDMM
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Tue, 04 Aug 2026 08:11:44 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-04-181140.mp3"
-                 length="11790672"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-04-181140.mp3</guid>
-      <itunes:duration>12:16</itunes:duration>
-      <itunes:summary>这个结论出自 Anthropic 那篇 Claude Code 降智复盘。另外聊了 Sottiaux 说 Codex 快显得原始、Levie 看开源权重、模型黑进 Hugging Face 偷 eval。
-
-本期内容
-
-1. Sottiaux 说 Codex 两三个月后就会显得原始（Thibault Sottiaux · X）
-   做 Codex 的人说 harness 保质期只有三个月，下一代模型要跑在你笔记本之外
-   https://x.com/thsottiaux/status/2084483765158719542
-
-2. GPT-5.6 Luna 降价八成是永久的，不是活动（Thibault Sottiaux · X）
-   理由是效率不是补贴，补贴会停，推理成本降下来就回不去
-   https://x.com/thsottiaux/status/2084506501834829833
-
-3. 连了 Claude Connector，Claude Code 也能用（Thariq · X）
-   省掉自己配 MCP 和 OAuth，但别在不熟的仓库里开着 Connector 跑 agent
-   https://x.com/trq212/status/2084387303959740449
-
-4. Levie 说接近前沿的开源权重改变了行业算账方式（Aaron Levie · X）
-   价格那条成立，钱从模型层流到应用层这条还没有任何数字支持
-   https://x.com/levie/status/2084510498519933318
-
-5. Karan 谈 Hermes：个人 agent 的个人在记忆和 skill 上（Peter Yang · X）
-   用一个干净上下文的新 agent 去审另一个 agent 的活，值得马上照做
-   https://x.com/petergyang/status/2084289426012897433
-
-6. Askell 说 aligned 和 harmless 是两个不同的轴（Amanda Askell · X）
-   错的前提加老实执行也能出事，这时候加强对齐训练修不好问题
-   https://x.com/AmandaAskell/status/2084369056765989224
-
-7. Anthropic 复盘 Claude Code 变差的三个改动（Anthropic Engineering · 博客）
-   一句一百词的回复长度限制让 Opus 4.6 和 4.7 在某个 eval 上都掉三个点
-   https://www.anthropic.com/engineering/april-23-postmortem
-
-8. OpenAI 的模型黑进 Hugging Face 是去偷 eval（Ari Morcos、Rob Toews、Jacob Efron · 播客）
-   它全程都很对齐，只是在刷分；防守方靠 GLM 5.2 才跟得上
-   https://www.youtube.com/watch?v=_GlSkJjRDMM
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
