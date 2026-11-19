@@ -32,6 +32,94 @@
 
     
     <item>
+      <title>AI 让写代码变便宜，没让想清楚要什么变便宜</title>
+      <description>判断来自 Thariq 弃用自制工具和 Ivan Zhao 的播客。另外聊了 Rauch 的推理云与 agent 留言板、GPT-6.2 Astra、Genie 4。
+
+本期内容
+
+1. Thariq 弃用自制工具：好软件是一组强主张（Thariq · X）
+   做 Claude Code 的人都卡在需求上，多数人不会自己生成软件
+   https://x.com/trq212/status/2123106370161705127
+
+2. 两天一家推理云，AI Gateway token 月增四成（Guillermo Rauch · X）
+   需求是真的，但零数据留存和合规成本会先筛掉小推理云
+   https://x.com/rauchg/status/2123203741570740504
+
+3. Vercel 发布给 agent 用的留言板 vercel board（Guillermo Rauch · X）
+   agent 通信正在变成单独一层，但几百万 agent 怎么过滤消息没讲
+   https://x.com/rauchg/status/2123237505810178434
+
+4. Replit Missions 能看到 agent 之间怎么对话（Amjad Masad · X）
+   人能读懂 agent 的对话、出事能回溯，比连上多少 agent 更实际
+   https://x.com/amasad/status/2123133509028008331
+
+5. GPT-6.2 Astra 做芯片优化，沟通风格在改（Thibault Sottiaux · X）
+   芯片优化是好测法，但没给数字；承认风格问题的那句信息更多
+   https://x.com/thsottiaux/status/2123175166519992652
+
+6. Project Genie 换上 Genie 4，可边逛边改世界（Google Labs · X）
+   边逛边改是真难点，画廊是在给世界模型找用途
+   https://x.com/GoogleLabs/status/2123118145552749015
+
+7. Gemini 4 Neon 发布（Josh Woodward · X）
+   没有 benchmark 也没有价格，先记名字
+   https://x.com/joshwoodward/status/2123177835254952348
+
+8. Ivan Zhao：界面会变便宜，数据和看板留下来（Ivan Zhao · 播客）
+   多人加多 agent 协作离不开权限和看板，这是 Notion 押的注
+   https://www.youtube.com/watch?v=PGWvMrF4XIA
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Thu, 19 Nov 2026 07:07:04 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-180700.mp3"
+                 length="11343038"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-180700.mp3</guid>
+      <itunes:duration>11:48</itunes:duration>
+      <itunes:summary>判断来自 Thariq 弃用自制工具和 Ivan Zhao 的播客。另外聊了 Rauch 的推理云与 agent 留言板、GPT-6.2 Astra、Genie 4。
+
+本期内容
+
+1. Thariq 弃用自制工具：好软件是一组强主张（Thariq · X）
+   做 Claude Code 的人都卡在需求上，多数人不会自己生成软件
+   https://x.com/trq212/status/2123106370161705127
+
+2. 两天一家推理云，AI Gateway token 月增四成（Guillermo Rauch · X）
+   需求是真的，但零数据留存和合规成本会先筛掉小推理云
+   https://x.com/rauchg/status/2123203741570740504
+
+3. Vercel 发布给 agent 用的留言板 vercel board（Guillermo Rauch · X）
+   agent 通信正在变成单独一层，但几百万 agent 怎么过滤消息没讲
+   https://x.com/rauchg/status/2123237505810178434
+
+4. Replit Missions 能看到 agent 之间怎么对话（Amjad Masad · X）
+   人能读懂 agent 的对话、出事能回溯，比连上多少 agent 更实际
+   https://x.com/amasad/status/2123133509028008331
+
+5. GPT-6.2 Astra 做芯片优化，沟通风格在改（Thibault Sottiaux · X）
+   芯片优化是好测法，但没给数字；承认风格问题的那句信息更多
+   https://x.com/thsottiaux/status/2123175166519992652
+
+6. Project Genie 换上 Genie 4，可边逛边改世界（Google Labs · X）
+   边逛边改是真难点，画廊是在给世界模型找用途
+   https://x.com/GoogleLabs/status/2123118145552749015
+
+7. Gemini 4 Neon 发布（Josh Woodward · X）
+   没有 benchmark 也没有价格，先记名字
+   https://x.com/joshwoodward/status/2123177835254952348
+
+8. Ivan Zhao：界面会变便宜，数据和看板留下来（Ivan Zhao · 播客）
+   多人加多 agent 协作离不开权限和看板，这是 Notion 押的注
+   https://www.youtube.com/watch?v=PGWvMrF4XIA
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>OpenAI 6.2 的网红测评，测的可能不是你手上那版</title>
       <description>结论来自 OpenAI 的 Thibault Sottiaux。另外聊了 swyx 试 Devin bots、Gemini 免费代办、Replit agent swarm、DeepsecBench 和 BFL 播客。
 
@@ -2401,94 +2489,6 @@
 6. Tavel讲怎么分辨真假网络效应（Sarah Tavel · 播客）
    多数创业公司的飞轮图只是画在PPT上，没有真的在转
    https://www.youtube.com/watch?v=dlI-5W7d7uU
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>可预测的过程比一次惊艳的产出更值钱</title>
-      <description>这句话来自 Basis 那期播客对报税 agent 的复盘。另外聊了 Levie 谈 Cursor、Peter Yang 拆 X 反 slop 算法、Steinberger 的 agent 协作技巧，还有 Apple 用 Claude 做端云混合调用。
-
-本期内容
-
-1. Aaron Levie 讲 Cursor 证明的应用层 AI 打法（Aaron Levie · X）
-   模型人人能接，把模型套进真实工作流的那层才是能收钱的地方
-   https://x.com/levie/status/2088476232933577124
-
-2. Peter Yang 拆了 X 反 AI slop 算法的漏洞（Peter Yang · X）
-   只看行为节奏不看内容，防得住刷号防不住内容农场
-   https://x.com/petergyang/status/2088261100202868768
-
-3. Steinberger 让 agent 给 UI 改动的 PR 配视频证据（Peter Steinberger · X）
-   把agent看不见的渲染结果，变成人一眼能判断的证据
-   https://x.com/steipete/status/2088486859244741020
-
-4. Steinberger 说分享 agent 会话链接是个杀手锏（Peter Steinberger · X）
-   有用，前提是链接里的内容得完整可复现
-   https://x.com/steipete/status/2088473882357530979
-
-5. Madhu Guru 用 Jevons 悖论看 AI 加软件工程（Madhu Guru · X）
-   成本降了需求会涨，但谁为软件正确性签字这个瓶颈不会跟着降
-   https://x.com/realmadhuguru/status/2088294414255112329
-
-6. Garry Tan 说 Fable 5 之后敢对 Claude Code 全都要（Garry Tan · X）
-   这是他一个人的体感，没有数据，听个态度变化就好
-   https://x.com/garrytan/status/2088388000267002195
-
-7. Basis 讲长程 agent 为什么不能只看结果（Mitch Troyanovsky · 播客）
-   企业买的是可预测的过程，不是一次惊艳的产出
-   https://www.youtube.com/@DataDrivenNYC/videos
-
-8. Claude 接入 Apple 的 Foundation Models 框架做端云混合（Claude Blog · 博客）
-   关键不是手机上能用Claude，是类型化数据交接让输入端出错更少
-   https://claude.com/blog/claude-for-foundation-models
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Sat, 15 Aug 2026 08:15:53 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-15-181550.mp3"
-                 length="10762075"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-15-181550.mp3</guid>
-      <itunes:duration>11:12</itunes:duration>
-      <itunes:summary>这句话来自 Basis 那期播客对报税 agent 的复盘。另外聊了 Levie 谈 Cursor、Peter Yang 拆 X 反 slop 算法、Steinberger 的 agent 协作技巧，还有 Apple 用 Claude 做端云混合调用。
-
-本期内容
-
-1. Aaron Levie 讲 Cursor 证明的应用层 AI 打法（Aaron Levie · X）
-   模型人人能接，把模型套进真实工作流的那层才是能收钱的地方
-   https://x.com/levie/status/2088476232933577124
-
-2. Peter Yang 拆了 X 反 AI slop 算法的漏洞（Peter Yang · X）
-   只看行为节奏不看内容，防得住刷号防不住内容农场
-   https://x.com/petergyang/status/2088261100202868768
-
-3. Steinberger 让 agent 给 UI 改动的 PR 配视频证据（Peter Steinberger · X）
-   把agent看不见的渲染结果，变成人一眼能判断的证据
-   https://x.com/steipete/status/2088486859244741020
-
-4. Steinberger 说分享 agent 会话链接是个杀手锏（Peter Steinberger · X）
-   有用，前提是链接里的内容得完整可复现
-   https://x.com/steipete/status/2088473882357530979
-
-5. Madhu Guru 用 Jevons 悖论看 AI 加软件工程（Madhu Guru · X）
-   成本降了需求会涨，但谁为软件正确性签字这个瓶颈不会跟着降
-   https://x.com/realmadhuguru/status/2088294414255112329
-
-6. Garry Tan 说 Fable 5 之后敢对 Claude Code 全都要（Garry Tan · X）
-   这是他一个人的体感，没有数据，听个态度变化就好
-   https://x.com/garrytan/status/2088388000267002195
-
-7. Basis 讲长程 agent 为什么不能只看结果（Mitch Troyanovsky · 播客）
-   企业买的是可预测的过程，不是一次惊艳的产出
-   https://www.youtube.com/@DataDrivenNYC/videos
-
-8. Claude 接入 Apple 的 Foundation Models 框架做端云混合（Claude Blog · 博客）
-   关键不是手机上能用Claude，是类型化数据交接让输入端出错更少
-   https://claude.com/blog/claude-for-foundation-models
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
