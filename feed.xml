@@ -136,6 +136,110 @@
     </item>
     
     <item>
+      <title>Claude Code 删掉 Git 说明，你搭的工厂也会被模型吃掉</title>
+      <description>出自 Latent Space 访谈 Mihail Eric 那期。另聊 Thariq 看衰软件工厂、Levie 的 token 曲线、Claude 设计防 slop、Rauch 谈 eval。
+
+本期内容
+
+1. Thariq：软件工厂是临时问题，该做协作 workspace（Thariq · X）
+   工厂是在用人力补模型短板，卖工厂的公司自己也只敢说三成自动
+   https://x.com/trq212/status/2122438326431154210
+
+2. Nan Yu 转发 Thariq：一个正常人（Nan Yu · X）
+   做 Codex 的人也对全自动工厂叙事不耐烦了
+   https://x.com/thenanyu/status/2122438864791110126
+
+3. Garry Tan 用软件工厂写 GBrain 的 Rust 后端（Garry Tan · X）
+   边界清楚、能跑 benchmark 的替换任务最适合交给工厂，结果还没出
+   https://x.com/garrytan/status/2122576951080792543
+
+4. Levie：每员工 token 花费看不到天花板（Aaron Levie · X）
+   coding 带动 computer use 的链条成立，但 token 增长会被人工审核卡住
+   https://x.com/levie/status/2122508098351038532
+
+5. Nate Parrott 让 Claude 做设计不出 slop 的五招（Peter Yang · X）
+   把衬线字体、米白背景这些 Claude 习惯写进 design.md 明确禁止
+   https://x.com/petergyang/status/2122347721298510021
+
+6. Rauch：用户是 agent，用 eval 代替用户访谈（Guillermo Rauch · X）
+   对开发者工具成立，但付钱和流失的决定还是人做的
+   https://x.com/rauchg/status/2122415506451841215
+
+7. Rauch：掌握你的智能路线图四点（Guillermo Rauch · X）
+   基本是 Vercel 产品清单，但别锁死在一家模型厂商的方向没错
+   https://x.com/rauchg/status/2122458782294847807
+
+8. Nikunj 总结 2026 年四个季度的基础设施热点（Nikunj Kothari · X）
+   gateway、权限、计费正在往中间那一层合并
+   https://x.com/nikunj/status/2122543500814336281
+
+9. Steinberger 吐槽 macOS 给 agent 加了新弹窗（Peter Steinberger · X）
+   系统层缺一个给 agent 划地盘的权限模型，长任务只能有人守着
+   https://x.com/steipete/status/2122463466304971068
+
+10. Stanford CS146S：拆 Claude Code prompt、code review 瓶颈（Mihail Eric, swyx · 播客）
+   prompt 里的规则会被训进权重，换模型就该删 prompt；code review 按风险分区
+   https://www.youtube.com/@LatentSpacePod
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Tue, 17 Nov 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-161656.mp3"
+                 length="11627250"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-161656.mp3</guid>
+      <itunes:duration>12:06</itunes:duration>
+      <itunes:summary>出自 Latent Space 访谈 Mihail Eric 那期。另聊 Thariq 看衰软件工厂、Levie 的 token 曲线、Claude 设计防 slop、Rauch 谈 eval。
+
+本期内容
+
+1. Thariq：软件工厂是临时问题，该做协作 workspace（Thariq · X）
+   工厂是在用人力补模型短板，卖工厂的公司自己也只敢说三成自动
+   https://x.com/trq212/status/2122438326431154210
+
+2. Nan Yu 转发 Thariq：一个正常人（Nan Yu · X）
+   做 Codex 的人也对全自动工厂叙事不耐烦了
+   https://x.com/thenanyu/status/2122438864791110126
+
+3. Garry Tan 用软件工厂写 GBrain 的 Rust 后端（Garry Tan · X）
+   边界清楚、能跑 benchmark 的替换任务最适合交给工厂，结果还没出
+   https://x.com/garrytan/status/2122576951080792543
+
+4. Levie：每员工 token 花费看不到天花板（Aaron Levie · X）
+   coding 带动 computer use 的链条成立，但 token 增长会被人工审核卡住
+   https://x.com/levie/status/2122508098351038532
+
+5. Nate Parrott 让 Claude 做设计不出 slop 的五招（Peter Yang · X）
+   把衬线字体、米白背景这些 Claude 习惯写进 design.md 明确禁止
+   https://x.com/petergyang/status/2122347721298510021
+
+6. Rauch：用户是 agent，用 eval 代替用户访谈（Guillermo Rauch · X）
+   对开发者工具成立，但付钱和流失的决定还是人做的
+   https://x.com/rauchg/status/2122415506451841215
+
+7. Rauch：掌握你的智能路线图四点（Guillermo Rauch · X）
+   基本是 Vercel 产品清单，但别锁死在一家模型厂商的方向没错
+   https://x.com/rauchg/status/2122458782294847807
+
+8. Nikunj 总结 2026 年四个季度的基础设施热点（Nikunj Kothari · X）
+   gateway、权限、计费正在往中间那一层合并
+   https://x.com/nikunj/status/2122543500814336281
+
+9. Steinberger 吐槽 macOS 给 agent 加了新弹窗（Peter Steinberger · X）
+   系统层缺一个给 agent 划地盘的权限模型，长任务只能有人守着
+   https://x.com/steipete/status/2122463466304971068
+
+10. Stanford CS146S：拆 Claude Code prompt、code review 瓶颈（Mihail Eric, swyx · 播客）
+   prompt 里的规则会被训进权重，换模型就该删 prompt；code review 按风险分区
+   https://www.youtube.com/@LatentSpacePod
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>xeet 拿 Chrome 当裁判：agent 的上限看自动验证</title>
       <description>判断来自 Rauch 的 xeet。另聊了 Claude 的设计偏好、原型提速但验证没快、Shipper 的自进化 skill、Robinhood 的 agent 交易和 Harmonic。
 
@@ -2385,94 +2489,6 @@
 8. Claude 接入 Apple 的 Foundation Models 框架做端云混合（Claude Blog · 博客）
    关键不是手机上能用Claude，是类型化数据交接让输入端出错更少
    https://claude.com/blog/claude-for-foundation-models
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>超人类引擎没杀死国际象棋，好玩才是留人的原因</title>
-      <description>这个判断来自 No Priors 那期聊 chess.com 的节目。另外聊了 Boris Cherny 让 Claude 自动维护 App、Amjad Masad 说 ARC-AGI-3 快被攻破、swyx 的批量提问技巧，还有 Aaron Levie 和 Madhu Guru 的两条推文。
-
-本期内容
-
-1. Claude 自动维护 Anthropic 自家 App 三周（Boris Cherny · X）
-   能不能自己迭代规则，比单次 PR 对不对更值得看
-   https://x.com/bcherny/status/2088014489438621990
-
-2. ARC-AGI-3 被指靠加一层 coding harness 快解决了（Amjad Masad · X）
-   刷分和推理能力真的变强不是一回事
-   https://x.com/amasad/status/2088124774824521786
-
-3. 用批量提问替代一问一答，省掉人回应的延迟（swyx · X）
-   人回答得慢正在变成新的瓶颈
-   https://x.com/swyx/status/2088073777779515615
-
-4. 工程师没被 AI 淘汰，价值反而更高（Aaron Levie · X）
-   工具变强放大的是会不会用的人之间的差距
-   https://x.com/levie/status/2088105350201270529
-
-5. 招聘市场上带 engineer 的岗位反而更抢手（Zara Zhang · X）
-   这件事已经能在招聘数据里看到了
-   https://x.com/zarazhangrui/status/2088087765267386564
-
-6. prompt debt：提示词只加不减的通病（Madhu Guru · X）
-   规则越堆越多，是在替模型做判断、压掉它的判断空间
-   https://x.com/realmadhuguru/status/2087916590964851172
-
-7. chess.com CEO 讲超人类引擎没杀死国际象棋（Erik Allebest · 播客）
-   机器强弱决定不了人还愿不愿意留下来玩
-   https://www.youtube.com/@NoPriorsPodcast
-
-8. AI 能造出超越人类的东西还能冒充人做的，chess.com 怎么防（Erik Allebest · 播客）
-   他们能做的是抓得住封得掉，没法保证完全防住
-   https://www.youtube.com/@NoPriorsPodcast
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Fri, 14 Aug 2026 08:15:17 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-14-181512.mp3"
-                 length="13741288"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-14-181512.mp3</guid>
-      <itunes:duration>14:18</itunes:duration>
-      <itunes:summary>这个判断来自 No Priors 那期聊 chess.com 的节目。另外聊了 Boris Cherny 让 Claude 自动维护 App、Amjad Masad 说 ARC-AGI-3 快被攻破、swyx 的批量提问技巧，还有 Aaron Levie 和 Madhu Guru 的两条推文。
-
-本期内容
-
-1. Claude 自动维护 Anthropic 自家 App 三周（Boris Cherny · X）
-   能不能自己迭代规则，比单次 PR 对不对更值得看
-   https://x.com/bcherny/status/2088014489438621990
-
-2. ARC-AGI-3 被指靠加一层 coding harness 快解决了（Amjad Masad · X）
-   刷分和推理能力真的变强不是一回事
-   https://x.com/amasad/status/2088124774824521786
-
-3. 用批量提问替代一问一答，省掉人回应的延迟（swyx · X）
-   人回答得慢正在变成新的瓶颈
-   https://x.com/swyx/status/2088073777779515615
-
-4. 工程师没被 AI 淘汰，价值反而更高（Aaron Levie · X）
-   工具变强放大的是会不会用的人之间的差距
-   https://x.com/levie/status/2088105350201270529
-
-5. 招聘市场上带 engineer 的岗位反而更抢手（Zara Zhang · X）
-   这件事已经能在招聘数据里看到了
-   https://x.com/zarazhangrui/status/2088087765267386564
-
-6. prompt debt：提示词只加不减的通病（Madhu Guru · X）
-   规则越堆越多，是在替模型做判断、压掉它的判断空间
-   https://x.com/realmadhuguru/status/2087916590964851172
-
-7. chess.com CEO 讲超人类引擎没杀死国际象棋（Erik Allebest · 播客）
-   机器强弱决定不了人还愿不愿意留下来玩
-   https://www.youtube.com/@NoPriorsPodcast
-
-8. AI 能造出超越人类的东西还能冒充人做的，chess.com 怎么防（Erik Allebest · 播客）
-   他们能做的是抓得住封得掉，没法保证完全防住
-   https://www.youtube.com/@NoPriorsPodcast
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
