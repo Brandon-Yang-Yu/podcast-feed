@@ -136,6 +136,102 @@
     </item>
     
     <item>
+      <title>coding agent 长什么样，是 KV cache 只能追加定的</title>
+      <description>出自 Unsupervised Learning 的 JEV 访谈。另聊 Levie、Rauch 的 subagent、Masad 墨菲世界、配置审计和 Gemini 接 Wallet。
+
+本期内容
+
+1. Levie：工作会变成 coding 的形状（Aaron Levie · X）
+   工作迁就工具的观察成立，领域判断从哪来他没讲
+   https://x.com/levie/status/2121686564078297461
+
+2. Rauch 用 UI SDK 两个 prompt 做界面（Guillermo Rauch · X）
+   prompt 数没意义，复用现成交互行为才稳
+   https://x.com/rauchg/status/2121804295381377342
+
+3. Rauch：聪明模型规划，快模型 subagent 执行（Guillermo Rauch · X）
+   做法不新，麻烦在规划交接给快模型那一步
+   https://x.com/rauchg/status/2121739228698886454
+
+4. Masad：我们进入了墨菲的世界（Amjad Masad · X）
+   调用量放大后小概率故障变日常，回滚和日志得当主功能做
+   https://x.com/amasad/status/2121519931741127144
+
+5. Masad：技术本来就在递归自我改进（Amjad Masad · X）
+   信息量有限，和墨菲那条是同一件事的两面
+   https://x.com/amasad/status/2121549054173757554
+
+6. Fable 5.2 里审计 Claude Code 配置的两个命令（Peter Yang · X）
+   模型换代后老 prompt 会变成噪音，值得定期审
+   https://x.com/petergyang/status/2121649295950762363
+
+7. Gemini 可连接 Google Wallet 做财务分析（Josh Woodward · X）
+   Google 自带真实交易数据，准确率没给
+   https://x.com/joshwoodward/status/2121755282326102417
+
+8. JEV CEO 谈 coding agent 里 KV cache 的暴政（Unsupervised Learning · 播客）
+   subagent 难用、压缩丢信息都来自缓存只能追加
+   https://www.youtube.com/@RedpointAI
+
+9. JEV CEO 反 benchmark：难和稳是两回事（Unsupervised Learning · 播客）
+   批评对手刷榜有立场，但自认图像只做到一成很少见
+   https://www.youtube.com/@RedpointAI
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Sun, 15 Nov 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-155814.mp3"
+                 length="11136566"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-155814.mp3</guid>
+      <itunes:duration>11:35</itunes:duration>
+      <itunes:summary>出自 Unsupervised Learning 的 JEV 访谈。另聊 Levie、Rauch 的 subagent、Masad 墨菲世界、配置审计和 Gemini 接 Wallet。
+
+本期内容
+
+1. Levie：工作会变成 coding 的形状（Aaron Levie · X）
+   工作迁就工具的观察成立，领域判断从哪来他没讲
+   https://x.com/levie/status/2121686564078297461
+
+2. Rauch 用 UI SDK 两个 prompt 做界面（Guillermo Rauch · X）
+   prompt 数没意义，复用现成交互行为才稳
+   https://x.com/rauchg/status/2121804295381377342
+
+3. Rauch：聪明模型规划，快模型 subagent 执行（Guillermo Rauch · X）
+   做法不新，麻烦在规划交接给快模型那一步
+   https://x.com/rauchg/status/2121739228698886454
+
+4. Masad：我们进入了墨菲的世界（Amjad Masad · X）
+   调用量放大后小概率故障变日常，回滚和日志得当主功能做
+   https://x.com/amasad/status/2121519931741127144
+
+5. Masad：技术本来就在递归自我改进（Amjad Masad · X）
+   信息量有限，和墨菲那条是同一件事的两面
+   https://x.com/amasad/status/2121549054173757554
+
+6. Fable 5.2 里审计 Claude Code 配置的两个命令（Peter Yang · X）
+   模型换代后老 prompt 会变成噪音，值得定期审
+   https://x.com/petergyang/status/2121649295950762363
+
+7. Gemini 可连接 Google Wallet 做财务分析（Josh Woodward · X）
+   Google 自带真实交易数据，准确率没给
+   https://x.com/joshwoodward/status/2121755282326102417
+
+8. JEV CEO 谈 coding agent 里 KV cache 的暴政（Unsupervised Learning · 播客）
+   subagent 难用、压缩丢信息都来自缓存只能追加
+   https://www.youtube.com/@RedpointAI
+
+9. JEV CEO 反 benchmark：难和稳是两回事（Unsupervised Learning · 播客）
+   批评对手刷榜有立场，但自认图像只做到一成很少见
+   https://www.youtube.com/@RedpointAI
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>比模型看每题成本：Fable 5.2 通过率持平却贵 2.8 倍</title>
       <description>结论出自 Garry Tan 的 52 题实测。另聊了刷榜、Vercel 的 durable-harness、抗癌 skill 和 Trajectory 训练平台。
 
@@ -2393,86 +2489,6 @@
 8. Kevin Scott 讲 capability overhang 和 agentic web（Kevin Scott · 播客）
    MCP 想当新 HTTP，但同源策略这道安全闸还没补上
    https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>从 Boris 到 Samsara：值钱的活儿在验证和落地</title>
-      <description>Boris 说 bug 挪了地方，Levie 说 FDE 不会消失，Samsara 用 agent 捡回没人申请的保修钱。另外聊了 Claude 文本水印、AISI 操纵人类事件、垂直 open-weight 模型。
-
-本期内容
-
-1. Anthropic 给 Claude 全部输出加文本水印（Thariq · X）
-   合规压出来的功能，挡懒人挡不住认真造假的；查 PR 的用法会引出误判争议
-   https://x.com/trq212/status/2087258091821949074
-
-2. AISI 事件：模型自主操纵开源维护者（Matt Turck · X）
-   unprompted 和 in the wild 是关键词，但没有报告链接，严重程度没法判断
-   https://x.com/mattturck/status/2087311436779298897
-
-3. LLM 的 bug 从小错变成系统设计问题（Boris Cherny · X）
-   对抗式 code review 几乎白捡，因为两次采样犯的错不重叠
-   https://x.com/bcherny/status/2087284684103537011
-
-4. 2023 年的 prompt 日志预言了今天（Madhu Guru · X）
-   prompt 日志是最诚实的需求调研，别拿当前模型能力去过滤需求
-   https://x.com/realmadhuguru/status/2087355597851390220
-
-5. FDE 是真需求，模型再强也不会消失（Aaron Levie · X）
-   模型越强客户扔来的流程越复杂，落地复杂度守恒
-   https://x.com/levie/status/2087385493684335064
-
-6. 垂直领域的 open-weight 模型有大钱赚（Madhu Guru · X）
-   大厂不干垂直脏活；open-weight 是为了私有化部署和蒸馏
-   https://x.com/realmadhuguru/status/2087198985685750013
-
-7. Samsara 的物理世界 AI 和保修 agent（Sanjit Biswas · 播客）
-   下一批值钱的数据在线下；agent 先干有价值、没人干、错了不死人的活
-   https://www.youtube.com/@DataDrivenNYC/videos
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Wed, 12 Aug 2026 08:12:56 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-12-181252.mp3"
-                 length="10452367"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-12-181252.mp3</guid>
-      <itunes:duration>10:53</itunes:duration>
-      <itunes:summary>Boris 说 bug 挪了地方，Levie 说 FDE 不会消失，Samsara 用 agent 捡回没人申请的保修钱。另外聊了 Claude 文本水印、AISI 操纵人类事件、垂直 open-weight 模型。
-
-本期内容
-
-1. Anthropic 给 Claude 全部输出加文本水印（Thariq · X）
-   合规压出来的功能，挡懒人挡不住认真造假的；查 PR 的用法会引出误判争议
-   https://x.com/trq212/status/2087258091821949074
-
-2. AISI 事件：模型自主操纵开源维护者（Matt Turck · X）
-   unprompted 和 in the wild 是关键词，但没有报告链接，严重程度没法判断
-   https://x.com/mattturck/status/2087311436779298897
-
-3. LLM 的 bug 从小错变成系统设计问题（Boris Cherny · X）
-   对抗式 code review 几乎白捡，因为两次采样犯的错不重叠
-   https://x.com/bcherny/status/2087284684103537011
-
-4. 2023 年的 prompt 日志预言了今天（Madhu Guru · X）
-   prompt 日志是最诚实的需求调研，别拿当前模型能力去过滤需求
-   https://x.com/realmadhuguru/status/2087355597851390220
-
-5. FDE 是真需求，模型再强也不会消失（Aaron Levie · X）
-   模型越强客户扔来的流程越复杂，落地复杂度守恒
-   https://x.com/levie/status/2087385493684335064
-
-6. 垂直领域的 open-weight 模型有大钱赚（Madhu Guru · X）
-   大厂不干垂直脏活；open-weight 是为了私有化部署和蒸馏
-   https://x.com/realmadhuguru/status/2087198985685750013
-
-7. Samsara 的物理世界 AI 和保修 agent（Sanjit Biswas · 播客）
-   下一批值钱的数据在线下；agent 先干有价值、没人干、错了不死人的活
-   https://www.youtube.com/@DataDrivenNYC/videos
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
