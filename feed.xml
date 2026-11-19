@@ -136,6 +136,78 @@
     </item>
     
     <item>
+      <title>比模型看每题成本：Fable 5.2 通过率持平却贵 2.8 倍</title>
+      <description>结论出自 Garry Tan 的 52 题实测。另聊了刷榜、Vercel 的 durable-harness、抗癌 skill 和 Trajectory 训练平台。
+
+本期内容
+
+1. Garry Tan 实测 Opus 5.5 对比 Fable 5.2（Garry Tan · X）
+   按每解出一题算成本才对得上账单，但两点差距分不出能力高低
+   https://x.com/garrytan/status/2121464508225053153
+
+2. Garry Tan 开源 harness eval 仓库（Garry Tan · X）
+   换成自己团队的任务再跑一遍，结果才算数
+   https://x.com/garrytan/status/2121463161069228382
+
+3. Nikunj Kothari 吐槽刷 benchmark 回潮（Nikunj Kothari · X）
+   前半句对，拿自己的工作流测；没点名哪几个榜重要，等于没说
+   https://x.com/nikunj/status/2121320899161010360
+
+4. Vercel 发布 Workflow SDK 5 和 durable-harness（Guillermo Rauch · X）
+   持久化日志开放给任何 harness，Vercel 在抢 agent 底层，但性能数字没给
+   https://x.com/rauchg/status/2121277727940776114
+
+5. Peter Yang 给癌症病人家属做的免费 skill（Peter Yang · X）
+   一页纸病情简报很实在，查临床试验的结果要医生把关
+   https://x.com/petergyang/status/2121430386685395022
+
+6. Trajectory 的 Ronak 谈持续学习和定制训练（Ronak · 播客）
+   Harvey 的 4% 到 18% 没跟前沿比；group size 一要是成立，最大的人工成本就没了
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Sat, 14 Nov 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-154943.mp3"
+                 length="10334084"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-154943.mp3</guid>
+      <itunes:duration>10:45</itunes:duration>
+      <itunes:summary>结论出自 Garry Tan 的 52 题实测。另聊了刷榜、Vercel 的 durable-harness、抗癌 skill 和 Trajectory 训练平台。
+
+本期内容
+
+1. Garry Tan 实测 Opus 5.5 对比 Fable 5.2（Garry Tan · X）
+   按每解出一题算成本才对得上账单，但两点差距分不出能力高低
+   https://x.com/garrytan/status/2121464508225053153
+
+2. Garry Tan 开源 harness eval 仓库（Garry Tan · X）
+   换成自己团队的任务再跑一遍，结果才算数
+   https://x.com/garrytan/status/2121463161069228382
+
+3. Nikunj Kothari 吐槽刷 benchmark 回潮（Nikunj Kothari · X）
+   前半句对，拿自己的工作流测；没点名哪几个榜重要，等于没说
+   https://x.com/nikunj/status/2121320899161010360
+
+4. Vercel 发布 Workflow SDK 5 和 durable-harness（Guillermo Rauch · X）
+   持久化日志开放给任何 harness，Vercel 在抢 agent 底层，但性能数字没给
+   https://x.com/rauchg/status/2121277727940776114
+
+5. Peter Yang 给癌症病人家属做的免费 skill（Peter Yang · X）
+   一页纸病情简报很实在，查临床试验的结果要医生把关
+   https://x.com/petergyang/status/2121430386685395022
+
+6. Trajectory 的 Ronak 谈持续学习和定制训练（Ronak · 播客）
+   Harvey 的 4% 到 18% 没跟前沿比；group size 一要是成立，最大的人工成本就没了
+   https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>让 Claude 干好活，大部分功夫在补它缺的上下文</title>
       <description>这句出自 Alex Albert 转发 Claude Meetings。另外聊了 Levie 实测 Gemini 4 Hydrogen、Rauch 的 UI SDK、Codex 征集改进、Replit Agent 买广告，和 Isomorphic 谈 AI 做药。
 
@@ -2401,86 +2473,6 @@
 7. Samsara 的物理世界 AI 和保修 agent（Sanjit Biswas · 播客）
    下一批值钱的数据在线下；agent 先干有价值、没人干、错了不死人的活
    https://www.youtube.com/@DataDrivenNYC/videos
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>模型层拦不住攻击，真正顶用的是网络和文件权限</title>
-      <description>判断来自 Anthropic 讲关住 Claude 的博客。另外聊了 Vercel Sandbox 的网络隔离、Meta 开源权重、Linear 怎么搭生产 agent，还有 Netic 用 AI 调度技工的生意。
-
-本期内容
-
-1. Vercel Sandbox 隔离计算和网络，对照 Kimi K3 和 OpenAI 的沙箱逃逸（Guillermo Rauch · X）
-   模型层挡不住，网络出口这道墙才是真正拦得住 agent 的边界
-   https://x.com/rauchg/status/2086946535716393209
-
-2. Meta 把 Muse Spark 1.2 开放权重放出来（Aaron Levie · X）
-   开放权重解决的是能不能部署的问题，不是能力有多强，他没给跑分
-   https://x.com/levie/status/2086802472950239618
-
-3. Linear 团队分享怎么从零搭一个上生产的 agent（Peter Yang · X）
-   先上最强模型定基准线，别急着用小模型省钱
-   https://x.com/petergyang/status/2086824976800436676
-
-4. 盲测两个 coding agent 仿写 Grok Imagine（Swyx · X）
-   像不像原版和好不好用是两件事，别只看截图判断模型好坏
-   https://x.com/swyx/status/2087045848022843451
-
-5. 用 Codex 给设计好的网站截图标注来学设计（Zara Zhang · X）
-   把分析文字和画面钉在同一张图上，比来回切更容易学进去
-   https://x.com/zarazhangrui/status/2086758509979316423
-
-6. Anthropic 讲他们怎么把 Claude 关在笼子里，员工被钓鱼后 24 次凭证外泄（Anthropic Engineering · 博客）
-   用户自己敲的钓鱼指令，模型层防线看不出异常，只有网络和文件权限能挡住
-   https://www.anthropic.com/engineering/how-we-contain-claude
-
-7. Netic 创始人 Melisa Tokmak 谈为什么大模型公司不会取代她们（Melisa Tokmak · 播客）
-   护城河在最后一公里的编排和产品，不在模型本身有多强
-   https://www.youtube.com/@NoPriorsPodcast
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Tue, 11 Aug 2026 08:15:35 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-11-181532.mp3"
-                 length="11142417"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-11-181532.mp3</guid>
-      <itunes:duration>11:36</itunes:duration>
-      <itunes:summary>判断来自 Anthropic 讲关住 Claude 的博客。另外聊了 Vercel Sandbox 的网络隔离、Meta 开源权重、Linear 怎么搭生产 agent，还有 Netic 用 AI 调度技工的生意。
-
-本期内容
-
-1. Vercel Sandbox 隔离计算和网络，对照 Kimi K3 和 OpenAI 的沙箱逃逸（Guillermo Rauch · X）
-   模型层挡不住，网络出口这道墙才是真正拦得住 agent 的边界
-   https://x.com/rauchg/status/2086946535716393209
-
-2. Meta 把 Muse Spark 1.2 开放权重放出来（Aaron Levie · X）
-   开放权重解决的是能不能部署的问题，不是能力有多强，他没给跑分
-   https://x.com/levie/status/2086802472950239618
-
-3. Linear 团队分享怎么从零搭一个上生产的 agent（Peter Yang · X）
-   先上最强模型定基准线，别急着用小模型省钱
-   https://x.com/petergyang/status/2086824976800436676
-
-4. 盲测两个 coding agent 仿写 Grok Imagine（Swyx · X）
-   像不像原版和好不好用是两件事，别只看截图判断模型好坏
-   https://x.com/swyx/status/2087045848022843451
-
-5. 用 Codex 给设计好的网站截图标注来学设计（Zara Zhang · X）
-   把分析文字和画面钉在同一张图上，比来回切更容易学进去
-   https://x.com/zarazhangrui/status/2086758509979316423
-
-6. Anthropic 讲他们怎么把 Claude 关在笼子里，员工被钓鱼后 24 次凭证外泄（Anthropic Engineering · 博客）
-   用户自己敲的钓鱼指令，模型层防线看不出异常，只有网络和文件权限能挡住
-   https://www.anthropic.com/engineering/how-we-contain-claude
-
-7. Netic 创始人 Melisa Tokmak 谈为什么大模型公司不会取代她们（Melisa Tokmak · 播客）
-   护城河在最后一公里的编排和产品，不在模型本身有多强
-   https://www.youtube.com/@NoPriorsPodcast
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
