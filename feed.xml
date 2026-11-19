@@ -136,6 +136,78 @@
     </item>
     
     <item>
+      <title>xeet 拿 Chrome 当裁判：agent 的上限看自动验证</title>
+      <description>判断来自 Rauch 的 xeet。另聊了 Claude 的设计偏好、原型提速但验证没快、Shipper 的自进化 skill、Robinhood 的 agent 交易和 Harmonic。
+
+本期内容
+
+1. Rauch 发布 xeet，一毫秒渲染 X 帖子（Guillermo Rauch · X）
+   速度不稀奇，拿 Chrome 当 oracle 让 agent 自己对答案才是能做成的原因
+   https://x.com/rauchg/status/2122184794209714368
+
+2. Claude 总做出米白配橙的同款设计（Peter Yang / Nate Parrott · X）
+   在 prompt 里点名模型的口头禅管用，但换模型就得重写，还可能打地鼠
+   https://x.com/petergyang/status/2122132596352327816
+
+3. 原型从几周变一两天，用户验证没变快（Peter Yang / Nate Parrott · X）
+   瓶颈挪到了用户研究，这个时间模型帮不上
+   https://x.com/petergyang/status/2122060856498524510
+
+4. Dan Shipper 用 autoresearch 迭代摘要 skill（Dan Shipper · X）
+   百分之八十的口径不清，拿一个人的口味当 eval 有过拟合风险
+   https://x.com/danshipper/status/2122091033001337134
+
+5. Robinhood 的 agent 交易：十五万账户、沙箱隔离（Vlad Tenev · 播客）
+   单独账户加审批的隔离设计是对的，用户数和 tool call 说明不了交易量
+   https://www.youtube.com/@NoPriorsPodcast
+
+6. Harmonic 与 AI 数学是否太集中（Vlad Tenev · 播客）
+   他回避了人在环里能贡献什么，找数学家合作的建议倒实在
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Mon, 16 Nov 2026 08:00:00 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-160645.mp3"
+                 length="11307929"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-19-160645.mp3</guid>
+      <itunes:duration>11:46</itunes:duration>
+      <itunes:summary>判断来自 Rauch 的 xeet。另聊了 Claude 的设计偏好、原型提速但验证没快、Shipper 的自进化 skill、Robinhood 的 agent 交易和 Harmonic。
+
+本期内容
+
+1. Rauch 发布 xeet，一毫秒渲染 X 帖子（Guillermo Rauch · X）
+   速度不稀奇，拿 Chrome 当 oracle 让 agent 自己对答案才是能做成的原因
+   https://x.com/rauchg/status/2122184794209714368
+
+2. Claude 总做出米白配橙的同款设计（Peter Yang / Nate Parrott · X）
+   在 prompt 里点名模型的口头禅管用，但换模型就得重写，还可能打地鼠
+   https://x.com/petergyang/status/2122132596352327816
+
+3. 原型从几周变一两天，用户验证没变快（Peter Yang / Nate Parrott · X）
+   瓶颈挪到了用户研究，这个时间模型帮不上
+   https://x.com/petergyang/status/2122060856498524510
+
+4. Dan Shipper 用 autoresearch 迭代摘要 skill（Dan Shipper · X）
+   百分之八十的口径不清，拿一个人的口味当 eval 有过拟合风险
+   https://x.com/danshipper/status/2122091033001337134
+
+5. Robinhood 的 agent 交易：十五万账户、沙箱隔离（Vlad Tenev · 播客）
+   单独账户加审批的隔离设计是对的，用户数和 tool call 说明不了交易量
+   https://www.youtube.com/@NoPriorsPodcast
+
+6. Harmonic 与 AI 数学是否太集中（Vlad Tenev · 播客）
+   他回避了人在环里能贡献什么，找数学家合作的建议倒实在
+   https://www.youtube.com/@NoPriorsPodcast
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>coding agent 长什么样，是 KV cache 只能追加定的</title>
       <description>出自 Unsupervised Learning 的 JEV 访谈。另聊 Levie、Rauch 的 subagent、Masad 墨菲世界、配置审计和 Gemini 接 Wallet。
 
@@ -2401,94 +2473,6 @@
 8. AI 能造出超越人类的东西还能冒充人做的，chess.com 怎么防（Erik Allebest · 播客）
    他们能做的是抓得住封得掉，没法保证完全防住
    https://www.youtube.com/@NoPriorsPodcast
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>MCP 是新的 HTTP，安全模型还没补上</title>
-      <description>这个判断来自 Kevin Scott 那期播客。另外聊了 Aaron Levie 的 Jevons 悖论、Garry Tan 的个人 AGI，还有 Claude Code 变笨的三个 bug。
-
-本期内容
-
-1. Aaron Levie 说降价会让 AI 需求加速而不是变少（Aaron Levie · X）
-   扫代码找漏洞这种活儿，卡企业的是信任不是预算
-   https://x.com/levie/status/2087719356763672917
-
-2. Levie 和 Madhu Guru 都说钱在应用层（Aaron Levie / Madhu Guru · X）
-   两人都说钱在应用层，但赌的逻辑完全不同
-   https://x.com/realmadhuguru/status/2087553833098723547
-
-3. Garry Tan 发 GBrain v0.45.6.0，自称个人 AGI（Garry Tan · X）
-   个人 AGI 这词儿用大了，具体技能是什么他没说
-   https://x.com/garrytan/status/2087594114372259890
-
-4. Garry Tan 说 GBrain 该单独起一个 agent 跑（Garry Tan · X）
-   分开存记忆是对的，混进主 agent 会互相污染
-   https://x.com/garrytan/status/2087597829065945249
-
-5. Vercel 的 sandbox 号称比本地机器还快（Guillermo Rauch · X）
-   快不快没数据，预装工具省冷启动时间是真的
-   https://x.com/rauchg/status/2087698195120116064
-
-6. Claude 官方号讲浏览器 agent 会被页面藏的指令骗（Claude · X）
-   prompt injection 没人敢说解决了，只是压低概率
-   https://x.com/claudeai/status/2087635265066004694
-
-7. Anthropic 复盘 Claude Code 变笨的三个连环 bug（Anthropic Engineering · 博客）
-   清思考记录的 bug 最狠，agent 记不住自己为什么这么做
-   https://www.anthropic.com/engineering/april-23-postmortem
-
-8. Kevin Scott 讲 capability overhang 和 agentic web（Kevin Scott · 播客）
-   MCP 想当新 HTTP，但同源策略这道安全闸还没补上
-   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Thu, 13 Aug 2026 08:16:39 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-13-181635.mp3"
-                 length="11720873"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-13-181635.mp3</guid>
-      <itunes:duration>12:12</itunes:duration>
-      <itunes:summary>这个判断来自 Kevin Scott 那期播客。另外聊了 Aaron Levie 的 Jevons 悖论、Garry Tan 的个人 AGI，还有 Claude Code 变笨的三个 bug。
-
-本期内容
-
-1. Aaron Levie 说降价会让 AI 需求加速而不是变少（Aaron Levie · X）
-   扫代码找漏洞这种活儿，卡企业的是信任不是预算
-   https://x.com/levie/status/2087719356763672917
-
-2. Levie 和 Madhu Guru 都说钱在应用层（Aaron Levie / Madhu Guru · X）
-   两人都说钱在应用层，但赌的逻辑完全不同
-   https://x.com/realmadhuguru/status/2087553833098723547
-
-3. Garry Tan 发 GBrain v0.45.6.0，自称个人 AGI（Garry Tan · X）
-   个人 AGI 这词儿用大了，具体技能是什么他没说
-   https://x.com/garrytan/status/2087594114372259890
-
-4. Garry Tan 说 GBrain 该单独起一个 agent 跑（Garry Tan · X）
-   分开存记忆是对的，混进主 agent 会互相污染
-   https://x.com/garrytan/status/2087597829065945249
-
-5. Vercel 的 sandbox 号称比本地机器还快（Guillermo Rauch · X）
-   快不快没数据，预装工具省冷启动时间是真的
-   https://x.com/rauchg/status/2087698195120116064
-
-6. Claude 官方号讲浏览器 agent 会被页面藏的指令骗（Claude · X）
-   prompt injection 没人敢说解决了，只是压低概率
-   https://x.com/claudeai/status/2087635265066004694
-
-7. Anthropic 复盘 Claude Code 变笨的三个连环 bug（Anthropic Engineering · 博客）
-   清思考记录的 bug 最狠，agent 记不住自己为什么这么做
-   https://www.anthropic.com/engineering/april-23-postmortem
-
-8. Kevin Scott 讲 capability overhang 和 agentic web（Kevin Scott · 播客）
-   MCP 想当新 HTTP，但同源策略这道安全闸还没补上
-   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
