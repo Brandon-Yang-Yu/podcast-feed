@@ -32,6 +32,102 @@
 
     
     <item>
+      <title>Bob McGrew：自动化研究员只是一次性加速，卡点在 GPU</title>
+      <description>这个判断来自 No Priors 对 Bob McGrew 的访谈，也聊了 Arda 怎么做制造。另外有 Rauch 的工程师倍数、Gemini 4 Neon 对比、ChatGPT 改版、swyx 和老人防诈骗。
+
+本期内容
+
+1. Rauch：千倍工程师和负十倍工程师（Guillermo Rauch · X）
+   倍数没法测，token 数据有偏，但编程是头号应用能站住：对错能让机器判
+   https://x.com/rauchg/status/2123505400591106113
+
+2. Vercel Board：给 agent 用的 headless Slack（Guillermo Rauch · X）
+   UI 能现场生成以后，值钱的是多 agent 共享的那层状态
+   https://x.com/rauchg/status/2123468825538789380
+
+3. Gemini 4 Neon 对比 Opus 5.5（Peter Yang · X）
+   单人测评参考有限，快很多又差不多好的档位会把最强档挤成小众
+   https://x.com/petergyang/status/2123540875733315815
+
+4. Google 十万员工内测是一种优势（Peter Yang · X）
+   内测能挡掉很多问题，但员工跟真实用户差得远
+   https://x.com/petergyang/status/2123648490844897389
+
+5. Gemini Mac 应用能在电脑上执行任务（Josh Woodward · X）
+   只有一句话，权限和范围都没说
+   https://x.com/joshwoodward/status/2123534862569324703
+
+6. ChatGPT 新手机端体验，先给 Pro 用户（Thibault Sottiaux · X）
+   原地改十二亿用户的产品，留开关、先拿重度用户试是对的
+   https://x.com/thsottiaux/status/2123557171321561133
+
+7. 社交媒体上唱衰说错了没代价（swyx · X）
+   唱衰对错都赚赞，看到某家没戏了先打折
+   https://x.com/swyx/status/2123591875349422435
+
+8. 谁来保护老人不被 AI 诈骗（Nikunj Kothari · X）
+   买单的是子女，挂上保险激励才对，难在定价
+   https://x.com/nikunj/status/2123426647273800172
+
+9. Bob McGrew：超级智能绕不开物理世界，Arda 做柔性产线（Bob McGrew · 播客）
+   研究产出等于算力乘利用率，自动化研究只能推高利用率；制造业先缺一层 agent 能读写的数据
+   https://www.youtube.com/watch?v=_wLzJINt9iQ
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Fri, 20 Nov 2026 07:09:03 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-20-180859.mp3"
+                 length="14735195"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-20-180859.mp3</guid>
+      <itunes:duration>15:20</itunes:duration>
+      <itunes:summary>这个判断来自 No Priors 对 Bob McGrew 的访谈，也聊了 Arda 怎么做制造。另外有 Rauch 的工程师倍数、Gemini 4 Neon 对比、ChatGPT 改版、swyx 和老人防诈骗。
+
+本期内容
+
+1. Rauch：千倍工程师和负十倍工程师（Guillermo Rauch · X）
+   倍数没法测，token 数据有偏，但编程是头号应用能站住：对错能让机器判
+   https://x.com/rauchg/status/2123505400591106113
+
+2. Vercel Board：给 agent 用的 headless Slack（Guillermo Rauch · X）
+   UI 能现场生成以后，值钱的是多 agent 共享的那层状态
+   https://x.com/rauchg/status/2123468825538789380
+
+3. Gemini 4 Neon 对比 Opus 5.5（Peter Yang · X）
+   单人测评参考有限，快很多又差不多好的档位会把最强档挤成小众
+   https://x.com/petergyang/status/2123540875733315815
+
+4. Google 十万员工内测是一种优势（Peter Yang · X）
+   内测能挡掉很多问题，但员工跟真实用户差得远
+   https://x.com/petergyang/status/2123648490844897389
+
+5. Gemini Mac 应用能在电脑上执行任务（Josh Woodward · X）
+   只有一句话，权限和范围都没说
+   https://x.com/joshwoodward/status/2123534862569324703
+
+6. ChatGPT 新手机端体验，先给 Pro 用户（Thibault Sottiaux · X）
+   原地改十二亿用户的产品，留开关、先拿重度用户试是对的
+   https://x.com/thsottiaux/status/2123557171321561133
+
+7. 社交媒体上唱衰说错了没代价（swyx · X）
+   唱衰对错都赚赞，看到某家没戏了先打折
+   https://x.com/swyx/status/2123591875349422435
+
+8. 谁来保护老人不被 AI 诈骗（Nikunj Kothari · X）
+   买单的是子女，挂上保险激励才对，难在定价
+   https://x.com/nikunj/status/2123426647273800172
+
+9. Bob McGrew：超级智能绕不开物理世界，Arda 做柔性产线（Bob McGrew · 播客）
+   研究产出等于算力乘利用率，自动化研究只能推高利用率；制造业先缺一层 agent 能读写的数据
+   https://www.youtube.com/watch?v=_wLzJINt9iQ
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>AI 让写代码变便宜，没让想清楚要什么变便宜</title>
       <description>判断来自 Thariq 弃用自制工具和 Ivan Zhao 的播客。另外聊了 Rauch 的推理云与 agent 留言板、GPT-6.2 Astra、Genie 4。
 
@@ -2417,78 +2513,6 @@
 7. AISI 测试里模型靠社工和威胁去攻内网（Thomas Wolf · 播客）
    沙箱护栏都能被绕开，顶用的是模型自己愿不愿意骗人
    https://www.youtube.com/watch?v=FU9A481E2W8
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>好用的库，现在得摊开代码给AI读</title>
-      <description>这个判断来自 Vercel CEO Guillermo Rauch 聊 shadcn 那条。另外聊了 Sottiaux 讲 token 定价的坑、Amjad Masad 反驳 AI 天然集中权力、swyx 谈顶尖圈子的信息差，还有 Sarah Tavel 讲消费 AI 产品和真假网络效应。
-
-本期内容
-
-1. Sottiaux讲token定价该怎么算才对（Thibault Sottiaux · X）
-   比总账单不比单价，省下的token如果换来返工，便宜也没用
-   https://x.com/thsottiaux/status/2088866513008873560
-
-2. Masad反驳AI天然会让权力集中（Amjad Masad · X）
-   算力变便宜是历史事实，但AGI不需要数据中心只是预测
-   https://x.com/amasad/status/2088867492907327573
-
-3. Rauch说shadcn才是React真正的成功（Guillermo Rauch · X）
-   好库现在得把源码摊开给AI读，不是打包藏起来
-   https://x.com/rauchg/status/2088757738037989755
-
-4. swyx讲顶尖圈子没那么多秘密群（swyx · X）
-   统一秘密群不存在，但小圈子信息差是真的，只是没那么戏剧化
-   https://x.com/swyx/status/2088755688361378082
-
-5. Tavel讲AI消费产品还在单人技术阶段（Sarah Tavel · 播客）
-   ChatGPT还停留在单人模式，离她说的产品天才阶段还早
-   https://www.youtube.com/watch?v=dlI-5W7d7uU
-
-6. Tavel讲怎么分辨真假网络效应（Sarah Tavel · 播客）
-   多数创业公司的飞轮图只是画在PPT上，没有真的在转
-   https://www.youtube.com/watch?v=dlI-5W7d7uU
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Sun, 16 Aug 2026 08:23:41 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-16-182337.mp3"
-                 length="11383998"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-16-182337.mp3</guid>
-      <itunes:duration>11:51</itunes:duration>
-      <itunes:summary>这个判断来自 Vercel CEO Guillermo Rauch 聊 shadcn 那条。另外聊了 Sottiaux 讲 token 定价的坑、Amjad Masad 反驳 AI 天然集中权力、swyx 谈顶尖圈子的信息差，还有 Sarah Tavel 讲消费 AI 产品和真假网络效应。
-
-本期内容
-
-1. Sottiaux讲token定价该怎么算才对（Thibault Sottiaux · X）
-   比总账单不比单价，省下的token如果换来返工，便宜也没用
-   https://x.com/thsottiaux/status/2088866513008873560
-
-2. Masad反驳AI天然会让权力集中（Amjad Masad · X）
-   算力变便宜是历史事实，但AGI不需要数据中心只是预测
-   https://x.com/amasad/status/2088867492907327573
-
-3. Rauch说shadcn才是React真正的成功（Guillermo Rauch · X）
-   好库现在得把源码摊开给AI读，不是打包藏起来
-   https://x.com/rauchg/status/2088757738037989755
-
-4. swyx讲顶尖圈子没那么多秘密群（swyx · X）
-   统一秘密群不存在，但小圈子信息差是真的，只是没那么戏剧化
-   https://x.com/swyx/status/2088755688361378082
-
-5. Tavel讲AI消费产品还在单人技术阶段（Sarah Tavel · 播客）
-   ChatGPT还停留在单人模式，离她说的产品天才阶段还早
-   https://www.youtube.com/watch?v=dlI-5W7d7uU
-
-6. Tavel讲怎么分辨真假网络效应（Sarah Tavel · 播客）
-   多数创业公司的飞轮图只是画在PPT上，没有真的在转
-   https://www.youtube.com/watch?v=dlI-5W7d7uU
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
