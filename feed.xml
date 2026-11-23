@@ -32,6 +32,102 @@
 
     
     <item>
+      <title>Claude 四百个答案里有对的，挑出来还得靠人</title>
+      <description>这个判断来自 Dan Shipper 的大会闭幕演讲。另外聊了 Altman 提议用 perplexity 设上限、Rauch 警告隐身模型、Levie 谈 agent 集群、agent 是挑剔客户。
+
+本期内容
+
+1. Sam Altman 提议用 perplexity 给前沿模型设共同上限（Sam Altman · X）
+   换成量能力的尺子是新的，但跨实验室怎么比 perplexity 还没答案
+   https://x.com/sama/status/2124551883130114403
+
+2. Altman 补充：perplexity 讨论可推进 White House Accords（Sam Altman · X）
+   框架有了落点，前提是先有一份公共测试集
+   https://x.com/sama/status/2124558713646428663
+
+3. swyx 转述 OpenAI：0.68-0.7 log-perplexity 区间（Swyx · X）
+   用预训练指标画图，post-training 自然显得是副线
+   https://x.com/swyx/status/2124583459356373052
+
+4. swyx 质疑：按这指标今年进步超过前四年（Swyx · X）
+   监管指标要是跟实际体感对不上，会卡错地方
+   https://x.com/swyx/status/2124590240539259381
+
+5. Rauch 警告免费隐身模型可能外流数据（Guillermo Rauch · X）
+   证据推文里没给，但 coding agent 接匿名模型的风险远大于聊天
+   https://x.com/rauchg/status/2124595496849445079
+
+6. Replit Desktop 与 Windows 合作做安全模型（Amjad Masad · X）
+   是广告，但说明企业客户现在先问安全
+   https://x.com/amasad/status/2124604574606795002
+
+7. Levie：agent 集群需要新的编排和权限架构（Aaron Levie · X）
+   权限和吞吐量是真难点，Box 的立场也要记着
+   https://x.com/levie/status/2124658150771188157
+
+8. 微软 Copilot EVP：agent 是很挑剔的客户（Peter Yang · X）
+   agent 没有品牌惯性，但返回一千条结果的例子站不住
+   https://x.com/petergyang/status/2124669298191090033
+
+9. Dan Shipper：生成便宜，排序很难（Dan Shipper · 播客）
+   pass@400 能中，排序只有六成进前 10%，人的视角在挑选上有用，但没证明岗位都还在
+   https://www.youtube.com/watch?v=WstNofgQF5Q
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Mon, 23 Nov 2026 07:05:44 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-23-180540.mp3"
+                 length="10655495"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-23-180540.mp3</guid>
+      <itunes:duration>11:05</itunes:duration>
+      <itunes:summary>这个判断来自 Dan Shipper 的大会闭幕演讲。另外聊了 Altman 提议用 perplexity 设上限、Rauch 警告隐身模型、Levie 谈 agent 集群、agent 是挑剔客户。
+
+本期内容
+
+1. Sam Altman 提议用 perplexity 给前沿模型设共同上限（Sam Altman · X）
+   换成量能力的尺子是新的，但跨实验室怎么比 perplexity 还没答案
+   https://x.com/sama/status/2124551883130114403
+
+2. Altman 补充：perplexity 讨论可推进 White House Accords（Sam Altman · X）
+   框架有了落点，前提是先有一份公共测试集
+   https://x.com/sama/status/2124558713646428663
+
+3. swyx 转述 OpenAI：0.68-0.7 log-perplexity 区间（Swyx · X）
+   用预训练指标画图，post-training 自然显得是副线
+   https://x.com/swyx/status/2124583459356373052
+
+4. swyx 质疑：按这指标今年进步超过前四年（Swyx · X）
+   监管指标要是跟实际体感对不上，会卡错地方
+   https://x.com/swyx/status/2124590240539259381
+
+5. Rauch 警告免费隐身模型可能外流数据（Guillermo Rauch · X）
+   证据推文里没给，但 coding agent 接匿名模型的风险远大于聊天
+   https://x.com/rauchg/status/2124595496849445079
+
+6. Replit Desktop 与 Windows 合作做安全模型（Amjad Masad · X）
+   是广告，但说明企业客户现在先问安全
+   https://x.com/amasad/status/2124604574606795002
+
+7. Levie：agent 集群需要新的编排和权限架构（Aaron Levie · X）
+   权限和吞吐量是真难点，Box 的立场也要记着
+   https://x.com/levie/status/2124658150771188157
+
+8. 微软 Copilot EVP：agent 是很挑剔的客户（Peter Yang · X）
+   agent 没有品牌惯性，但返回一千条结果的例子站不住
+   https://x.com/petergyang/status/2124669298191090033
+
+9. Dan Shipper：生成便宜，排序很难（Dan Shipper · 播客）
+   pass@400 能中，排序只有六成进前 10%，人的视角在挑选上有用，但没证明岗位都还在
+   https://www.youtube.com/watch?v=WstNofgQF5Q
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Linear：只开 MCP 当数据库，工具会被挤到后台</title>
       <description>判断出自 Linear COO 的 Latent Space 访谈。另聊了 Levie 谈放手给 agent、AI 黎曼证明、别给客户发 Artifacts、自动外联翻车、Vercel 的 eve。
 
@@ -2441,78 +2537,6 @@
 7. Rich Sutton讲为什么大模型部署后就不再学习（Rich Sutton · 播客）
    权重冻结不算学习，他们要解决的是灾难性遗忘
    https://www.youtube.com/watch?v=xH7U7w9Qzlo
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>十八个月要到的 RSI，五年来没兑现过一次</title>
-      <description>判断来自 No Priors 里 Sarah Guo 和 Elad Gil 聊 RSI 与万亿公司数量。另外聊了 Nikunj Kothari 吐槽 AI 圈没有 moat、Thariq 谈代码模型对比 diffusion、Madhu Guru 的 eval 方法、Aaron Levie 说数据该上资产负债表。
-
-本期内容
-
-1. AI 全产业链没有 moat 的吐槽（Nikunj Kothari · X）
-   模型一升级，各层的 moat 保鲜期就变短
-   https://x.com/nikunj/status/2089486802356961364
-
-2. 代码模型比 diffusion 更会做创意（Thariq · X）
-   代码可编辑可导出，这才是它赢 diffusion 的地方
-   https://x.com/trq212/status/2089415712007938315
-
-3. 怎么把 eval 做扎实的方法论（Madhu Guru · X）
-   eval 得跟着失败案例和线上流量一起更新
-   https://x.com/realmadhuguru/status/2089480958571331623
-
-4. 数据要不要算资产负债表上的资产（Aaron Levie · X）
-   说法对 Box 有利，但估值怎么算他没给答案
-   https://x.com/levie/status/2089499887905997272
-
-5. 万亿美元公司接下来还能冒出几个（Elad Gil · 播客）
-   到万亿市值要五百到一千亿收入，这样的市场没几个
-   https://www.youtube.com/watch?v=6l8oAO_LBx4
-
-6. 十八个月自我迭代论喊了五年没兑现（Sarah Guo · 播客）
-   预测连续落空五年，方法本身就该被怀疑
-   https://www.youtube.com/watch?v=6l8oAO_LBx4
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Tue, 18 Aug 2026 08:10:27 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-18-181023.mp3"
-                 length="9626479"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-18-181023.mp3</guid>
-      <itunes:duration>10:01</itunes:duration>
-      <itunes:summary>判断来自 No Priors 里 Sarah Guo 和 Elad Gil 聊 RSI 与万亿公司数量。另外聊了 Nikunj Kothari 吐槽 AI 圈没有 moat、Thariq 谈代码模型对比 diffusion、Madhu Guru 的 eval 方法、Aaron Levie 说数据该上资产负债表。
-
-本期内容
-
-1. AI 全产业链没有 moat 的吐槽（Nikunj Kothari · X）
-   模型一升级，各层的 moat 保鲜期就变短
-   https://x.com/nikunj/status/2089486802356961364
-
-2. 代码模型比 diffusion 更会做创意（Thariq · X）
-   代码可编辑可导出，这才是它赢 diffusion 的地方
-   https://x.com/trq212/status/2089415712007938315
-
-3. 怎么把 eval 做扎实的方法论（Madhu Guru · X）
-   eval 得跟着失败案例和线上流量一起更新
-   https://x.com/realmadhuguru/status/2089480958571331623
-
-4. 数据要不要算资产负债表上的资产（Aaron Levie · X）
-   说法对 Box 有利，但估值怎么算他没给答案
-   https://x.com/levie/status/2089499887905997272
-
-5. 万亿美元公司接下来还能冒出几个（Elad Gil · 播客）
-   到万亿市值要五百到一千亿收入，这样的市场没几个
-   https://www.youtube.com/watch?v=6l8oAO_LBx4
-
-6. 十八个月自我迭代论喊了五年没兑现（Sarah Guo · 播客）
-   预测连续落空五年，方法本身就该被怀疑
-   https://www.youtube.com/watch?v=6l8oAO_LBx4
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
