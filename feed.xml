@@ -32,6 +32,134 @@
 
     
     <item>
+      <title>单打最强的模型，组队超过 8 个 agent 就倒退</title>
+      <description>结论来自 Replit 的 swarm 研究。另外聊了 Claude Ship、Dots 擅自发邮件、Rauch 的个人 eval、Amjad 谈 open-weight。
+
+本期内容
+
+1. Replit 研究 agent swarm 的 scaling law（Amjad Masad · X）
+   挑模型跑 swarm 别照单 agent 榜单挑，18.9 倍是偏乐观的场景
+   https://x.com/amasad/status/2124969305674748175
+
+2. Anthropic 推出 Claude Ship，管审、修、批 PR（Boris Cherny · X）
+   瓶颈找对了，但写、审、批都是 Claude，盲区可能重合
+   https://x.com/bcherny/status/2124961485801836573
+
+3. Claude Ship 的三个部件（Boris Cherny · X）
+   Approvals 安不安全，要看 policy 能不能由程序判定
+   https://x.com/bcherny/status/2124961487454384442
+
+4. Claude Ship 怎么开始用（Boris Cherny · X）
+   先跑 observe 模式，专门看它想批、人却拦下的 PR
+   https://x.com/bcherny/status/2124961488691740941
+
+5. OpenAI 内部用 dots 搭建 dots 系统（Thibault Sottiaux · X）
+   内部用得顺，证明不了外面的人也好用
+   https://x.com/thsottiaux/status/2124923055072043052
+
+6. ChatGPT Dots 没审就发邮件，还随机停摆（Peter Yang · X）
+   发送确认该由工具层来卡，写在 prompt 里只是个概率
+   https://x.com/petergyang/status/2125060785667969399
+
+7. 不用 prompt 的主动型 agent（Aditya Agarwal · X）
+   agent 自己挑时间动手，权限问题会被放大
+   https://x.com/adityaag/status/2124947675913367832
+
+8. Rauch 让 Fable 读 session 选出 Gemini Neon（Guillermo Rauch · X）
+   读历史日志打分有选择偏差，得让两个模型重跑同一道题
+   https://x.com/rauchg/status/2124880074168242369
+
+9. 每个人都该有自己的 benchmark（Dan Shipper · X）
+   方向对，用自己做完的任务退回旧 commit 重跑最靠谱
+   https://x.com/danshipper/status/2124886826909622653
+
+10. 个人 benchmark 教程（Dan Shipper · X）
+   正文只有链接，节目里没有评价教程内容
+   https://x.com/danshipper/status/2124896430783447510
+
+11. Amjad 见 JD Vance 谈 open-weight AI（Amjad Masad · X）
+   生态跟着能拆开用的底座走，但盟友转向的规模没有数字
+   https://x.com/amasad/status/2125008810041610359
+
+12. Sam Altman 发了一个名字：Jensen（Sam Altman · X）
+   推文没讲回归的来龙去脉，不猜
+   https://x.com/sama/status/2124887162206495228
+
+13. 熬过生存危机的 Nvidia 不会再收着（Aditya Agarwal · X）
+   Meta 是亲身经历，Nvidia 这半句没有证据
+   https://x.com/adityaag/status/2125112140260638905
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Tue, 24 Nov 2026 07:07:24 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-24-180720.mp3"
+                 length="11164569"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-24-180720.mp3</guid>
+      <itunes:duration>11:37</itunes:duration>
+      <itunes:summary>结论来自 Replit 的 swarm 研究。另外聊了 Claude Ship、Dots 擅自发邮件、Rauch 的个人 eval、Amjad 谈 open-weight。
+
+本期内容
+
+1. Replit 研究 agent swarm 的 scaling law（Amjad Masad · X）
+   挑模型跑 swarm 别照单 agent 榜单挑，18.9 倍是偏乐观的场景
+   https://x.com/amasad/status/2124969305674748175
+
+2. Anthropic 推出 Claude Ship，管审、修、批 PR（Boris Cherny · X）
+   瓶颈找对了，但写、审、批都是 Claude，盲区可能重合
+   https://x.com/bcherny/status/2124961485801836573
+
+3. Claude Ship 的三个部件（Boris Cherny · X）
+   Approvals 安不安全，要看 policy 能不能由程序判定
+   https://x.com/bcherny/status/2124961487454384442
+
+4. Claude Ship 怎么开始用（Boris Cherny · X）
+   先跑 observe 模式，专门看它想批、人却拦下的 PR
+   https://x.com/bcherny/status/2124961488691740941
+
+5. OpenAI 内部用 dots 搭建 dots 系统（Thibault Sottiaux · X）
+   内部用得顺，证明不了外面的人也好用
+   https://x.com/thsottiaux/status/2124923055072043052
+
+6. ChatGPT Dots 没审就发邮件，还随机停摆（Peter Yang · X）
+   发送确认该由工具层来卡，写在 prompt 里只是个概率
+   https://x.com/petergyang/status/2125060785667969399
+
+7. 不用 prompt 的主动型 agent（Aditya Agarwal · X）
+   agent 自己挑时间动手，权限问题会被放大
+   https://x.com/adityaag/status/2124947675913367832
+
+8. Rauch 让 Fable 读 session 选出 Gemini Neon（Guillermo Rauch · X）
+   读历史日志打分有选择偏差，得让两个模型重跑同一道题
+   https://x.com/rauchg/status/2124880074168242369
+
+9. 每个人都该有自己的 benchmark（Dan Shipper · X）
+   方向对，用自己做完的任务退回旧 commit 重跑最靠谱
+   https://x.com/danshipper/status/2124886826909622653
+
+10. 个人 benchmark 教程（Dan Shipper · X）
+   正文只有链接，节目里没有评价教程内容
+   https://x.com/danshipper/status/2124896430783447510
+
+11. Amjad 见 JD Vance 谈 open-weight AI（Amjad Masad · X）
+   生态跟着能拆开用的底座走，但盟友转向的规模没有数字
+   https://x.com/amasad/status/2125008810041610359
+
+12. Sam Altman 发了一个名字：Jensen（Sam Altman · X）
+   推文没讲回归的来龙去脉，不猜
+   https://x.com/sama/status/2124887162206495228
+
+13. 熬过生存危机的 Nvidia 不会再收着（Aditya Agarwal · X）
+   Meta 是亲身经历，Nvidia 这半句没有证据
+   https://x.com/adityaag/status/2125112140260638905
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>Claude 四百个答案里有对的，挑出来还得靠人</title>
       <description>这个判断来自 Dan Shipper 的大会闭幕演讲。另外聊了 Altman 提议用 perplexity 设上限、Rauch 警告隐身模型、Levie 谈 agent 集群、agent 是挑剔客户。
 
@@ -2457,86 +2585,6 @@
 8. Elliot 把叙事从三幕剧换成 hook 加即兴（Elliot · 播客）
    模型强在局部连贯、弱在长程规划，别给它十步计划
    https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>模型层防不住的漏洞，最后都靠环境层硬边界兜底</title>
-      <description>这个判断来自Anthropic讲怎么关住Claude的工程博客。另外聊了OpenAI暂停RL训练、Codex误删用户文件、Vercel百万美元安全悬赏、Levie谈企业AI价值，还有Sutton讲continual learning。
-
-本期内容
-
-1. OpenAI暂停部分前沿RL训练（Sam Altman · X）
-   说了暂停但没给具体细节，先打个问号
-   https://x.com/sama/status/2089787807611195475
-
-2. Codex误删用户文件的复盘（Thibault Sottiaux · X）
-   模型层补丁再强化训练也防不住，真正管用的是执行层拦截
-   https://x.com/thsottiaux/status/2089891927659585918
-
-3. Vercel拿一百万美元悬赏找sandbox漏洞（Guillermo Rauch · X）
-   把sandbox安不安全从公司自己的说法变成外部能验证的事
-   https://x.com/rauchg/status/2089747453004468339
-
-4. 企业AI的价值大头在应用层不只是模型（Aaron Levie · X）
-   模型再强，该接哪套系统、怎么定价，这活儿还得有人干
-   https://x.com/levie/status/2089921630650925170
-
-5. SaaS做成headless按次收费给agent用（Thariq · X）
-   想法好想，给agent调用定价没那么简单
-   https://x.com/trq212/status/2089844723691479333
-
-6. Anthropic怎么把Claude这样的agent关住（Anthropic Engineering · 博客）
-   模型层挡不住的，最后都得靠环境层的硬边界
-   https://www.anthropic.com/engineering/how-we-contain-claude
-
-7. Rich Sutton讲为什么大模型部署后就不再学习（Rich Sutton · 播客）
-   权重冻结不算学习，他们要解决的是灾难性遗忘
-   https://www.youtube.com/watch?v=xH7U7w9Qzlo
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Wed, 19 Aug 2026 08:13:07 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-19-181303.mp3"
-                 length="11888057"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-19-181303.mp3</guid>
-      <itunes:duration>12:22</itunes:duration>
-      <itunes:summary>这个判断来自Anthropic讲怎么关住Claude的工程博客。另外聊了OpenAI暂停RL训练、Codex误删用户文件、Vercel百万美元安全悬赏、Levie谈企业AI价值，还有Sutton讲continual learning。
-
-本期内容
-
-1. OpenAI暂停部分前沿RL训练（Sam Altman · X）
-   说了暂停但没给具体细节，先打个问号
-   https://x.com/sama/status/2089787807611195475
-
-2. Codex误删用户文件的复盘（Thibault Sottiaux · X）
-   模型层补丁再强化训练也防不住，真正管用的是执行层拦截
-   https://x.com/thsottiaux/status/2089891927659585918
-
-3. Vercel拿一百万美元悬赏找sandbox漏洞（Guillermo Rauch · X）
-   把sandbox安不安全从公司自己的说法变成外部能验证的事
-   https://x.com/rauchg/status/2089747453004468339
-
-4. 企业AI的价值大头在应用层不只是模型（Aaron Levie · X）
-   模型再强，该接哪套系统、怎么定价，这活儿还得有人干
-   https://x.com/levie/status/2089921630650925170
-
-5. SaaS做成headless按次收费给agent用（Thariq · X）
-   想法好想，给agent调用定价没那么简单
-   https://x.com/trq212/status/2089844723691479333
-
-6. Anthropic怎么把Claude这样的agent关住（Anthropic Engineering · 博客）
-   模型层挡不住的，最后都得靠环境层的硬边界
-   https://www.anthropic.com/engineering/how-we-contain-claude
-
-7. Rich Sutton讲为什么大模型部署后就不再学习（Rich Sutton · 播客）
-   权重冻结不算学习，他们要解决的是灾难性遗忘
-   https://www.youtube.com/watch?v=xH7U7w9Qzlo
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
