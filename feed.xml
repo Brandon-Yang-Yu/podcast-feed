@@ -32,6 +32,94 @@
 
     
     <item>
+      <title>团队产出差十倍，先看活堆在谁的桌上</title>
+      <description>判断来自 Levie 那条。还聊了 MCP 自带 skills、Amjad 谈 token 与开源、Jensen 预测翻车、芯片管制和机器人磁铁。
+
+本期内容
+
+1. MCP server 可以自带 skills 发布（Boris Cherny · X）
+   让最懂工具的厂商写用法很实用，但第三方指令进 agent 是新的注入口子
+   https://x.com/bcherny/status/2125292098165612585
+
+2. 同一家公司里团队产出能差十倍（Aaron Levie · X）
+   agent 没人能替你上；快的组交得再多，审核跟不上公司整体就没快
+   https://x.com/levie/status/2125442246543814686
+
+3. token 需求按台阶跳，中间有滞后（Amjad Masad · X）
+   台阶形状对，但没有时间轴，没法照着排产能
+   https://x.com/amasad/status/2125287538911072753
+
+4. 周末同时跑四十二个 agent（Peter Yang · X）
+   agent 数量说明不了什么，开工前先让它问清楚方案更有用
+   https://x.com/petergyang/status/2125246815884984398
+
+5. 业务流程能改多少有天然刹车（Garry Tan · X）
+   个人学得快，公司改得慢
+   https://x.com/garrytan/status/2125247972158193792
+
+6. 美国可能有最强模型却输掉全球竞争（Amjad Masad · X）
+   断供担心成立，但从用模型推到买芯片这一步没给证据
+   https://x.com/amasad/status/2125353849057853876
+
+7. Jensen 事件里自信和正确没什么关系（Madhu Guru · X）
+   别听语气，听有没有能对账的数字和时间
+   https://x.com/realmadhuguru/status/2125355549202194801
+
+8. 远程算力新规、Huawei 缺供给与机器人磁铁（Jordan Schneider · 播客）
+   Huawei 进度主要看设备和内存；机器人再聪明也绕不开稀土磁铁
+   https://www.youtube.com/watch?v=gkd5eOQGASU
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Wed, 25 Nov 2026 07:08:03 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-25-180754.mp3"
+                 length="12310613"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-25-180754.mp3</guid>
+      <itunes:duration>12:49</itunes:duration>
+      <itunes:summary>判断来自 Levie 那条。还聊了 MCP 自带 skills、Amjad 谈 token 与开源、Jensen 预测翻车、芯片管制和机器人磁铁。
+
+本期内容
+
+1. MCP server 可以自带 skills 发布（Boris Cherny · X）
+   让最懂工具的厂商写用法很实用，但第三方指令进 agent 是新的注入口子
+   https://x.com/bcherny/status/2125292098165612585
+
+2. 同一家公司里团队产出能差十倍（Aaron Levie · X）
+   agent 没人能替你上；快的组交得再多，审核跟不上公司整体就没快
+   https://x.com/levie/status/2125442246543814686
+
+3. token 需求按台阶跳，中间有滞后（Amjad Masad · X）
+   台阶形状对，但没有时间轴，没法照着排产能
+   https://x.com/amasad/status/2125287538911072753
+
+4. 周末同时跑四十二个 agent（Peter Yang · X）
+   agent 数量说明不了什么，开工前先让它问清楚方案更有用
+   https://x.com/petergyang/status/2125246815884984398
+
+5. 业务流程能改多少有天然刹车（Garry Tan · X）
+   个人学得快，公司改得慢
+   https://x.com/garrytan/status/2125247972158193792
+
+6. 美国可能有最强模型却输掉全球竞争（Amjad Masad · X）
+   断供担心成立，但从用模型推到买芯片这一步没给证据
+   https://x.com/amasad/status/2125353849057853876
+
+7. Jensen 事件里自信和正确没什么关系（Madhu Guru · X）
+   别听语气，听有没有能对账的数字和时间
+   https://x.com/realmadhuguru/status/2125355549202194801
+
+8. 远程算力新规、Huawei 缺供给与机器人磁铁（Jordan Schneider · 播客）
+   Huawei 进度主要看设备和内存；机器人再聪明也绕不开稀土磁铁
+   https://www.youtube.com/watch?v=gkd5eOQGASU
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>单打最强的模型，组队超过 8 个 agent 就倒退</title>
       <description>结论来自 Replit 的 swarm 研究。另外聊了 Claude Ship、Dots 擅自发邮件、Rauch 的个人 eval、Amjad 谈 open-weight。
 
@@ -2497,94 +2585,6 @@
 7. Prima 视网膜假体拿到欧洲上市许可，以及模型与大脑的表示对齐（Max Hodak · 播客）
    能对齐是硬结果，从这推到 AI 没撞墙中间缺的东西太多
    https://www.youtube.com/watch?v=7HXqMepjvy8
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>给模型 hook，别给它大纲：Portola 的三幕剧撞了墙</title>
-      <description>这句来自 Every 聊 Tolan 那期播客。另外有 Thariq 讲软件工厂、Madhu Guru 的 eval 失败分类、Levie 说专家占上风、OpenAI 的 ZDR 新做法。
-
-本期内容
-
-1. Thariq 说软件从来就是不可靠的生意（Thariq · X）
-   定制系统会变成流水线，全新产品不会，agent 帮不上那一半
-   https://x.com/trq212/status/2090134945490678071
-
-2. Amjad Masad 说 agent 让软件变便宜、写代码变贵（Amjad Masad · X）
-   成本从人力换成 token 是真的，但没条款就没法判断怎么改
-   https://x.com/amasad/status/2090079496124674377
-
-3. Madhu Guru 讲 eval 的失败模式分类表（Madhu Guru · X）
-   翻五百到一千条生产 trace 起名字，今天就能照做
-   https://x.com/realmadhuguru/status/2090242427944833047
-
-4. Aaron Levie 说 AI 时代专家占上风（Aaron Levie · X）
-   知道什么样算好写不进 prompt；但放大差距那句他没给数据
-   https://x.com/levie/status/2090278256306229675
-
-5. OpenAI 预告 Private Safety Processing（Thibault Sottiaux · X）
-   有限的安全信号具体是什么没说，九月上线时能验
-   https://x.com/thsottiaux/status/2090173536010957128
-
-6. Guillermo Rauch 讲 fx 的启动速度和 wasm 体积（Guillermo Rauch · X）
-   agent 一轮循环多等半秒，跑一百轮就是五十秒，冷启动成了硬指标
-   https://x.com/rauchg/status/2090255740384751664
-
-7. Tolan 加五百毫秒二次校验，全线指标崩掉（Quentin · 播客）
-   语音产品里延迟就是体验，准确度换不回来
-   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
-
-8. Elliot 把叙事从三幕剧换成 hook 加即兴（Elliot · 播客）
-   模型强在局部连贯、弱在长程规划，别给它十步计划
-   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Thu, 20 Aug 2026 08:10:19 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-20-181015.mp3"
-                 length="11906029"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-20-181015.mp3</guid>
-      <itunes:duration>12:24</itunes:duration>
-      <itunes:summary>这句来自 Every 聊 Tolan 那期播客。另外有 Thariq 讲软件工厂、Madhu Guru 的 eval 失败分类、Levie 说专家占上风、OpenAI 的 ZDR 新做法。
-
-本期内容
-
-1. Thariq 说软件从来就是不可靠的生意（Thariq · X）
-   定制系统会变成流水线，全新产品不会，agent 帮不上那一半
-   https://x.com/trq212/status/2090134945490678071
-
-2. Amjad Masad 说 agent 让软件变便宜、写代码变贵（Amjad Masad · X）
-   成本从人力换成 token 是真的，但没条款就没法判断怎么改
-   https://x.com/amasad/status/2090079496124674377
-
-3. Madhu Guru 讲 eval 的失败模式分类表（Madhu Guru · X）
-   翻五百到一千条生产 trace 起名字，今天就能照做
-   https://x.com/realmadhuguru/status/2090242427944833047
-
-4. Aaron Levie 说 AI 时代专家占上风（Aaron Levie · X）
-   知道什么样算好写不进 prompt；但放大差距那句他没给数据
-   https://x.com/levie/status/2090278256306229675
-
-5. OpenAI 预告 Private Safety Processing（Thibault Sottiaux · X）
-   有限的安全信号具体是什么没说，九月上线时能验
-   https://x.com/thsottiaux/status/2090173536010957128
-
-6. Guillermo Rauch 讲 fx 的启动速度和 wasm 体积（Guillermo Rauch · X）
-   agent 一轮循环多等半秒，跑一百轮就是五十秒，冷启动成了硬指标
-   https://x.com/rauchg/status/2090255740384751664
-
-7. Tolan 加五百毫秒二次校验，全线指标崩掉（Quentin · 播客）
-   语音产品里延迟就是体验，准确度换不回来
-   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
-
-8. Elliot 把叙事从三幕剧换成 hook 加即兴（Elliot · 播客）
-   模型强在局部连贯、弱在长程规划，别给它十步计划
-   https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
