@@ -32,6 +32,94 @@
 
     
     <item>
+      <title>模型能跑七小时长任务了，缺的是知道何时该退一步</title>
+      <description>这个判断来自 Noam Brown 的扑克 bot 评测。另外聊了 Karpathy 的文明地图、GPT-6.2 计费更正、注意力成本、验证瓶颈。
+
+本期内容
+
+1. Karpathy 用 Opus 5.5 把美国真实数据做成文明地图（Andrej Karpathy · X）
+   七小时没跑飞是新的，但它悄悄跳过了几个州
+   https://x.com/karpathy/status/2125779541952246039
+
+2. GPT-6.2 计费出错，Astra 额度消耗快四成（Thibault Sottiaux · X）
+   上周对 6.2 的效率对比全部要重测
+   https://x.com/thsottiaux/status/2125784147889393806
+
+3. 每任务成本误导人，稀缺的是人的注意力（swyx · X）
+   平均分藏住了方差，不稳定的模型要你每次都检查
+   https://x.com/swyx/status/2125627281230205435
+
+4. AI 产品的难点是让人跟得上 AI（Peter Yang · X）
+   解法是让 AI 讲清楚自己跳过了什么
+   https://x.com/petergyang/status/2125750286539272695
+
+5. 写代码预示了知识工作的走向（Aaron Levie · X）
+   能不能自动验证结果，决定 agent 能接走多少活
+   https://x.com/levie/status/2125837181398950233
+
+6. 能验证结果，大规模软件迁移就可行（Amjad Masad · X）
+   旧系统就是标准答案，难在先把它的行为录下来
+   https://x.com/amasad/status/2125664998454366305
+
+7. 代码变快了，产品上线速度没变（Madhu Guru · X）
+   别全部重建，先自动化最堵的评估和发布审批
+   https://x.com/realmadhuguru/status/2125630707640783322
+
+8. Noam Brown 的扑克 bot 评测与博弈论转向（Noam Brown · 播客）
+   模型会死磕不用修的数值，缺的是判断方向的能力
+   https://www.youtube.com/watch?v=tRaFbDFBl_A
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</description>
+      <pubDate>Thu, 26 Nov 2026 07:07:19 GMT</pubDate>
+      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-26-180715.mp3"
+                 length="11623488"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-11-26-180715.mp3</guid>
+      <itunes:duration>12:06</itunes:duration>
+      <itunes:summary>这个判断来自 Noam Brown 的扑克 bot 评测。另外聊了 Karpathy 的文明地图、GPT-6.2 计费更正、注意力成本、验证瓶颈。
+
+本期内容
+
+1. Karpathy 用 Opus 5.5 把美国真实数据做成文明地图（Andrej Karpathy · X）
+   七小时没跑飞是新的，但它悄悄跳过了几个州
+   https://x.com/karpathy/status/2125779541952246039
+
+2. GPT-6.2 计费出错，Astra 额度消耗快四成（Thibault Sottiaux · X）
+   上周对 6.2 的效率对比全部要重测
+   https://x.com/thsottiaux/status/2125784147889393806
+
+3. 每任务成本误导人，稀缺的是人的注意力（swyx · X）
+   平均分藏住了方差，不稳定的模型要你每次都检查
+   https://x.com/swyx/status/2125627281230205435
+
+4. AI 产品的难点是让人跟得上 AI（Peter Yang · X）
+   解法是让 AI 讲清楚自己跳过了什么
+   https://x.com/petergyang/status/2125750286539272695
+
+5. 写代码预示了知识工作的走向（Aaron Levie · X）
+   能不能自动验证结果，决定 agent 能接走多少活
+   https://x.com/levie/status/2125837181398950233
+
+6. 能验证结果，大规模软件迁移就可行（Amjad Masad · X）
+   旧系统就是标准答案，难在先把它的行为录下来
+   https://x.com/amasad/status/2125664998454366305
+
+7. 代码变快了，产品上线速度没变（Madhu Guru · X）
+   别全部重建，先自动化最堵的评估和发布审批
+   https://x.com/realmadhuguru/status/2125630707640783322
+
+8. Noam Brown 的扑克 bot 评测与博弈论转向（Noam Brown · 播客）
+   模型会死磕不用修的数值，缺的是判断方向的能力
+   https://www.youtube.com/watch?v=tRaFbDFBl_A
+
+—
+内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
+脚本由 AI 生成，音频为语音合成。</itunes:summary>
+    </item>
+    
+    <item>
       <title>团队产出差十倍，先看活堆在谁的桌上</title>
       <description>判断来自 Levie 那条。还聊了 MCP 自带 skills、Amjad 谈 token 与开源、Jensen 预测翻车、芯片管制和机器人磁铁。
 
@@ -2505,86 +2593,6 @@
 6. chess.com 在机器超人三十年后做到日活一千万（Erik Allebest · 播客）
    人下棋图的是对面坐着人；作弊防不住但抓得住，靠的是二十年行为数据
    https://www.youtube.com/@NoPriorsPodcast
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</itunes:summary>
-    </item>
-    
-    <item>
-      <title>Claude Code 变笨查出三个原因，最狠的是一行 prompt</title>
-      <description>结论来自 Anthropic 的 Claude Code 复盘。另外聊了 Codex 额度风波、分层 eval、Levie 说垂直领域值得自己训模型、Max Hodak 的视网膜假体。
-
-本期内容
-
-1. Codex 额度没改，是 sub2api 用户被风控标记（Thibault Sottiaux · X）
-   被限速和被标记在用户那头长得一样，这个提示该做进客户端
-   https://x.com/thsottiaux/status/2090675027670978569
-
-2. 分层 eval 策略：hill-climb、regression、smoke、launch（Madhu Guru · X）
-   hill-climb 那套题不换新，分数会涨而产品不动
-   https://x.com/realmadhuguru/status/2090595384905113939
-
-3. 让 manager agent 去激 worker agent 提升输出（Peter Yang · X）
-   变好的功劳是多采了一次样，不是模型被激到了
-   https://x.com/petergyang/status/2090564541499498919
-
-4. 垂直领域什么时候值得自己做 post-training（Aaron Levie · X）
-   成本高会被下一代降价抹掉，任务独特才是能立住的理由
-   https://x.com/levie/status/2090664811185205722
-
-5. Claude Code 企业版 safeguards 跑在客户自己的基础设施上（Boris Cherny · X）
-   Mythos 那一档需要额外安全措施，这句比产品公告本身重要
-   https://x.com/bcherny/status/2090537902912815536
-
-6. Claude Code 变笨的三个独立原因和复盘（Anthropic Engineering · 博客）
-   一行限字数的 system prompt 掉三个点，逐行消融这个做法直接抄
-   https://www.anthropic.com/engineering/april-23-postmortem
-
-7. Prima 视网膜假体拿到欧洲上市许可，以及模型与大脑的表示对齐（Max Hodak · 播客）
-   能对齐是硬结果，从这推到 AI 没撞墙中间缺的东西太多
-   https://www.youtube.com/watch?v=7HXqMepjvy8
-
-—
-内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
-脚本由 AI 生成，音频为语音合成。</description>
-      <pubDate>Fri, 21 Aug 2026 08:11:21 GMT</pubDate>
-      <enclosure url="https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-21-181116.mp3"
-                 length="13969075"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">https://brandon-yang-yu.github.io/podcast-feed/episodes/2026-08-21-181116.mp3</guid>
-      <itunes:duration>14:33</itunes:duration>
-      <itunes:summary>结论来自 Anthropic 的 Claude Code 复盘。另外聊了 Codex 额度风波、分层 eval、Levie 说垂直领域值得自己训模型、Max Hodak 的视网膜假体。
-
-本期内容
-
-1. Codex 额度没改，是 sub2api 用户被风控标记（Thibault Sottiaux · X）
-   被限速和被标记在用户那头长得一样，这个提示该做进客户端
-   https://x.com/thsottiaux/status/2090675027670978569
-
-2. 分层 eval 策略：hill-climb、regression、smoke、launch（Madhu Guru · X）
-   hill-climb 那套题不换新，分数会涨而产品不动
-   https://x.com/realmadhuguru/status/2090595384905113939
-
-3. 让 manager agent 去激 worker agent 提升输出（Peter Yang · X）
-   变好的功劳是多采了一次样，不是模型被激到了
-   https://x.com/petergyang/status/2090564541499498919
-
-4. 垂直领域什么时候值得自己做 post-training（Aaron Levie · X）
-   成本高会被下一代降价抹掉，任务独特才是能立住的理由
-   https://x.com/levie/status/2090664811185205722
-
-5. Claude Code 企业版 safeguards 跑在客户自己的基础设施上（Boris Cherny · X）
-   Mythos 那一档需要额外安全措施，这句比产品公告本身重要
-   https://x.com/bcherny/status/2090537902912815536
-
-6. Claude Code 变笨的三个独立原因和复盘（Anthropic Engineering · 博客）
-   一行限字数的 system prompt 掉三个点，逐行消融这个做法直接抄
-   https://www.anthropic.com/engineering/april-23-postmortem
-
-7. Prima 视网膜假体拿到欧洲上市许可，以及模型与大脑的表示对齐（Max Hodak · 播客）
-   能对齐是硬结果，从这推到 AI 没撞墙中间缺的东西太多
-   https://www.youtube.com/watch?v=7HXqMepjvy8
 
 —
 内容来自 Follow Builders 精选的 AI builder、播客和官方博客。
